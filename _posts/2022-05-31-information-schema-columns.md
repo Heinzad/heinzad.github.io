@@ -1,4 +1,7 @@
-## Finding a column with information schema (SQL Server) 
+Finding Columns 
+===============
+
+### *How to find a column in SQL Server with information schema* 
 
 When lost in data space, it can be handy to find a column in a hurry. 
 
