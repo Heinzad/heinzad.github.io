@@ -1,7 +1,7 @@
-Finding Columns 
-===============
+Finding Columns in SQL Server 
+============================= 
 
-### *How to find a column in SQL Server with information schema* 
+### *How to find a column in SQL Server databases with information schema* 
 
 When lost in data space, it can be handy to find a column in a hurry. 
 
@@ -50,6 +50,12 @@ WHERE "isc".[COLUMN_NAME] like @column_search ;
 
 GO 
 ``` 
+
+If we inspect the results grid we can see our example: 
+
+| isc_catalog_name	| isc_schema_name	| isc_table_name	| isc_column_name	| isc_data_type	| isc_character_maximum_length	| isc_numeric_precision |
+| ----	| ---	| --------	| -----------	| ---	| ---	| --- |
+| test	| dbo	| testable	| testable_id	| int	| NULL	| 10 |
 
 We finish by cleaning out this example: 
 
