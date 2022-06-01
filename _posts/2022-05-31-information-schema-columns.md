@@ -13,7 +13,12 @@ Let's begin by creating a demonstation table in our test database:
 USE [test] ; 
 GO 
 
-IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[testable]') AND type in (N'U'))
+IF NOT EXISTS ( 
+	SELECT 1 
+	FROM [sys].[objects] as "o"  
+	WHERE "o".[object_id] = OBJECT_ID(N'[dbo].[testable]') 
+	AND "o".[type] in (N'U') 
+)
 BEGIN 
 
 	CREATE TABLE [dbo].[testable] ( 	 
