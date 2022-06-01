@@ -1,4 +1,4 @@
-Finding Columns in SQL Server 
+Finding Columns with T-SQL 
 ============================= 
 
 ### *How to find a column in SQL Server databases with information schema* 
