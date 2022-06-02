@@ -8,6 +8,21 @@ This Git Hub pages site was set up thanks to Chad Balwin's [Building a Free Blog
 
 After publishing the first post, the question was then how to make it more sophisticated by working in Visual Studio Code and using a branching strategy so that each post is a feature branch. 
 
+We can visualise this thanks to [Mermaid](https://mermaid-js.github.io/mermaid/#/) :
+
+```gitGraph
+       checkout main
+       commit
+       branch develop
+       commit
+       branch feature
+       commit
+       checkout develop 
+       commit
+       checkout main
+       commit
+```
+
 The first step was easy as source control in VS Code had a big `Clone` button. How to do branching? 
 
 Atlassian's Bitbucket tutorial on [Git Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) 
@@ -58,4 +73,23 @@ We can resolve this thanks to Bryan Jimin Son's [How to resolve a GitHub error â
 ```powershell 
 git config --global user.email <some number>+<your username>@users.noreply.github.com 
 git commit --amend --reset-author
-```
+``` 
+
+Second time lucky: 
+pseudocode: 
+
+```powershell 
+cd "_posts" 
+git add "2099-12-31_post2" 
+git commit -m "getting started initial commit" 
+git push --set-upstream origin post2 
+``` 
+
+After publishing the post we will have to follow the Atlassian instructions again: 
+
+```powershell 
+git checkout main
+git pull
+git pull origin post2
+git push 
+``` 
