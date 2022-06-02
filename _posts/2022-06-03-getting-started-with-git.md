@@ -36,8 +36,26 @@ The answer was quite straightforward thanks to Renat Galyamov's [How to create a
 
 ```powershell 
 git checkout -b post2 develop 
-git push --set-upstream origin post2 
 ``` 
 
 The remote returns a message on how to create a pull request for post2. 
 
+pseudocode: 
+
+```powershell 
+cd "_posts" 
+git add "2099-12-31_post2" 
+git commit -m "getting started initial commit" 
+git push --set-upstream origin post2 
+``` 
+
+Great! Now we have an error message from the remote saying "Your push would publish a private email address". 
+
+### Email privacy settings 
+
+We can resolve this thanks to Bryan Jimin Son's [How to resolve a GitHub error “push declined due to email privacy restrictions” when you try to push a change](https://bryantson.medium.com/how-to-resolve-a-github-error-push-declined-due-to-email-privacy-restrictions-when-you-try-to-b748f6ca0bcd). 
+
+```powershell 
+git config --global user.email <some number>+<your username>@users.noreply.github.com 
+git commit --amend --reset-author
+```
