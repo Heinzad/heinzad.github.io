@@ -10,7 +10,8 @@ After publishing the first post, the question was then how to make it more sophi
 
 We can visualise this thanks to [Mermaid](https://mermaid-js.github.io/mermaid/#/) :
 
-```gitGraph
+```mermaid 
+    gitGraph
        checkout main
        commit
        branch develop
