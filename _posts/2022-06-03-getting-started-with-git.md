@@ -11,19 +11,16 @@ After publishing the first post, the question was then how to make it more sophi
 We can visualise this thanks to [Mermaid](https://mermaid-js.github.io/mermaid/#/) :
 
 ```mermaid 
-    gitGraph
+gitGraph
        commit
        commit
        branch develop
        commit
        commit
-       branch feature
+       commit
+       checkout main
        commit
        commit
-       commit
-       checkout develop 
-       commit
-       commit 
 ```
 
 The first step was easy as source control in VS Code had a big `Clone` button. How to do branching? 
