@@ -20,7 +20,7 @@ gitGraph
        commit
        checkout main
        commit
-       commit
+       commit 
 ```
 
 The first step was easy as source control in VS Code had a big `Clone` button. How to do branching? 
@@ -85,11 +85,12 @@ git commit -m "getting started initial commit"
 git push --set-upstream origin post2 
 ``` 
 
-After publishing the post we will have to follow the Atlassian instructions again: 
+After publishing the post we will have to start a pull request in the browser to get the commandline instructions: 
 
 ```powershell 
-git checkout main
-git pull
-git pull origin post2
-git push 
+git pull origin develop
+git checkout develop
+git merge post2
+git push -u origin develop
 ``` 
+
