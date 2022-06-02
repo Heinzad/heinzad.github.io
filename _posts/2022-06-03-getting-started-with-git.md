@@ -12,16 +12,18 @@ We can visualise this thanks to [Mermaid](https://mermaid-js.github.io/mermaid/#
 
 ```mermaid 
     gitGraph
-       checkout main
+       commit
        commit
        branch develop
        commit
+       commit
        branch feature
+       commit
+       commit
        commit
        checkout develop 
        commit
-       checkout main
-       commit
+       commit 
 ```
 
 The first step was easy as source control in VS Code had a big `Clone` button. How to do branching? 
