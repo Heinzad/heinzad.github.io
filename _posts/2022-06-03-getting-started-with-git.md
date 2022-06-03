@@ -1,10 +1,8 @@
-*Aide Memoire* 
+Aide Memoire 
 
 Getting Started With Git
 ======================== 
-
-
-## How to use a feature branching workflow in Github
+*How to use a feature branching workflow in Github*
 
 This Git Hub pages site was set up thanks to Chad Balwin's [Building a Free Blog with GitHub Pages in Minutes](https://chadbaldwin.net/2021/03/14/how-to-build-a-sql-blog.html) (14 March 2021) instructions and template. 
 
