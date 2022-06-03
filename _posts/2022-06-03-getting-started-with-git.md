@@ -1,16 +1,19 @@
-Getting Started With Git
-======================== 
 *Aide Memoire* 
 
-## Github feature branching workflow
+Getting Started With Git
+======================== 
+
+
+## How to use a feature branching workflow in Github
 
 This Git Hub pages site was set up thanks to Chad Balwin's [Building a Free Blog with GitHub Pages in Minutes](https://chadbaldwin.net/2021/03/14/how-to-build-a-sql-blog.html) (14 March 2021) instructions and template. 
 
 After publishing the first post, the question was then how to make it more sophisticated by working in Visual Studio Code and using a branching strategy so that each post is a feature branch. 
 
-We can visualise this thanks to [Mermaid](https://mermaid-js.github.io/mermaid/#/) :
+We could visualise this with [Mermaid](https://mermaid-js.github.io/mermaid/#/) , if it worked :
 
-```mermaid 
+````
+```mermaid
 gitGraph
        commit
        commit
@@ -21,7 +24,8 @@ gitGraph
        checkout main
        commit
        commit 
-```
+``` 
+````
 
 The first step was easy as source control in VS Code had a big `Clone` button. How to do branching? 
 
@@ -93,4 +97,27 @@ git checkout develop
 git merge post2
 git push -u origin develop
 ``` 
+
+### Tagging 
+Before we close out the feature branch it might be helpful to tag it in case we need to find something again. 
+
+Atlassian documents [gis tag](https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-tag). 
+
+An annotated tag can carry a message that might prove useful in the future: 
+
+```powershell 
+git tag -a p2 -m "Post number two"
+``` 
+
+### Cleanup 
+When we're done with the feature branch we may want to clean it out. 
+
+Free Code Camp describes [How to Delete a Git Branch Both Locally and Remotely](https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/). 
+
+```powershell 
+git branch -d post2 
+git push origin --delete post2
+``` 
+
+QED
 
