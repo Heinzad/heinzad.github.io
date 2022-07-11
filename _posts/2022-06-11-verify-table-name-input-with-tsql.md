@@ -105,10 +105,10 @@ BEGIN
     DECLARE 
      @v_target_schema nvarchar(128) = @p_target_schema   
     ,@v_target_table nvarchar(128) = @p_target_table 
-    ;
+    ; 
 
     DECLARE @do_proceed bit = 0 ; 
-	DECLARE @txt_message nvarchar(500) = N'' 
+	DECLARE @txt_message nvarchar(500) = N'' ; 
     DECLARE @sql_string nvarchar(4000) = N'' ; 
 
     ------------------------------------ 
@@ -186,7 +186,7 @@ EXEC #demo
 
 Results: 
 |     | demo_id | demo_txt | 
-| --- | ------- | -------- | 
+| ------ | -------- | -------- | 
 | 1 | 1 | Abandon hope all ye who enter here | 
 
 ### Clean Up 
