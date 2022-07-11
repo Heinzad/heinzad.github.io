@@ -38,10 +38,10 @@ IF EXISTS (
     ON isc.TABLE_CATALOG = ist.TABLE_CATALOG 
     AND isc.TABLE_SCHEMA = ist.TABLE_SCHEMA 
     AND isc.TABLE_NAME = ist.TABLE_NAME 
-    WHERE ist.TABLE_TYPE = 'BASE TABLE' 
-    AND isc.TABLE_SCHEMA = @v_table_schema 
-    AND isc.TABLE_NAME = @v_table_name 
-    AND isc.COLUMN_NAME = @v_column_name 
+    WHERE QUOTENAME ist.TABLE_TYPE = 'BASE TABLE' 
+    AND QUOTENAME( isc.TABLE_SCHEMA ) = QUOTENAME( @v_table_schema )  
+    AND QUOTENAME( isc.TABLE_NAME ) = QUOTENAME( @v_table_name )  
+    AND QUOTENAME( isc.COLUMN_NAME ) = QUOTENAME( @v_column_name )  
 ) 
 BEGIN 
 
