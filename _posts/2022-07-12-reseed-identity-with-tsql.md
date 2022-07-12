@@ -10,10 +10,10 @@ What was needed was to reseed the identity column one value higher than the top 
 
 The Microsoft documentation shows how to [force the current identity value to a new value] (https://docs.microsoft.com/en-us/sql/t-sql/database-console-commands/dbcc-checkident-transact-sql?view=sql-server-ver16#c-forcing-the-current-identity-value-to-a-new-value) .
 
-This example shows how to do it repeatedly with dynamic tsql. There are several steps we need to work through: 
+This example shows how to do it repeatedly with dynamic tsql. There are several precautionary steps we need to take: 
 - Verify that the column exists on the target table. 
-- Verify that the column in question is in fact an identity column before attempting to reseed it.
-- Add 1 to the largest existing id value. 
+- Verify that the column is an identity column before attempting to reseed it.
+- Add 1 to the largest existing id value; or  
 - If the table is empty, default to the minimum value for the id column's data type (i.e. int or bigint). 
  
 
@@ -21,7 +21,7 @@ This example shows how to do it repeatedly with dynamic tsql. There are several 
 
 INPUT_PARAMETERS: 
 
-DECLARE @p_table_catalog nvarchar(128) = DBNAME() ; 
+DECLARE @p_table_catalog nvarchar(128) = DB_NAME() ; 
 DECLARE @p_table_schema nvarchar(128) = 'dbo'; 
 DECLARE @p_table_name nvarchar(128) = 'testable'; 
 DECLARE @p_column_name nvarchar(128) = 'id'; 
