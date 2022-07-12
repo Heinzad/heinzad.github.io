@@ -14,13 +14,30 @@ This example shows how to do it repeatedly with dynamic tsql:
 
 ```tsql 
 
-DECLARE @v_table_catalog nvarchar(128) = 'testDB'; 
-DECLARE @v_table_schema nvarchar(128) = 'dbo'; 
-DECLARE @v_table_name nvarchar(128) = 'testable'; 
-DECLARE @v_column_name nvarchar(128) = 'id'; 
+INPUT_PARAMETERS: 
 
-DECLARE @v_entity_name nvarchar(512) = QUOTENAME( @v_table_schema ) + CHAR(46) + QUOTENAME( @v_table_name ) ;
-DECLARE @v_id_value nvarchar(50) = N'' ; 
+DECLARE @p_table_catalog nvarchar(128) = 'testDB'; 
+DECLARE @p_table_schema nvarchar(128) = 'dbo'; 
+DECLARE @p_table_name nvarchar(128) = 'testable'; 
+DECLARE @p_column_name nvarchar(128) = 'id'; 
+
+
+--<< process >>-- 
+BEGIN 
+
+SETTINGS: 
+
+SET NOCOUNT ON ; 
+SET XACT_ABORT ON ; 
+
+DECLARE @v_table_catalog nvarchar(128) = QUOTENAME( @p_table_catalog ) ; 
+DECLARE @v_table_schema nvarchar(128) = QUOTENAME( @p_table_schema ) ; 
+DECLARE @v_table_name nvarchar(128) = QUOTENAME( @p_table_name ) ; 
+DECLARE @v_column_name nvarchar(128) = QUOTENAME( @p_column_name ) ; 
+
+DECLARE @tgt_entity_name nvarchar(512) 
+DECLARE @tgt_column_name nvarchar(128) ; 
+DECLARE @tgt_id_value nvarchar(50) = N'' ; 
 
 DECLARE @sql_string_01 nvarchar(max) = N'' ;  
 DECLARE @sql_string_02 nvarchar(max) = N'' ; 
@@ -30,43 +47,57 @@ SET @sql_params = N'
 @out_id_value nvarchar(50)  
 ' 
 
+VERIFICATION: 
+SELECT TOP 1 
+ @tgt_entity_name =  isc.TABLE_SCHEMA + CHAR(46) + isc.TABLE_NAME 
+,@tgt_column_name = isc.COLUMN_NAME 
+FROM INFORMATION_SCHEMA.COLUMNS isc 
+JOIN INFORMATION_SCHEMA.TABLES ist 
+ON isc.TABLE_CATALOG = ist.TABLE_CATALOG 
+AND isc.TABLE_SCHEMA = ist.TABLE_SCHEMA 
+AND isc.TABLE_NAME = ist.TABLE_NAME 
+WHERE ist.TABLE_TYPE = 'BASE TABLE' 
+AND QUOTENAME( isc.TABLE_SCHEMA ) = @v_table_schema  
+AND QUOTENAME( isc.TABLE_NAME ) = @v_table_name 
+AND QUOTENAME( isc.COLUMN_NAME ) = @v_column_name   
+; 
 
-IF EXISTS ( 
-    SELECT 1 
-    FROM INFORMATION_SCHEMA.COLUMNS isc 
-    JOIN INFORMATION_SCHEMA.TABLES ist 
-    ON isc.TABLE_CATALOG = ist.TABLE_CATALOG 
-    AND isc.TABLE_SCHEMA = ist.TABLE_SCHEMA 
-    AND isc.TABLE_NAME = ist.TABLE_NAME 
-    WHERE QUOTENAME ist.TABLE_TYPE = 'BASE TABLE' 
-    AND QUOTENAME( isc.TABLE_SCHEMA ) = QUOTENAME( @v_table_schema )  
-    AND QUOTENAME( isc.TABLE_NAME ) = QUOTENAME( @v_table_name )  
-    AND QUOTENAME( isc.COLUMN_NAME ) = QUOTENAME( @v_column_name )  
-) 
+
+MAIN_QUERY: 
+
+--<< main >>-- 
+IF ( @tgt_entity_name IS NOT NULL ) 
+AND ( @tgt_column_name IS NOT NULL) 
 BEGIN 
 
 SET @sql_string_01 = N' 
 SET @out_id_value = CONVERT(nvarchar(50),(
     SELECT MAX( ' + QUOTENAME( @v_column_name ) + ' ) + 1  
-    FROM ' + @v_entity_name + ' 
+    FROM ' + @tgt_entity_name + ' 
 ))  
 ' ;  
 
-EXEC sp_executesql @sql_string_01 , @sql_params, @out_id_value = @v_id_value ; 
+EXEC sp_executesql @sql_string_01 , @sql_params, @out_id_value = @tgt_id_value ; 
 
-PRINT @v_id_value ; 
+PRINT @tgt_id_value ; 
 
 SET @sql_string_02 = N' 
 DBCC CHECKIDENT ( 
-        ' + CHAR(39) + @v_entity_name + CHAR(39) + ' 
+        ' + CHAR(39) + @tgt_entity_name + CHAR(39) + ' 
         , RESEED 
-        , ' + @v_id_value + ' 
+        , ' + @tgt_id_value + ' 
 )  
 ' ; 
 
 EXEC sp_executesql @sql_string_02 ; 
 
 END ; 
+--<< main >>-- 
+
+END ; 
+--<< process >>-- 
+
+GO 
 
 ``` 
 
