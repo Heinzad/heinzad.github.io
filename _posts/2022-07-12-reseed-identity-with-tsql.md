@@ -8,7 +8,7 @@ After switching partitions into a new table, error messages started occurring be
 
 What was needed was to reseed the identity column one value higher than the top value in the column. 
 
-The Microsoft documentation shows how to [force the current identity value to a new value] (https://docs.microsoft.com/en-us/sql/t-sql/database-console-commands/dbcc-checkident-transact-sql?view=sql-server-ver16#c-forcing-the-current-identity-value-to-a-new-value) .
+The Microsoft documentation shows how to [force the current identity value to a new value](https://docs.microsoft.com/en-us/sql/t-sql/database-console-commands/dbcc-checkident-transact-sql?view=sql-server-ver16#c-forcing-the-current-identity-value-to-a-new-value) .
 
 This example shows how to do it repeatedly with dynamic tsql. There are several precautionary steps we need to take: 
 - Verify that the column exists on the target table. 
