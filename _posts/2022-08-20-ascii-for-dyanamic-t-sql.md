@@ -31,7 +31,7 @@ We can use this dynamically for constructing a table identifier, for example:
     DECLARE @entity_name nvarchar(512) = (
         QUOTENAME(@table_catalog) + CHAR(46) + 
         QUOTENAME(@table_schema) + CHAR(46) + 
-        QUOTENAME(table_name) 
+        QUOTENAME(@table_name) 
     ) 
     ; 
 
@@ -49,7 +49,7 @@ This approach is quite useful when trying to construct dynamic sql to a linked s
     ,@var_code nvarchar(4) = N'test' 
     ; 
 
-    SET @sql = N' 
+    SET @sql_string = N' 
         DROP TABLE IF EXISTS ##test_reults ; 
         
         SELECT "qry".* 
@@ -57,14 +57,11 @@ This approach is quite useful when trying to construct dynamic sql to a linked s
         FROM OPENQUERY ( 
             ' + QUOTENAME(@lnk_server) + CHAR(44) + CHAR(32) + ' 
             ' + CHAR(39) + ' 
-
                 SELECT TOP 10 "tbl".* 
                 FROM ' + @entity_name + ' as "tbl" 
-                WHERE "tbl".[CODE] = ' + CHAR(39) + CHAR(39) + @var_code  + CHAR(39) + ' 
-                ; 
-
+                WHERE "tbl".[CODE] = ' + CHAR(39) + CHAR(39) + @var_code  + CHAR(39) + ' ;  
             ' + CHAR(39) + ' 
-        ) as "qry" 
+        ) as "qry" ; 
     ' 
     ; 
 
