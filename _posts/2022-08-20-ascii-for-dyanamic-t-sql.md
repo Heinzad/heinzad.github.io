@@ -50,7 +50,7 @@ This approach is quite useful when trying to construct dynamic sql to a linked s
     ; 
 
     SET @sql_string = N' 
-        DROP TABLE IF EXISTS ##test_reults ; 
+        DROP TABLE IF EXISTS ##test_results ; 
         
         SELECT "qry".* 
         INTO ##test_results 
@@ -59,7 +59,7 @@ This approach is quite useful when trying to construct dynamic sql to a linked s
             ' + CHAR(39) + ' 
                 SELECT TOP 10 "tbl".* 
                 FROM ' + @entity_name + ' as "tbl" 
-                WHERE "tbl".[CODE] = ' + CHAR(39) + CHAR(39) + @var_code  + CHAR(39) + ' ;  
+                WHERE "tbl".[test_code] = ' + CHAR(39) + CHAR(39) + @var_code + CHAR(39) + CHAR(39) + ' ;  
             ' + CHAR(39) + ' 
         ) as "qry" ; 
     ' 
@@ -68,6 +68,25 @@ This approach is quite useful when trying to construct dynamic sql to a linked s
     PRINT(@sql_string) ; 
     
     -- EXEC (@sql_string) ; /* only activate when ready */ 
+
+``` 
+
+This will generate the following sql ready for use: 
+
+```sql 
+
+DROP TABLE IF EXISTS ##test_results ; 
+        
+SELECT "qry".* 
+INTO ##test_results 
+FROM OPENQUERY ( 
+    [test_server], 
+    '
+        SELECT TOP 10 "tbl".* 
+        FROM [testdb].[testing].[testable] as "tbl" 
+        WHERE "tbl".[test_code] = ''test'' ; 
+    ' 
+) as "qry ; 
 
 ``` 
 
