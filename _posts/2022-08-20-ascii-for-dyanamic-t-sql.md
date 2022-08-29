@@ -10,6 +10,7 @@ Dynamic sql can be tricky at the best of times. Using [ASCII](https://www.asciit
     SELECT 
      "period" = CHAR(46) 
     ,"comma" = CHAR(44) 
+    ,"hyphen" = CHAR(45) 
     ,"space" = CHAR(32)
     ,"double_quote" = CHAR(34) 
     ,"single_qote" = CHAR(39) 
