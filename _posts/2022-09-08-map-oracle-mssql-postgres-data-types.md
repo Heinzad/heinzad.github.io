@@ -34,6 +34,8 @@ Any data warehousing operation crossing source systems is probably going to need
 
 ## Further Reading: 
 
+Microsoft SQL Docs, [Data Type Mapping for Oracle Publishers](https://docs.microsoft.com/en-us/sql/relational-databases/replication/non-sql/data-type-mapping-for-oracle-publishers?view=sql-server-ver16), Microsoft, dated 2020-07-03. 
+
 Ben Snaidero, [Comparing SQL Server and Oracle Data Types](https://www.mssqltips.com/sqlservertip/2944/comparing-sql-server-and-oracle-datatypes/), MSSQL Tips, Dated 2022-03-07. 
 
 EDB, [PostgreSQL vs SQL Server (MSSQL): Extremely Detailed Comparison](https://www.enterprisedb.com/blog/microsoft-sql-server-mssql-vs-postgresql-comparison-details-what-differences), EnterpriseDB, dated 2020-07-31. 
