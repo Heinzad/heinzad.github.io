@@ -8,14 +8,27 @@ When working in Business Intelligence or data engineering it is often necessary 
 We can do this by [converting date formats](https://www.sqlshack.com/sql-convert-date-functions-and-formats/). 
 
 There are two steps to generating a date key from a date value: 
-- convert to date format 112 -- YYYYMMDD 
-- convert to int 
+(1) convert to date format 112 -- YYYYMMDD 
+(2) convert to int 
+
+The t-sql is as follows: 
 
 ```sql 
 
-DECLARE @date date = CONVERT(date, GETDATE()) ; 
+/*** convert date value to date number ***/ 
 
-SELECT date_key = CONVERT(int, CONVERT(varchar, @date, 112)) ; 
+GET_DATE_KEY_FROM_DATE_VAL: 
+
+DECLARE 
+  @date_val date 
+ ,@date_key int 
+ ; 
+
+SET @date_val = CONVERT(date, GETDATE()) ; 
+SET @date_key = CONVERT(int, CONVERT(varchar, @date_val, 112)) ; 
+
+SELECT @date_key as date_key ;
+
 
 ``` 
 
