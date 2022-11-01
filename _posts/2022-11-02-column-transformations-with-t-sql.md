@@ -43,8 +43,8 @@ Copy transformation data flow diagram:
 
 ```mermaid 
 graph LR; 
-A>string]-- in -->T>copy]; 
-T-- out -->B>string];
+A[string]-- in -->T(copy); 
+T-- out -->B[string];
 ``` 
 
 Copy transformation example code:  
@@ -88,8 +88,8 @@ Reformat data flow diagram:
 
 ```mermaid 
 graph LR; 
-A>decimal]-- in -->T>reformat]; 
-T-- out -->B>float];
+A[decimal]-- in -->T(reformat); 
+T-- out -->B[float];
 ``` 
 
 
