@@ -79,6 +79,11 @@ SELECT
 FROM [source_input] as i 
 ; 
 
+
+COPY_RESULT_EXAMPLE: 
+
+SELECT TOP 1 o.out_string FROM [target_output] as o ; 
+
 ``` 
 
 ## Reformat transformation: 
@@ -110,13 +115,13 @@ INSERT INTO [target_output](
 ) 
 SELECT 
 
-    "string2shorts" = TRY_CONVERT( nvarchar(255), i.[in_string_txt] )     /* out_short_txt */ 
-    ,"string2longs" = TRY_CONVERT( nvarchar(8000), i.[in_string_txt] )     /* out_long_txt */ 
-    ,"string2blobs" = TRY_CONVERT( nvarchar(max), i.[in_string_txt] )      /* out_blob_txt */ 
-    ,"decimal2wholen" = TRY_CONVERT( int, i.[in_decimal_num] )           /* out_whole_num */ 
-    ,"decimal2floatn" = TRY_CONVERT( float, i.[in_decimal_num] )         /* out_float_num */ 
-    ,"date2dated" = TRY_CONVERT( datetime2(7), i.in_datetime_ymd )       /* out_datestamp */ 
-    ,"time2timed" = TRY_CONVERT( time(7), i.[in_time_hms] )               /* out_timed */  
+    "string2shorts" = TRY_CONVERT( nvarchar(255), i.[in_string_txt] ) /* out_short_txt */ 
+    ,"string2longs" = TRY_CONVERT( nvarchar(8000), i.[in_string_txt] ) /* out_long_txt */ 
+    ,"string2blobs" = TRY_CONVERT( nvarchar(max), i.[in_string_txt] ) /* out_blob_txt */ 
+    ,"decimal2wholen" = TRY_CONVERT( int, i.[in_decimal_num] ) /* out_whole_num */ 
+    ,"decimal2floatn" = TRY_CONVERT( float, i.[in_decimal_num] ) /* out_float_num */ 
+    ,"date2dated" = TRY_CONVERT( datetime2(7), i.in_datetime_ymd ) /* out_datestamp */ 
+    ,"time2timed" = TRY_CONVERT( time(7), i.[in_time_hms] ) /* out_timed */  
 
 FROM [source_input] i 
 ; 
