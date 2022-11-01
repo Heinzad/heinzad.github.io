@@ -1,6 +1,6 @@
 Aide Memoire 
 
-How to Perform Column Transformations in MS SQL Server 
+Column Transformations for data storage in MS SQL Server 
 ====================================================== 
 
 It is useful to perform transformations that enable us to store data in several generic formats. 
