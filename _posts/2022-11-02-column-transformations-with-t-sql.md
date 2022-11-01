@@ -53,25 +53,25 @@ Copy transformation example code:
 
 /*** copy transformation ***/ 
 
-EXAMPLE_PREPARATION: 
+COPY_PREPARATION_EXAMPLE: 
 
 DROP TABLE IF EXISTS [source_input] ; 
 DROP TABLE IF EXISTS [target_output] ; 
 GO 
 
 
-EXAMPLE_SETUP: 
+COPY_SETUP_EXAMPLE: 
 
 CREATE TABLE [source_input]( in_string varchar(20) ) ; 
 CREATE TABLE [target_output] ( out_string char(20) ) ; 
 
 
-EXAMPLE_INITIALISE: 
+COPY_INITIALISE_EXAMPLE: 
 
 INSERT INTO [source_input]( in_string ) VALUES ("Lorem Ipsum") ; 
 
 
-EXAMPLE_TRANSFORMATION: 
+COPY_TRANSFORMATION_EXAMPLE: 
 
 INSERT INTO [target_output]( out_string ) 
 SELECT 
