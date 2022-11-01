@@ -55,28 +55,28 @@ Copy transformation example code:
 
 EXAMPLE_PREPARATION: 
 
-DROP TABLE IF EXISTS [input_entity] ; 
-DROP TABLE IF EXISTS [output_entity] ; 
+DROP TABLE IF EXISTS [source_input] ; 
+DROP TABLE IF EXISTS [target_output] ; 
 GO 
 
 
 EXAMPLE_SETUP: 
 
-CREATE TABLE [input_entity]( in_string varchar(20) ) ; 
-CREATE TABLE [output_entity] ( out_string char(20) ) ; 
+CREATE TABLE [source_input]( in_string varchar(20) ) ; 
+CREATE TABLE [target_output] ( out_string char(20) ) ; 
 
 
 EXAMPLE_INITIALISE: 
 
-INSERT INTO [input_entity]( in_string ) VALUES ("Lorem Ipsum") ; 
+INSERT INTO [source_input]( in_string ) VALUES ("Lorem Ipsum") ; 
 
 
 EXAMPLE_TRANSFORMATION: 
 
-INSERT INTO [output_entity]( out_string ) 
+INSERT INTO [target_output]( out_string ) 
 SELECT 
 "string2string" = i.in_string     /* out_string */ 
-FROM [input_entity] as i 
+FROM [source_input] as i 
 ; 
 
 ``` 
@@ -99,7 +99,7 @@ Reformat example code:
 
 /*** reformat transformation ***/ 
 
-INSERT INTO [output_entity]( 
+INSERT INTO [target_output]( 
      [out_short_txt]
     ,[out_long_txt] 
     ,[out_blob_txt] 
@@ -118,7 +118,7 @@ SELECT
     ,"date2dated" = TRY_CONVERT( datetime2(7), i.in_datetime_ymd )       /* out_datestamp */ 
     ,"time2timed" = TRY_CONVERT( time(7), i.[in_time_hms] )               /* out_timed */  
 
-FROM [input_entity] i 
+FROM [source_input] i 
 ; 
 
 ``` 
