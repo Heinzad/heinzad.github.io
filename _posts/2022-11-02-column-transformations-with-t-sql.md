@@ -8,6 +8,6 @@ Some transformations occur at the column level:
 
 ```mermaid 
 graph LR; 
-A[col input]-->B{copy}; 
-B-->C[col output];
+A[alpha]-.->|input| T{copy}; 
+T-.->|output| B[beta];
 ``` 
