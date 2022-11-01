@@ -10,6 +10,6 @@ Some transformations occur at the column level:
 
 ```mermaid 
 graph LR; 
-A[old tbl col]-.->|in| T{copy}; 
-T-.->|out| B[new tbl col];
+A((old tbl col))-.->|in| T(copy); 
+T-.->|out| B((new tbl col));
 ``` 
