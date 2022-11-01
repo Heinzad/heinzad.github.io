@@ -27,7 +27,7 @@ It is also useful to distinguish how to store data (in a few limited formats) fr
 Take decimal numbers, for example. It is handy to store them as floats, but for the sake of accuracy we probably need to avoid floating point calculations by converting them to something like numeric(19,4) before performing a calculation in the database. 
 
 
-#Column-level transformations 
+# Column-level transformations 
 
 Scope: column  
 
@@ -36,15 +36,15 @@ Some transformations occur at the column level:
 - reformat   
 
 
-##Copy transformation: 
+## Copy transformation: 
 Information from one table column is copied to a different table column. 
 
 Copy transformation data flow diagram: 
 
 ```mermaid 
 graph LR; 
-A[string]--in-->T>copy]; 
-T-- out -->B[string];
+A>string]-- in -->T>copy]; 
+T-- out -->B>string];
 ``` 
 
 Copy transformation example code:  
@@ -81,15 +81,15 @@ FROM [input_entity] as i
 
 ``` 
 
-##Reformat transformation: 
+## Reformat transformation: 
 Information in one data format is changed to a different data format. 
 
 Reformat data flow diagram: 
 
 ```mermaid 
 graph LR; 
-A[decimal]--in-->T>reformat]; 
-T-- out -->B[float];
+A>decimal]-- in -->T>reformat]; 
+T-- out -->B>float];
 ``` 
 
 
