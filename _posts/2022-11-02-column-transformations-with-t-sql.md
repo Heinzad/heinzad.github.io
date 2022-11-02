@@ -35,6 +35,19 @@ Some transformations occur at the column level:
 - copy 
 - reformat   
 
+| code | value | class | description | 
+| ---- | ----- | ----- | ----------- | 
+| copy | NULL | unknown | preserves original format | 
+| string2blobs | nvarchar(max) | reformat | converts to blob string | 
+| string2longs | nvarchar(4000) | reformat | converts to long string | 
+| string2shorts | nvarchar(255) | reformat | converts to short string | 
+| number2bign | bigint | reformat | converts to large number | 
+| number2wholen | int | reformat | converts to whole number | 
+| number2floatn | float | reformat | converts to floating point number | 
+| date2dated | datetime2(7) | reformat | converts to datestamp | 
+| time2timed | time(7) | reformat | converts to timestamp | 
+
+
 
 ## Copy transformation: 
 Information from one table column is copied to a different table column. 
