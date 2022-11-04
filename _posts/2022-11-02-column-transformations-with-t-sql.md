@@ -34,12 +34,12 @@ We can conceptualise transformations in graph format:
 graph TD; 
 A((in)) -- sources --- B((src cols)) 
 B -- from --- C((src tbl))  
-A -- input --> D((transformation))  
-D -- runs --- E((function))  
+D((transformation)) -- runs --- E((function))  
 E -- performs --- F((transform))  
-D -- output --> G((out))  
-G -- targets --- H((tgt cols))  
-H -- from --- J((tgt tbl))  
+G((out)) -- targets --- H((tgt cols))  
+H -- from --- J((tgt tbl)) 
+A -- input -->D  
+D -- output -->G   
 ``` 
 
 # Column-level transformations 
