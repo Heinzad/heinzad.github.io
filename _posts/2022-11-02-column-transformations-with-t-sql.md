@@ -32,14 +32,14 @@ We can conceptualise transformations in graph format:
 
 ```mermaid 
 graph TD; 
-A((in)) -- sources -- B((src cols))
-B -- from -- C((src tbl)) 
-A -- input --> D((transformation)) 
-D -- runs -- E((function)) 
-E -- performs -- F((transform)) 
-D -- output -->G((out)) 
-G -- targets -- H((tgt cols)) 
-H -- from -- J((tgt tbl)) 
+A((in)) -- sources --- B((src cols)) 
+B -- from --- C((src tbl))  
+A -- input --> D((transformation))  
+D -- runs --- E((function))  
+E -- performs --- F((transform))  
+D -- output --> G((out))  
+G -- targets --- H((tgt cols))  
+H -- from --- J((tgt tbl))  
 ``` 
 
 # Column-level transformations 
