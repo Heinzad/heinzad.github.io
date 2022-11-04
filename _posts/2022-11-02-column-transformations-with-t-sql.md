@@ -26,6 +26,20 @@ If you can remember back to the [MS Access data types](https://support.microsoft
 It is also useful to distinguish how to store data (in a few limited formats) from how to calculate it. 
 Take decimal numbers, for example. It is handy to store them as floats, but for the sake of accuracy we probably need to avoid floating point calculations by converting them to something like numeric(19,4) before performing a calculation in the database. 
 
+# Transformation graph 
+
+We can conceptualise transformations in graph format: 
+
+```mermaid 
+graph TD; 
+A((src)) -- input --> B((transformation)) 
+B -- output --> C((tgt)) 
+B -- does --> D((function))
+A -- has --> E((cols)) 
+C -- has --> E((cols)) 
+E -- in --> F((tbl)) 
+
+``` 
 
 # Column-level transformations 
 
