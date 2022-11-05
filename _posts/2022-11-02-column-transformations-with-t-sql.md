@@ -40,7 +40,7 @@ X -. calls .-> XF((function))
 XF -- does --- XO((operation)) 
 XF -- has --- XP((parameters))
 T -. from .-> TT((tgt tbl))   
-TT -- select --> TC((tgt cols)))
+TT -- select --> TC((tgt cols))
 subgraph src_cte  
 SC
 ST
