@@ -32,10 +32,10 @@ We can conceptualise transformations in graph format:
 
 ```mermaid 
 graph TD; 
-S((source)) -- input --> X((transformation)) 
+S((source)) -- input --> X((transformation))  
 X -- output --> T((target)) 
-subgraph src
-S -- select --- SC[src cols])
+subgraph src 
+S -- select --- SC[src cols]) 
 SC -- from --- ST[src tbl] 
 end 
 subgraph udf 
