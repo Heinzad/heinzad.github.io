@@ -31,7 +31,7 @@ Take decimal numbers, for example. It is handy to store them as floats, but for 
 We can conceptualise transformations in graph format: 
 
 ```mermaid 
-graph TD; 
+graph LR; 
 S((source)) -- input --> X((transformation))  
 X -- output --> T((target)) 
 subgraph src 
