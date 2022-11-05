@@ -32,23 +32,23 @@ We can conceptualise transformations in graph format:
 
 ```mermaid 
 graph LR; 
-S((source)) -- in --> X((transformation)) 
-X -- out --> T((target))
+S((source)) -- input --> X((transformation)) 
+X -- output --> T((target))
 S -. from .-> ST[src tbl] 
 ST -- select --- SC[src cols]   
-X --- XF(function) 
-XF -- performs --- XO(operation) 
+X -. calls .-> XF(function) 
+XF -- does --- XO(operation) 
 T -. from .-> TT[tgt tbl]  
-TT -- select --- TC[tgt cols]
-subgraph input  
+TT -- select --> TC[tgt cols]
+subgraph src_cte  
 SC
 ST
 end 
-subgraph action  
+subgraph procedure  
 XF 
 XO
 end
-subgraph output 
+subgraph tgt_cte 
 TC
 TT 
 end 
