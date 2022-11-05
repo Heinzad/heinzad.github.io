@@ -76,7 +76,7 @@ Some column-level transformations tag the output name to indicate its usage:
 | string2blobs | nvarchar(max) | reformat | converts to blob string | 
 | string2longs | nvarchar(4000) | reformat | converts to long string | 
 | string2shorts | nvarchar(255) | reformat | converts to short string | 
-| number2key | int | duplicate | Tags the column name with 'key' | 
+| number2key | int | duplicate | Tags the column name for joining to a dimension with 'key' | 
 | number2bign | bigint | reformat | converts to large number | 
 | number2wholen | int | reformat | converts to whole number | 
 | number2floatn | float | reformat | converts to floating point number | 
