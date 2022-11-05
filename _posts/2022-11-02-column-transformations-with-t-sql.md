@@ -32,12 +32,12 @@ We can conceptualise transformations in graph format:
 
 ```mermaid 
 graph LR; 
-A((src tbl)) -- has --> B((src cols)) 
-B -- selection --> C((source)) 
+A((src cols)) -- in --- B((src tbl))
+B -- from --- C((source)) 
 C -- input --> D((transformation)) 
 D -- output --> E((target)) 
-E -- to --> F((tgt cols)) 
-F -- in --> G((tgt tbl))
+E -- into --> F((tgt tbl)) 
+F -- has --> G((tgt cols))
 D -- runs --- H((function))  
 H -- performs --- J((transform))    
 ``` 
