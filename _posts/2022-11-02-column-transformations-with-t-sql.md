@@ -34,19 +34,21 @@ We can conceptualise transformations in graph format:
 graph LR; 
 S((source)) -- input --> X((transformation)) 
 X -- output --> T((target))
-S -. from .-> ST[src tbl] 
-ST -- select --- SC[src cols]   
-X -. calls .-> XF(function) 
-XF -- does --- XO(operation) 
-T -. from .-> TT[tgt tbl]  
-TT -- select --> TC[tgt cols]
+S -. from .-> ST((src tbl)) 
+ST -- select --- SC((src cols))   
+X -. calls .-> XF((function)) 
+XF -- does --- XO((operation)) 
+XF -- has --- XP((parameters))
+T -. from .-> TT((tgt tbl))   
+TT -- select --> TC((tgt cols)))
 subgraph src_cte  
 SC
 ST
 end 
 subgraph procedure  
 XF 
-XO
+XO 
+XP
 end
 subgraph tgt_cte 
 TC
