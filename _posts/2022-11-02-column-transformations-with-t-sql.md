@@ -35,7 +35,7 @@ graph TD;
 S((source)) -- input --> X((transformation))  
 X -- output --> T((target)) 
 subgraph src 
-S -- select --- SC[src cols]) 
+S -- select --- SC[src cols] 
 SC -- from --- ST[src tbl] 
 end 
 subgraph udf 
