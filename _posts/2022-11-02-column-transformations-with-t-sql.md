@@ -61,20 +61,31 @@ end
 Scope: column  
 
 Some transformations occur at the column level: 
-- copy 
+- duplicate  
 - reformat   
+
+Some column-level transformations tag the output name to indicate its usage: 
+- key 
+- code 
+
 
 | code | value | class | description | 
 | ---- | ----- | ----- | ----------- | 
-| copy | NULL | unknown | preserves original format | 
+| copy | NULL | duplicate | preserves original format | 
+| string2code | varchar(50) | reformat | Tags the column name for lookups with 'code' | 
 | string2blobs | nvarchar(max) | reformat | converts to blob string | 
 | string2longs | nvarchar(4000) | reformat | converts to long string | 
 | string2shorts | nvarchar(255) | reformat | converts to short string | 
+| number2key | int | duplicate | Tags the column name with 'key' | 
 | number2bign | bigint | reformat | converts to large number | 
 | number2wholen | int | reformat | converts to whole number | 
 | number2floatn | float | reformat | converts to floating point number | 
+| number2shorts | varchar(50) | reformat | converts non-additive numbers to short string | 
+| float2shorts | varchar(50) | reformat | converts non-additive floating point numbers to short string |
 | date2dated | datetime2(7) | reformat | converts to datestamp | 
 | time2timed | time(7) | reformat | converts to timestamp | 
+ 
+
 
 
 
