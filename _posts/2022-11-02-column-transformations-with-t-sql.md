@@ -31,15 +31,20 @@ Take decimal numbers, for example. It is handy to store them as floats, but for 
 We can conceptualise transformations in graph format: 
 
 ```mermaid 
-graph LR; 
-A((src cols)) -- in --- B((src tbl))
-B -- from --- C((source)) 
-C -- input --> D((transformation)) 
-D -- output --> E((target)) 
-E -- into --> F((tgt tbl)) 
-F -- has --> G((tgt cols))
-D -- runs --- H((function))  
-H -- performs --- J((transform))    
+graph TD; 
+S((source)) -- input --> X((transformation)) 
+X -- output --> T((target)) 
+subgraph src
+S -- select --- SC[src cols])
+SC -- from --- ST[src tbl] 
+end 
+subgraph udf 
+X -- runs --- XF(function) 
+XF -- performs --- XO(operation) 
+END 
+subgraph tgt 
+T -- insert --- TC[tgt cols]  
+TC -- into --- TT[tgt tbl] 
 ``` 
 
 # Column-level transformations 
