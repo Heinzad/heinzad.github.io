@@ -38,8 +38,8 @@ C -- input --> D((transformation))
 D -- output --> E((target)) 
 E -- to --> F((tgt cols)) 
 F -- in --> G((tgt tbl))
-D -- runs --- G((function))  
-G -- performs --- H((transform))    
+D -- runs --- H((function))  
+H -- performs --- J((transform))    
 ``` 
 
 # Column-level transformations 
