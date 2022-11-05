@@ -41,10 +41,11 @@ end
 subgraph udf 
 X -- runs --- XF(function) 
 XF -- performs --- XO(operation) 
-END 
+end 
 subgraph tgt 
 T -- insert --- TC[tgt cols]  
 TC -- into --- TT[tgt tbl] 
+end 
 ``` 
 
 # Column-level transformations 
