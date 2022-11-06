@@ -56,7 +56,7 @@ TT
 end 
 ``` 
 
-# Column-level transformations 
+### Primary Transformations 
 
 Scope: column  
 
@@ -86,7 +86,7 @@ Some column-level transformations tag the output name to indicate its usage:
 | time2timed | time(7) | reformat | converts to timestamp | 
  
 
-## Column Classification 
+### Column Classification 
 
 Subsequent working with column data will be more efficient if the columns are classified: 
 
@@ -96,6 +96,17 @@ Subsequent working with column data will be more efficient if the columns are cl
 | code | string used in dimensions or lookups | 
 | metadata | date time or string information about a record | 
 | id | record identifier that is not used in dimensions or lookups |  
+
+
+
+### Secondary Transformations 
+
+Some secondary transformations can now be considered, based on the data type and classification: 
+
+| code | value | class | description | 
+| ---- | ----- | ----- | ----------- | 
+| number2dated | date | reformat | date number converted to date | 
+| string2dated | date | reformat | string number converted to date | 
 
 
 
