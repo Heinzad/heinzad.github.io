@@ -86,8 +86,24 @@ Some column-level transformations tag the output name to indicate its usage:
 | time2timed | time(7) | reformat | converts to timestamp | 
  
 
+## Column Classification 
+
+Subsequent working with column data will be more efficient if the columns are classified: 
+
+| Classification | Description | 
+| -------------- | ----------- | 
+| key | whole number used in dimensions or lookups | 
+| code | string used in dimensions or lookups | 
+| metadata | date time or string information about a record | 
+| id | record identifier that is not used in dimensions or lookups |  
 
 
+
+## Transformation Composition  
+
+As a developer, I want to overwrite auto-identified transformations and auto-generated target column names. 
+- Given a transform column in a tranformation form, when I choose to manually override, then I should be able select from a drop-down list. 
+- Given a target column name in a transformation form, when I choose to manually override, then I should be able to rename the column. 
 
 ## Copy transformation: 
 Information from one table column is copied to a different table column. 
