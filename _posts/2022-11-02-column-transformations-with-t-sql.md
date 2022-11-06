@@ -105,10 +105,11 @@ Some secondary transformations can now be considered, based on the data type and
 
 | code | value | class | description | 
 | ---- | ----- | ----- | ----------- | 
-| number2dated | date | reformat | date number converted to date | 
-| string2dated | date | reformat | string number converted to date | 
+| stringd2numberd | date | reformat | date number stored as string converted to number | 
+| numberd2dated | date | reformat | date number converted to date | 
+| numberr2dated | date | reformat | relative date number converted to date | 
 
-
+Note: Relational databases often do not store dates as dates, but as numbers (keys) - e.g. 20221102 for 2022-11-02 - or as relative date numbers - e.g. unix dates are the number of days since 1950, excel dates are the number of days since 1901. 
 
 ## Transformation Composition  
 
