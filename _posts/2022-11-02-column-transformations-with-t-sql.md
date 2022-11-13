@@ -144,9 +144,9 @@ Note: Relational databases often do not store dates as dates, but as numbers (ke
 
 ## Metadata-driven development 
 
-Many database that use codes for table and column names, may repeat codes, enabling metadata-driven development from a data dictionary. 
+Many databases use repeating codes for table and column names, enabling metadata-driven development from a data dictionary. 
 
-Take the ABAN8 "Address Number" column in the "Address Book" table, [F0101](https://jde.erpref.com/?schema=920&table=F0101), in JD Edwards ERP for example. The prefix for all the columns in "F0101" is "AB". "AN8" is the code for Address Number, and appears in [over 1,000 table columns](https://jde.erpref.com/?schema=920&column=AN8) across all the JDE modules. 
+Take the "ABAN8" Address Number column in the "F0101" Address Book table, of the [JD Edwards ERP](https://jde.erpref.com/?schema=920&table=F0101) for example. The prefix for all the columns in the Address Book is "AB". "AN8" is the code for Address Number, and appears in [over 1,000 table columns across all the JDE modules](https://jde.erpref.com/?schema=920&column=AN8).  
 
 If we build a dictionary of transformations by column code, we can then leverage that logic over 1000 times: 
 
