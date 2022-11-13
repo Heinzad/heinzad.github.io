@@ -26,35 +26,66 @@ If you can remember back to the [MS Access data types](https://support.microsoft
 It is also useful to distinguish how to store data (in a few limited formats) from how to calculate it. 
 Take decimal numbers, for example. It is handy to store them as floats, but for the sake of accuracy we probably need to avoid floating point calculations by converting them to something like numeric(19,4) before performing a calculation in the database. 
 
-# Transformation graph 
+We can break down the exercise into two general categories of transformation: **copy** like for like from one place to another, or **reformat** from a format in one place to a new format in another place.  
 
-We can conceptualise transformations in graph format: 
+## Copy transformation: 
+Information from one table column is copied to a different table column. 
+
+Copy transformation data flow diagram: 
 
 ```mermaid 
 graph LR; 
-S((source)) -- input --> X((transformation)) 
-X -- output --> T((target))
-S -. from .-> ST((src tbl)) 
-ST -- select --- SC((src cols))   
-X -. calls .-> XF((function)) 
-XF -- does --- XO((operation)) 
-XF -- has --- XP((parameters))
-T -. from .-> TT((tgt tbl))   
-TT -- select --> TC((tgt cols))
-subgraph src_cte  
-SC
-ST
-end 
-subgraph procedure  
-XF 
-XO 
-XP
-end
-subgraph tgt_cte 
-TC
-TT 
-end 
+A[string]-- in -->T(copy); 
+T-- out -->B[string];
 ``` 
+
+Copy transformation example code:  
+
+```tsql 
+
+/*** copy transformation example ***/ 
+
+SELECT 
+"string2string" = i.in_string     /* out_string */ 
+FROM [source_input] as i 
+; 
+ 
+
+``` 
+
+## Reformat transformation: 
+Information in one data format is changed to a different data format. 
+
+Reformat data flow diagram: 
+
+```mermaid 
+graph LR; 
+A[decimal]-- in -->T(reformat); 
+T-- out -->B[float];
+``` 
+
+
+Reformat example code: 
+
+```tsql 
+
+/*** reformat transformation example ***/ 
+
+SELECT 
+
+    "string2shorts" = TRY_CONVERT( nvarchar(255), i.[in_string_txt] ) /* out_short_txt */ 
+    ,"string2longs" = TRY_CONVERT( nvarchar(8000), i.[in_string_txt] ) /* out_long_txt */ 
+    ,"string2blobs" = TRY_CONVERT( nvarchar(max), i.[in_string_txt] ) /* out_blob_txt */ 
+    ,"decimal2wholen" = TRY_CONVERT( int, i.[in_decimal_num] ) /* out_whole_num */ 
+    ,"decimal2floatn" = TRY_CONVERT( float, i.[in_decimal_num] ) /* out_float_num */ 
+    ,"date2dated" = TRY_CONVERT( datetime2(7), i.in_datetime_ymd ) /* out_datestamp */ 
+    ,"time2timed" = TRY_CONVERT( time(7), i.[in_time_hms] ) /* out_timed */  
+
+FROM [source_input] as i 
+; 
+
+``` 
+
 
 ### Primary Transformations 
 
@@ -111,101 +142,50 @@ Some secondary transformations can now be considered, based on the data type and
 
 Note: Relational databases often do not store dates as dates, but as numbers (keys) - e.g. 20221102 for 2022-11-02 - or as relative date numbers - e.g. unix dates are the number of days since 1950, excel dates are the number of days since 1901. 
 
-## Transformation Composition  
+## Metadata-driven development 
 
-As a developer, I want to overwrite auto-identified transformations and auto-generated target column names. 
-- Given a transform column in a tranformation form, when I choose to manually override, then I should be able select from a drop-down list. 
-- Given a target column name in a transformation form, when I choose to manually override, then I should be able to rename the column. 
+Many database that use codes for table and column names, may repeat codes, enabling metadata-driven development from a data dictionary. 
 
-## Copy transformation: 
-Information from one table column is copied to a different table column. 
+Take the ABAN8 "Address Number" column in the "Address Book" table, [F0101](https://jde.erpref.com/?schema=920&table=F0101), in JD Edwards ERP for example. The prefix for all the columns in "F0101" is "AB". "AN8" is the code for Address Number, and appears in [over 1,000 table columns](https://jde.erpref.com/?schema=920&column=AN8) across all the JDE modules. 
 
-Copy transformation data flow diagram: 
+If we build a dictionary of transformations by column code, we can then leverage that logic over 1000 times: 
 
-```mermaid 
-graph LR; 
-A[string]-- in -->T(copy); 
-T-- out -->B[string];
-``` 
-
-Copy transformation example code:  
-
-```tsql 
-
-/*** copy transformation ***/ 
-
-COPY_PREPARATION_EXAMPLE: 
-
-DROP TABLE IF EXISTS [source_input] ; 
-DROP TABLE IF EXISTS [target_output] ; 
-GO 
+| column code | column descriptive name | source format | target format | transform pattern | 
+| ----------- | ----------------------- | ------------- | ------------- | ----------------- | 
+| AN8 | Address Number | numeric(8,0) | int | SELECT CAST( @input_column_name as int ) AS @output_column_name WHERE RIGHT(@input_column_name, 3) = 'AN8' | 
 
 
-COPY_SETUP_EXAMPLE: 
-
-CREATE TABLE [source_input]( in_string varchar(20) ) ; 
-CREATE TABLE [target_output] ( out_string char(20) ) ; 
 
 
-COPY_INITIALISE_EXAMPLE: 
+# Transformation graph 
 
-INSERT INTO [source_input]( in_string ) VALUES ("Lorem Ipsum") ; 
-
-
-COPY_TRANSFORMATION_EXAMPLE: 
-
-INSERT INTO [target_output]( out_string ) 
-SELECT 
-"string2string" = i.in_string     /* out_string */ 
-FROM [source_input] as i 
-; 
-
-
-COPY_RESULT_EXAMPLE: 
-
-SELECT TOP 1 o.out_string FROM [target_output] as o ; 
-
-``` 
-
-## Reformat transformation: 
-Information in one data format is changed to a different data format. 
-
-Reformat data flow diagram: 
+We can conceptualise transformations in graph format: 
 
 ```mermaid 
 graph LR; 
-A[decimal]-- in -->T(reformat); 
-T-- out -->B[float];
+S((source)) -- input --> X((transformation)) 
+X -- output --> T((target))
+S -. from .-> ST((src tbl)) 
+ST -- select --- SC((src cols))   
+X -. calls .-> XF((function)) 
+XF -- does --- XO((operation)) 
+XF -- has --- XP((parameters))
+T -. from .-> TT((tgt tbl))   
+TT -- select --> TC((tgt cols))
+subgraph src_cte  
+SC
+ST
+end 
+subgraph procedure  
+XF 
+XO 
+XP
+end
+subgraph tgt_cte 
+TC
+TT 
+end 
 ``` 
 
-
-Reformat example code: 
-
-```tsql 
-
-/*** reformat transformation ***/ 
-
-INSERT INTO [target_output]( 
-     [out_short_txt]
-    ,[out_long_txt] 
-    ,[out_blob_txt] 
-    ,[out_whole_num] 
-    ,[out_float_num] 
-    ,[out_datestamp] 
-    ,[out_timestamp]
-) 
-SELECT 
-
-    "string2shorts" = TRY_CONVERT( nvarchar(255), i.[in_string_txt] ) /* out_short_txt */ 
-    ,"string2longs" = TRY_CONVERT( nvarchar(8000), i.[in_string_txt] ) /* out_long_txt */ 
-    ,"string2blobs" = TRY_CONVERT( nvarchar(max), i.[in_string_txt] ) /* out_blob_txt */ 
-    ,"decimal2wholen" = TRY_CONVERT( int, i.[in_decimal_num] ) /* out_whole_num */ 
-    ,"decimal2floatn" = TRY_CONVERT( float, i.[in_decimal_num] ) /* out_float_num */ 
-    ,"date2dated" = TRY_CONVERT( datetime2(7), i.in_datetime_ymd ) /* out_datestamp */ 
-    ,"time2timed" = TRY_CONVERT( time(7), i.[in_time_hms] ) /* out_timed */  
-
-FROM [source_input] i 
-; 
-
-``` 
+QED 
 
