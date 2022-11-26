@@ -14,12 +14,17 @@ Lambert Meertens, ["The Origins of Python"](https://inference-review.com/article
 "Bubble sort is a well-known but rather inefficient sorting algorithm, particularly for larger data sets. Yet, because of its simplicity, it is often used to illustrate elementary algorithmic concepts and to provide a first-glance comparison between programming languages" (Meertens 2022). 
 
 **ABC:** 
+
+``` 
+
 FOR i IN {1..#a-1}:
   FOR j IN {1..#a-1}:
     IF a[j] > a[j+1]:
       PUT a[j+1], a[j] IN a[j], a[j+1] 
 
 #(Meertens 2022)
+
+``` 
 
 **Python:**  
 
