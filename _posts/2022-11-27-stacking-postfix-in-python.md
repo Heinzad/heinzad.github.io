@@ -26,7 +26,7 @@ To perform this exercise we will need to use the Stack class we created previous
 ```python 
 
 """stacking postfix in python 
-Performing Reverse Polish Notation calculations on stacks in Python  
+Performing Reverse Polish Notation calculations on stacks in Python 3  
 Adam Heinz 2022-11-27 
 
 >>>postfix_eval('8 10 5 - 4 / +') 
