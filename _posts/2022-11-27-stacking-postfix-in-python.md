@@ -18,15 +18,15 @@ The upshot is that we can run the postfix expression through stack operations to
 
 When given a string of operands and operators in postfix notation:  
 * push the operands into the stack until we get an operator, 
-* pop twice to retrieve the last two operands, and solve the equation with the operator, 
+* pop twice to retrieve the last two operands, then solve the equation with the operator, 
 * push the result into the stack. 
 
 To perform this exercise we will need to use the Stack class we created previously: 
 
 ```python 
 
-"""stacking postfix 
-Reverse Polish Notation performed on stacks  
+"""stacking postfix in python 
+Performing Reverse Polish Notation calculations on stacks in Python  
 Adam Heinz 2022-11-27 
 
 >>>postfix_eval('8 10 5 - 4 / +') 
