@@ -21,6 +21,11 @@ When given a string of operands and operators in postfix notation:
 * pop twice to retrieve the last two operands, then solve the equation with the operator, 
 * push the result into the stack. 
 
+
+The following exercise is inspired by the example in: 
+
+Brad Miller and David Ranum, Luther College, **Problem Solving with Algorithms and Data Structures using Python**, pythonds, Runestone Academy: [4.9. Infix, Prefix and Postfix Expressions](https://runestone.academy/ns/books/published/pythonds/BasicDS/InfixPrefixandPostfixExpressions.html) 
+
 To perform this exercise we will need to use the Stack class we created previously: 
 
 ```python 
