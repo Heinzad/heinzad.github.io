@@ -88,5 +88,9 @@ if __name__ == '__main__':
 
 ``` 
 
-Adam Heinz 
+QED 
+
+© Adam Heinz 
+
 27 November 2022 
+
