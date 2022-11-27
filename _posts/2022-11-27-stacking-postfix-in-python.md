@@ -72,13 +72,13 @@ def postfix_eval(postfix_expression):
     for item in postfix_list: 
         
         if item[0] in '0123456789': 
-            postfix_stack.push(int(item)) 
+            postfix_stack.push(float(item)) 
                        
         else: 
             operand2 = postfix_stack.pop() 
             operand1 = postfix_stack.pop() 
             rpn_result = postfix_math( item, operand1, operand2) 
-            postfix_stack.push(rpn_result) 
+            postfix_stack.push(float(rpn_result))  
             
     return postfix_stack.pop() 
     
