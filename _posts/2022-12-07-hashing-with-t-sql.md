@@ -448,7 +448,7 @@ FROM [F0111] as "ww"
 OUTER APPLY (   /* business key */ 
 
     SELECT "customer_business_key_txt" = CONVERT(nvarchar(500), 
-          CHAR(124) +  LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWGNNM]))) /* Name - Given */ 
+          CHAR(124) + LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWGNNM]))) /* Name - Given */ 
         + CHAR(124) + LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWMDNM]))) /* Name - Middle */ 
         + CHAR(124) + LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWSRNM]))) /* Name - Surname */   
         + CHAR(124) + LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWDDATE])))  /* Day of Birth */ 
@@ -503,7 +503,7 @@ FROM [F0111] as "ww"
 OUTER APPLY (   /* business key */ 
 
     SELECT "customer_business_key_txt" = CONVERT(nvarchar(500), 
-          CHAR(124) +  LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWGNNM]))) /* Name - Given */ 
+          CHAR(124) + LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWGNNM]))) /* Name - Given */ 
         + CHAR(124) + LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWMDNM]))) /* Name - Middle */ 
         + CHAR(124) + LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWSRNM]))) /* Name - Surname */   
         + CHAR(124) + LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWDDATE])))  /* Day of Birth */ 
