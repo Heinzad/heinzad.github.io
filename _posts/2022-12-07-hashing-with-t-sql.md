@@ -162,6 +162,8 @@ OUTER APPLY (   /* jsonified record */
 
 ) as "jj"   /* jsonified record */ 
 
+; 
+
 ``` 
 
 Note that we did not need to use a where clause in the outer apply. We go without the array wrapper so that we do not have to deal with unnecessary brackets. We include null values to be certain we are getting all of the records, warts and all. 
@@ -271,6 +273,9 @@ OUTER APPLY (   /* version key */
 
 ) as "vkh"      /* version key */ 
 
+; 
+
+
 ``` 
 
 ## Version Key No 
@@ -369,6 +374,9 @@ OUTER APPLY (   /* version key */
 
 ) as "vkh"      /* version key */ 
 
+; 
+
+
 ``` 
 The json format was handy because all values are expressed as text, and even a change in the source column name will be detected. 
 
@@ -407,6 +415,9 @@ OUTER APPLY (   /* business key */
     ) 
 
 ) as "cbk"      /* business key */ 
+
+; 
+
 
 ``` 
 
@@ -447,6 +458,9 @@ OUTER APPLY (   /* business key */
     ) 
 
 ) as "cbk"      /* business key */ 
+
+; 
+
 
 ``` 
 
@@ -567,6 +581,9 @@ OUTER APPLY (   /* version key */
     ) 
 
 ) as "vkh"      /* version key */ 
+
+; 
+
 
 ``` 
 
