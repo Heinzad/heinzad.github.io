@@ -95,11 +95,13 @@ SELECT
     ,"ww".[WWIDLN] /* Who's Who Line Number - ID */ 
     ,"ww".[WWTYC] /* Type Code */ 
     ,"ww".[WWCFRGUID] /* Unique Identifier */ 
+    
     ,"jj".[json_record]
 
 FROM [F0111] as "ww" 
 
-OUTER APPLY ( 
+OUTER APPLY (   /* jsonified record */ 
+
     SELECT "json_record" = ( 
         SELECT 
          "ww".[WWAN8] /* Address Number */ 
@@ -157,7 +159,8 @@ OUTER APPLY (
         ,"ww".[WWCAAD] /* Server Status */ 
         FOR JSON_PATH, WITHOUT_ARRAY_WRAPPER, INCLUDE_NULLS 
     ) 
-) as "jj" 
+
+) as "jj"   /* jsonified record */ 
 
 ``` 
 
@@ -195,11 +198,13 @@ SELECT
     ,"ww".[WWIDLN] /* Who's Who Line Number - ID */ 
     ,"ww".[WWTYC] /* Type Code */ 
     ,"ww".[WWCFRGUID] /* Unique Identifier */ 
+    
     ,"vkh".[version_key_hash]
 
 FROM [F0111] as "ww" 
 
-OUTER APPLY ( 
+OUTER APPLY (   /* version key */ 
+
     SELECT "version_key_hash" = TRY_CONVERT( 
         binary(65), 
         HASHBYTES(
@@ -263,7 +268,8 @@ OUTER APPLY (
             ) 
         ) 
     ) 
-) as "vkh" 
+
+) as "vkh"      /* version key */ 
 
 ``` 
 
@@ -289,13 +295,14 @@ SELECT
     ,"ww".[WWTYC] /* Type Code */ 
     ,"ww".[WWCFRGUID] /* Unique Identifier */ 
     
-    ,"version_key_no" = ABS(CHECKSUM("vkh".[version_key_hash]))
+    ,"version_key_no" = ABS(CHECKSUM( "vkh".[version_key_hash] ))
     
     ,"vkh".[version_key_hash]
 
 FROM [F0111] as "ww" 
 
-OUTER APPLY ( 
+OUTER APPLY (   /* version key */ 
+
     SELECT "version_key_hash" = TRY_CONVERT( 
         binary(65), 
         HASHBYTES(
@@ -359,7 +366,8 @@ OUTER APPLY (
             ) 
         ) 
     ) 
-) as "vkh" 
+
+) as "vkh"      /* version key */ 
 
 ``` 
 The json format was handy because all values are expressed as text, and even a change in the source column name will be detected. 
@@ -386,7 +394,8 @@ SELECT
 
 FROM [F0111] as "ww" 
 
-OUTER APPLY ( 
+OUTER APPLY (   /* business key */ 
+
     SELECT "customer_business_key_txt" = CONVERT(nvarchar(500), 
         CHAR(124) +  LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWGNNM]))) /* Name - Given */ 
         + CHAR(124) + LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWMDNM]))) /* Name - Middle */ 
@@ -396,7 +405,8 @@ OUTER APPLY (
         + CHAR(124) + LTRIM(RTRIM(CONVERT(nvarchar, "ww".[WWDYR]))) /* Year of Birth */ 
         + CHAR(124) 
     ) 
-) as "cbk" 
+
+) as "cbk"      /* business key */ 
 
 ``` 
 
@@ -424,9 +434,10 @@ SELECT
 
 FROM [F0111] as "ww" 
 
-OUTER APPLY ( 
+OUTER APPLY (   /* business key */ 
+
     SELECT "customer_business_key_txt" = CONVERT(nvarchar(500), 
-        CHAR(124) +  LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWGNNM]))) /* Name - Given */ 
+          CHAR(124) +  LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWGNNM]))) /* Name - Given */ 
         + CHAR(124) + LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWMDNM]))) /* Name - Middle */ 
         + CHAR(124) + LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWSRNM]))) /* Name - Surname */   
         + CHAR(124) + LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWDDATE])))  /* Day of Birth */ 
@@ -434,7 +445,8 @@ OUTER APPLY (
         + CHAR(124) + LTRIM(RTRIM(CONVERT(nvarchar, "ww".[WWDYR]))) /* Year of Birth */ 
         + CHAR(124) 
     ) 
-) as "cbk" 
+
+) as "cbk"      /* business key */ 
 
 ``` 
 
@@ -474,9 +486,10 @@ SELECT
 
 FROM [F0111] as "ww" 
 
-OUTER APPLY ( 
+OUTER APPLY (   /* business key */ 
+
     SELECT "customer_business_key_txt" = CONVERT(nvarchar(500), 
-        CHAR(124) +  LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWGNNM]))) /* Name - Given */ 
+          CHAR(124) +  LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWGNNM]))) /* Name - Given */ 
         + CHAR(124) + LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWMDNM]))) /* Name - Middle */ 
         + CHAR(124) + LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWSRNM]))) /* Name - Surname */   
         + CHAR(124) + LTRIM(RTRIM(CONVERT(nvarchar(100), "ww".[WWDDATE])))  /* Day of Birth */ 
@@ -484,9 +497,11 @@ OUTER APPLY (
         + CHAR(124) + LTRIM(RTRIM(CONVERT(nvarchar, "ww".[WWDYR]))) /* Year of Birth */ 
         + CHAR(124) 
     ) 
-) as "cbk" 
 
-OUTER APPLY ( 
+) as "cbk"      /* business key */ 
+
+OUTER APPLY (   /* version key */ 
+
     SELECT "version_key_hash" = TRY_CONVERT( 
         binary(65), 
         HASHBYTES(
@@ -550,7 +565,8 @@ OUTER APPLY (
             ) 
         ) 
     ) 
-) as "vkh" 
+
+) as "vkh"      /* version key */ 
 
 ``` 
 
