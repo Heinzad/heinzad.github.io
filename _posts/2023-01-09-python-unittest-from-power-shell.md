@@ -20,16 +20,17 @@ Without it, many attempts to run unit testing from the terminal will fail.
 
 Zed Shaw advocates the following directory structure which we can apply to the automated testing example of exercise 48 (ex48): 
 
-- myprojects/  
-    - ex48/ 
-        - ex48/
-            - __ init __.py 
-            - lexicon.py
-        - bin/ 
-        - docs/
-        - tests/
-            - __ init __.py
-            - test_lexicon.py 
+myprojects: 
+
+* ex48/ 
+    * ex48/
+        * __ init __.py 
+        * lexicon.py
+    * bin/ 
+    * docs/
+    * tests/
+        * __ init __.py
+        * test_lexicon.py 
 
 
 
