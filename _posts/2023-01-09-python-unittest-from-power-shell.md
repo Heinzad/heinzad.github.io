@@ -15,26 +15,29 @@ The important bit is the "python -m" syntax, which allows [relative imports of t
 
 Without it, many attempts to run unit testing from the terminal will fail. 
 
-## Project Directory Structure 
+
 --- 
+## Project Directory Structure 
+
 
 Zed Shaw advocates the following directory structure which we can apply to the automated testing example of exercise 48 (ex48): 
 
-- myprojects/  
-    - ex48/ 
-        - ex48/
-            - __ init __.py 
-            - lexicon.py
-        - bin/ 
-        - docs/
-        - tests/
-            - __ init __.py
-            - test_lexicon.py 
+myprojects/ 
+
+* ex48/ 
+    * ex48/
+        * __ init __.py 
+        * lexicon.py
+    * bin/ 
+    * docs/
+    * tests/
+        * __ init __.py
+        * test_lexicon.py 
 
 
-
-### Lexicon Script 
 --- 
+### Lexicon Script 
+
 
 The the lexicon.py file in exercise 48 can be scripted as follows: 
 
@@ -134,8 +137,9 @@ if __name__ == "__main__":
 
 ``` 
 
-### Lexicon Test Script 
+
 --- 
+### Lexicon Test Script 
 
 The the test_lexicon.py file in exercise 48 can be scripted using unittest as follows: 
 
@@ -195,8 +199,10 @@ if __name__ == '__main__':
 
 ```
 
-### Terminal 
+
 --- 
+### Terminal 
+
 
 We are now in a position to run unittest from the PowerShell terminal using the -m flag: 
 
