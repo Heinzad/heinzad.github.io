@@ -54,7 +54,7 @@ GO
 3. Inspect Results
 
 | TABLE_CATALOG | TABLE_SCHEMA | TABLE_NAME | COLUMN_NAME | ORDINAL_POSITION | COLUMN_ID | 
-| ------------- | ------------ | ---------- _ ----------- | ---------------- | --------- |
+| ------------- | ------------ | ---------- | ----------- | ---------------- | --------- |
 | DataHub | test | testable | testable_seqn | 1 | 1 | 
 | DataHub | test | testable | testable_code | 2 | 2 | 
 | DataHub | test | testable | testable_name | 3 | 3 | 
@@ -100,7 +100,7 @@ GO
 6. Inspect Results 
 
 | TABLE_CATALOG | TABLE_SCHEMA | TABLE_NAME | COLUMN_NAME | ORDINAL_POSITION | COLUMN_ID | 
-| ------------- | ------------ | ---------- _ ----------- | ---------------- | --------- | 
+| ------------- | ------------ | ---------- | ----------- | ---------------- | --------- | 
 | DataHub | test | testable | testable_seqn | 1 | 1 | 
 | DataHub | test | testable | testable_name | 2 | 3 | 
 | DataHub | test | testable | testable_desc | 3 | 4 | 
