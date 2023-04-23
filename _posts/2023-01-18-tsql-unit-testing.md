@@ -20,7 +20,7 @@ This test will fail before we build the nominated proc and pass after we have bu
 ```tsql 
 
 DECLARE 
- @assert bit = 'false'' 
+ @assert bit = 'false' 
 ,@schema nvarchar(128) = 'test' 
 ,@routine nvarchar(128) = 'testable_usp' 
 ; 
