@@ -11,7 +11,7 @@ We can get the column id by using the COLUMNPROPERTY function. This takes three 
 For example, we can demonstrate that the column id is a permanent reference, while the ordinal position can change after DDL operations. 
 
 
-1. Build the test table: 
+## 1 - Build the test table: 
 
 ```tsql 
 
@@ -27,31 +27,35 @@ GO
 
 While the table is in a pristine state, if we query the information schema columns, we will find the Column ID and Ordinal Position are identical. 
 
-2. Query Column Info: 
+## 2 - Query Column Info: 
 
 ```tsql 
 
 SELECT 
-isc.TABLE_CATALOG 
-,isc.TABLE_SCHEMA 
-,isc.TABLE_NAME 
-,isc.COLUMN_NAME 
-,isc.ORDINAL_POSITION 
-,COLUMN_ID = COLUMNPROPERTY(
-    OBJECT_ID(isc.TABLE_SCHEMA + CHAR(46) + isc.TABLE_NAME) 
+
+    isc.TABLE_CATALOG 
+    ,isc.TABLE_SCHEMA 
+    ,isc.TABLE_NAME 
     ,isc.COLUMN_NAME 
-    ,'ColumnID'  
-)
+    ,isc.ORDINAL_POSITION 
+    ,COLUMN_ID = COLUMNPROPERTY(
+        OBJECT_ID(isc.TABLE_SCHEMA + CHAR(46) + isc.TABLE_NAME) 
+        ,isc.COLUMN_NAME 
+        ,'ColumnID'  
+    ) 
+
 FROM INFORMATION_SCHEMA.COLUMNS as isc 
+
 WHERE isc.TABLE_SCHEMA = 'test' 
-AND isc.TABLE_NAME = 'testable' 
+    AND isc.TABLE_NAME = 'testable' 
+
 ORDER BY isc.ORDINAL_POSITION 
 ; 
 GO 
 
 ``` 
 
-3. Inspect Results
+## 3  Inspect Results: 
 
 | TABLE_CATALOG | TABLE_SCHEMA | TABLE_NAME | COLUMN_NAME | ORDINAL_POSITION | COLUMN_ID | 
 | ------------- | ------------ | ---------- | ----------- | ---------------- | --------- |
@@ -61,7 +65,7 @@ GO
 | DataHub | test | testable | testable_desc | 4 | 4 | 
 
 
-4. Remove a column: 
+## 4 - Remove a column: 
 
 ```tsql 
 
@@ -72,32 +76,36 @@ GO
 
 ``` 
 
-5. Re-query column info: 
+## 5 - Re-query column info: 
 
 
 ```tsql 
 
 SELECT 
-isc.TABLE_CATALOG 
-,isc.TABLE_SCHEMA 
-,isc.TABLE_NAME 
-,isc.COLUMN_NAME 
-,isc.ORDINAL_POSITION 
-,COLUMN_ID = COLUMNPROPERTY(
-    OBJECT_ID(isc.TABLE_SCHEMA + CHAR(46) + isc.TABLE_NAME) 
+
+    isc.TABLE_CATALOG 
+    ,isc.TABLE_SCHEMA 
+    ,isc.TABLE_NAME 
     ,isc.COLUMN_NAME 
-    ,'ColumnID'  
-)
+    ,isc.ORDINAL_POSITION 
+    ,COLUMN_ID = COLUMNPROPERTY(
+        OBJECT_ID(isc.TABLE_SCHEMA + CHAR(46) + isc.TABLE_NAME) 
+        ,isc.COLUMN_NAME 
+        ,'ColumnID'  
+    )
+
 FROM INFORMATION_SCHEMA.COLUMNS as isc 
+
 WHERE isc.TABLE_SCHEMA = 'test' 
-AND isc.TABLE_NAME = 'testable' 
+    AND isc.TABLE_NAME = 'testable' 
+
 ORDER BY isc.ORDINAL_POSITION 
 ; 
 GO 
 
 ``` 
 
-6. Inspect Results 
+## 6 - Inspect Results:  
 
 | TABLE_CATALOG | TABLE_SCHEMA | TABLE_NAME | COLUMN_NAME | ORDINAL_POSITION | COLUMN_ID | 
 | ------------- | ------------ | ---------- | ----------- | ---------------- | --------- | 
@@ -107,6 +115,43 @@ GO
 
 
 In short, the column id remained fixed, while the ordinal position updated to reflect the changing table structure. 
+
+
+# The trick in the question 
+
+In SQL Server, the information schema views are derived from the system views. 
+
+Examine the object definition of information schema columns: 
+
+```tsql 
+
+SELECT OBJECT_DEFINITION( OBJECT_ID('INFORMATION_SCHEMA.COLUMNS') ) 
+
+``` 
+
+Inspect the definition of ordinal position: 
+
+```tsql 
+
+SELECT 
+
+    COLUMNPROPERTY(c.object_id, c.name, 'ordinal')  AS ORDINAL_POSITION 
+
+FROM sys.objects o 
+
+    JOIN sys.columns c 
+    ON c.object_id = o.object_id   
+
+    LEFT JOIN sys.types t 
+    ON c.user_type_id = t.user_type_id  
+
+WHERE o.type IN ('U', 'V')  
+; 
+
+``` 
+
+Both ordinal position and column id are derived from applying the column property function to the sys columns table. 
+
 
 QED 
 
