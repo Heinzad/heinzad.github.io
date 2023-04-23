@@ -61,10 +61,7 @@ IF EXISTS (
     FROM sys.objects o 
     INNER JOIN sys.schemas s   
     ON s.schema_id = o.schema_id  
-    WHERE o.type IN (
-            'U' /* table */ 
-        ,'V' /* view */ 
-    ) 
+     WHERE o.type IN ('U', 'V') /* U=Table, V=View */ 
     AND QUOTENAME(s.[name]) = QUOTENAME(@test_schema) 
     AND QUOTENAME(o.[name]) = QUOTENAME(@test_table)  
 ) 
@@ -93,7 +90,7 @@ IF EXISTS (
     ON c.object_id = o.object_id   
     INNER JOIN sys.types t 
     ON c.user_type_id = t.user_type_id  
-    WHERE o.type IN ('U', 'V') 
+    WHERE o.type IN ('U', 'V') /* U=Table, V=View */ 
     AND QUOTENAME(s.[name]) = QUOTENAME(@test_schema) 
     AND QUOTENAME(o.[name]) = QUOTENAME(@test_table)  
     AND QUOTENAME(c.[name]) = QUOTENAME(@test_column) 
