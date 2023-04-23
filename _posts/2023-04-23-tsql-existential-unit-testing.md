@@ -1,6 +1,6 @@
 Aide Memoire 
 
-How to speed up basic unit testing in MS SQL Server 
+How To Perform Basic Unit Testing In MS SQL Server 
 =================================================== 
 
 When using migration scripts for deployments, it is essential to first test if an object exists before attempting to create it. If the test fails, we can then run the script to create the object. Afterwards, we need to run the same test again to verify the action succeeded. 
