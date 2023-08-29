@@ -1,12 +1,11 @@
 AIDE MEMOIRE 
 
 # Data Flows with Power Query m 
-=============================== 
 
 At the time of writing, parameters do not work in power query dataflows in the same way as they work in power query for datasets. However, we can introduce some efficiencies to make a dataflow maintainable and deployable. It just requires editing the auto-generated code. 
  
 
-## Initial Import
+## 0. Initial Import
 
 If we start a new dataflow, connect to a database, import a table, then inspect the advanced editor, we will see the following query in m: 
 
@@ -27,7 +26,7 @@ The solution is to:
 * repoint all queries to navigate from that one source connection
 
 
-## Modify a copy 
+## 1. Modify a copy 
 
 Take a copy of the first table, rename it to "my_database_connection", and edit the advanced editor to reduce the m query to the source connection only: 
 
@@ -40,7 +39,7 @@ in
 
 ``` 
 
-## Repoint dependant queries 
+## 2. Repoint dependant queries 
 
 Now, repoint all queries to navigate from the source connection: 
 
