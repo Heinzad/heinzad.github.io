@@ -1,6 +1,6 @@
 AIDE MEMOIRE 
 
-# How to connect to an Azure SQL Database using Python 
+# How to connect to an Azure SQL Database with MFA using Python 
 
 It is a bit of a puzzle to connect to an Azure SQL Database as easily as in SQL Server Management Studio (SSMS), using Active Directory with MFA. 
 
@@ -73,6 +73,18 @@ Now, create another file "app.py" from which to call the function:
         print(f"{row.TABLE_NAME}") 
 
 ``` 
+
+When run, input the required variables. An Azure Active Directory window will popup and handle the remainder of the authentication process. 
+
+
+
+## Further Reading 
+
+Stack Overflow 
+Leon Yue, "ODBC Driver support the MFA authentication, but windows only", (18 October, 2019) [Connect to azure sql in python with mfa active directory interactive authentication](https://stackoverflow.com/questions/58440480/connect-to-azure-sql-in-python-with-mfa-active-directory-interactive-authenticat) 
+
+Microsoft Learn: 
+"Quickstart: Connect and Query: Python with pyodbc", (1 June 2023) [Connect to and query Azure SQL Database using Python and the pyodbc driver](https://learn.microsoft.com/en-us/azure/azure-sql/database/azure-sql-python-quickstart?view=azuresql&tabs=windows%2Csql-inter)
 
 
 QED 
