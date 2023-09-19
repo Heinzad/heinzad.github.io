@@ -13,8 +13,8 @@ Configure sql statements and parameters:
 
     DECLARE 
         /* Increment and print a given step number together with a given step name */ 
-        @sql_step_params nvarchar(4000) = N'@step_no int OUTPUT, @step_name nvarchar(128), @step_rowcount int' 
-        @sql_step_string nvarchar(4000) = N'SET @step_no += 1; PRINT( RIGHT(''000'' + CONVERT(varchar(15),@step_no)) + CHAR(32) + @step_name + CHAR(58) + CHAR(32) + CONVERT(varchar(15),@step_rowcount) )' 
+         @sql_step_params nvarchar(4000) = N'@step_no int OUTPUT, @step_name nvarchar(128), @step_rowcount int' 
+        ,@sql_step_string nvarchar(4000) = N'SET @step_no += 1; PRINT( RIGHT(''000'' + CONVERT(varchar(15),@step_no), 3) + CHAR(32) + @step_name + CHAR(58) + CHAR(32) + CONVERT(varchar(15),@step_rowcount) )' 
         ; 
 
 ```
@@ -26,22 +26,22 @@ Use the dynamic sql:
 
     DECLARE 
         /* initialise the variables */ 
-         v_step_no int = 0
-        ,@v_step_name nvarchar(128) = N'' 
-        ,@v_step_counter int = 0 
+         @pipeline_step_no int = 0
+        ,@pipeline_step_name nvarchar(128) = N'' 
+        ,@pipeline_step_rowcount int = 0 
         ; 
 
 
-    SET @v_step_name = N'This is a demonstration'; 
-    SET @v_step_rowcount = 0; 
+    SET @pipeline_step_name = N'This is a demonstration'; 
+    SET @pipeline_step_rowcount = 0; 
 
         SELECT 1 as demo1 into #tbl1 
-        SET @v_step_rowcount = @@ROWCOUNT() ; 
+        SET @pipeline_step_rowcount = @@ROWCOUNT() ; 
 
     EXEC sp_executesql @sql_step_string, @sql_step_params, 
-        @step_no = @v_step_no, 
-        @step_name = @v_step_name, 
-        @step_rowcount = @v_step_rowcount 
+        @step_no = @pipeline_step_no, 
+        @step_name = @pipeline_step_name, 
+        @step_rowcount = @pipeline_step_rowcount 
 
 
 ```
