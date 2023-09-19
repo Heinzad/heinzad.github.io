@@ -1,6 +1,6 @@
 AIDE MEMOIRE
 
-# How to monitor the progress of a pipeline in MS SQL Server 
+# How to display the progress of a pipeline in MS SQL Server 
 
 When iterating through a sequence of steps you may need to monitor the progress through the pipeline in a manner that can be printed or logged. 
 
