@@ -36,7 +36,7 @@ Use the dynamic sql:
     SET @p_step_rowcount = 0; 
 
         SELECT 1 as demo1 into #tbl1 
-        SET @p_step_rowcount = @@ROWCOUNT() ; 
+        SET @p_step_rowcount = @@ROWCOUNT ; 
 
     EXEC sp_executesql @sql_step_string, @sql_step_params, 
         @step_no = @p_step_no, 
