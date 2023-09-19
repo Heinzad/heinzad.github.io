@@ -26,22 +26,22 @@ Use the dynamic sql:
 
     DECLARE 
         /* initialise the variables */ 
-         @pipeline_step_no int = 0
-        ,@pipeline_step_name nvarchar(128) = N'' 
-        ,@pipeline_step_rowcount int = 0 
+         @p_step_no int = 0
+        ,@p_step_name nvarchar(128) = N'' 
+        ,@p_step_rowcount int = 0 
         ; 
 
 
-    SET @pipeline_step_name = N'This is a demonstration'; 
-    SET @pipeline_step_rowcount = 0; 
+    SET @p_step_name = N'This is a demonstration'; 
+    SET @p_step_rowcount = 0; 
 
         SELECT 1 as demo1 into #tbl1 
-        SET @pipeline_step_rowcount = @@ROWCOUNT() ; 
+        SET @p_step_rowcount = @@ROWCOUNT() ; 
 
     EXEC sp_executesql @sql_step_string, @sql_step_params, 
-        @step_no = @pipeline_step_no, 
-        @step_name = @pipeline_step_name, 
-        @step_rowcount = @pipeline_step_rowcount 
+        @step_no = @p_step_no, 
+        @step_name = @p_step_name, 
+        @step_rowcount = @p_step_rowcount 
 
 
 ```
