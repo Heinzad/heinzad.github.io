@@ -49,6 +49,35 @@ A binary search is logarithmic as the bisection halves the dataset with each ope
 
 
 
+## Hashing 
+
+Hashing uses a hash function to allocate items to a slot in a hash table. A hash returns an integer value for a given item. 
+Slotting is determined by the modulo of the hash and the number of slots in the hash table: 
+```
+    hash % slots
+``` 
+The load factor is the number of used slots by the number of slots in the hash table: 
+```
+    theta = slotted / slots
+``` 
+
+A collision occurs when two or more items are hashed to the same slot. Collision resolution strategies are classified as open or closed addressing. 
+
+Closed addressing takes the slots as given: 
+* Chaining -- uses the slot as a pointer to a linked list holding all the items with that hash. 
+
+Open addressing tries to find an unused slot: 
+* Linear probing -- iterates through the slots until an empty slot is found.
+* Rehashing -- generates a new hash 
+* Quadratic probing -- takes the hash and adds the square of the numbers one (1) to four (4) to search for empty slots. 
+
+
+### Analysis 
+
+With open addressing, the best case of a successful search is O(n). 
+
+With closed addressing, the worst is O(n) where searching traverses the whole of the linked list. 
+
 
 ## References 
 
