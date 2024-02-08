@@ -35,6 +35,19 @@ _Absent_:
 
 
 
+## Binary Search 
+
+Binary search takes advantage of the properties of an unordered list. It begins by comparing an item the mid-point of a list to determine if the item resides in the upper or lower half of the list. It then works recursively by bisecting the relevant half of the bisected list until the item is found. 
+
+### Analysis 
+
+A binary search is logarithmic as the bisection halves the dataset with each operation. 
+
+| case | description | Big-Oh | 
+| ---- | ----------- | ------ |
+| best worse average | bisection | O(log n) |
+
+
 
 
 ## References 
