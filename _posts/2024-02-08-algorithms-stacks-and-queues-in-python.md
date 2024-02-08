@@ -38,7 +38,7 @@ class Stack(object):
         self._stack = []
 
     def push(self, item): 
-        """Pushes a new item onto the stack"""
+        """Adds an item onto the stack"""
         self._stack.append(item) 
 
     def pop(self): 
@@ -99,7 +99,7 @@ class Queue(object):
 
     def dequeue(self):
         """Removes and returns an item from the front of a queue"""
-        if len(self) > 0:
+        if len(self._queue) > 0:
             return self._queue.pop(0) 
 
 ```
@@ -112,6 +112,75 @@ With the way that Python implements pop, a dequeue operation is O(n), while an e
 | --- | --------- | ------ |
 | enqueue | append() | O(1) |
 | dequeue | pop(i) | O(n) | 
+
+
+## Deque
+
+A Deque is a variation on a Queue where items can be added or removed from either the front or the rear. 
+
+### ADT 
+
+The Deque has four principal operations: 
+* enqueue_front
+* enqueue_rear
+* dequeue_front
+* dequeue_rear
+
+### Implementation 
+
+The Deque can be implemented as a list in Python. 
+
+```python
+
+class Deque(object): 
+    """Implemements a Deque using Python list functionality.
+
+    d = Deque()
+    >>> d.enqueue_front('alpha')
+    >>> d.enqueue_rear('bravo') 
+    >>> d.enqueue_rear('charlie')
+    >>> d.dequeue_front()
+    'alpha'
+    >>> d.dequeue_rear()
+    'charlie'
+    >>> d.dequeue_front()
+    'bravo'
+    """
+
+    def __init__(self):
+        """Initilises a deque as a list""" 
+        self._deque = []
+    
+    def enqueue_front(self, item): 
+        """Adds an item at the front of a deque"""
+        self._deque.insert(0, item)
+    
+    def enqueue_rear(self, item): 
+        """Adds an item to the rear of a deque"""
+        self._deque.append(item)
+    
+    def dequeue_front(self):
+        """Removes and returns an item from the front of a deque"""
+        if len(self._deque) > 0: 
+            return self.pop(0)
+    
+    def dequeue_rear(self): 
+        """Removes and returns an item from the rear of a deque"""
+        if len(self._deque) > 0: 
+            return self.pop()
+
+```
+
+### Analysis 
+
+Using Python list functionality for a deque, front-of-deque operations are O(n), while rear-of-deque operations are O(1).  
+
+| ADT | Python | Big-Oh | 
+| --- | --------- | ------ |
+| enqueue_front | insert(i, item) | O(n) |
+| enqueue_rear | append() | O(1) |
+| dequeue_front | pop(i) | O(n) |
+| dequeue_rear | pop() | O(1) | 
 
 
 
