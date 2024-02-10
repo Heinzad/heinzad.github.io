@@ -1,6 +1,6 @@
 AIDE MEMOIRE
 
-Algorithms: Stacks and Queues with Python 
+Algorithms: Stacks and Queues in Python 
 ========================================= 
 
 Stacks and Queues are referred to as linear data structures as each item sits in an ordered position in a list. They have front and rear ends. 

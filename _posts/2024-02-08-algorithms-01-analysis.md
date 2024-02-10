@@ -1,6 +1,6 @@
 AIDE MEMOIRE 
 
-Algorithms Analysis 
+Algorithms: Analysis 
 =================== 
 
 Analysing Algorithms requires both a knowlege of logarithms and of Big-O notation. 
