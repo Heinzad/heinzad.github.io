@@ -254,6 +254,14 @@ class Queue(object):
         if len(self._queue) > 0:
             return self._queue.pop(0) 
 
+    def is_empty(self):
+        """Returns true if the queue is empty"""
+        return len(self) == 0 
+
+    def __len__(self): 
+        """Returns the size of the queue"""
+        return len(self._queue) 
+
 ```
 
 ### Queue Analysis 
@@ -264,6 +272,49 @@ With the way that Python implements pop, a dequeue operation is O(n), while an e
 | --- | --------- | ------ |
 | enqueue | append() | O(1) |
 | dequeue | pop(i) | O(n) | 
+
+
+### Queue Application 
+
+One of the uses of a queue is a print queue, where orders are actioned in the order in which they are received. 
+
+```python
+import time as t
+
+class PrintJob:
+    """Models a basic print job for illustrative purposes"""
+    def __init__(self, user_name): 
+        self.user_name=user_name
+        self.timestamp = t.time()
+    def __str__(self):
+        """Returns a string illustration of the print job"""
+        return f"job: {self.user_name} {self.timestamp}"
+    def __repr__(self):
+        """Returns the string representation of the print job"""
+        return str(self) 
+
+
+print_queue = Queue() 
+
+job1 = PrintJob('Andy') 
+print_queue.enqueue(job1) 
+t.sleep(1)
+
+job2 = PrintJob('Bob') 
+print_queue.enqueue(job2)
+t.sleep(1)
+
+job3 = PrintJob('Charlize') 
+print_queue.enqueue(job3) 
+t.sleep(1) 
+
+print(f"queue --> {print_queue}") 
+next_job = print_queue.dequeue() 
+print(f"next --> {next_job}")
+print(f"queue --> {print_queue}") 
+
+```
+
 
 
 ## Deques
@@ -283,13 +334,12 @@ The Deque has four principal operations:
 The Deque can be implemented as a list in Python. 
 
 ```python
-
 class Deque(object): 
     """Implemements a Deque using Python list functionality.
 
-    d = Deque()
+    >>> d = Deque()
     >>> d.enqueue_front('alpha')
-    >>> d.enqueue_rear('bravo') 
+    >>> d.enqueue_rear('bravo')
     >>> d.enqueue_rear('charlie')
     >>> d.dequeue_front()
     'alpha'
@@ -314,13 +364,12 @@ class Deque(object):
     def dequeue_front(self):
         """Removes and returns an item from the front of a deque"""
         if len(self._deque) > 0: 
-            return self.pop(0)
+            return self._deque.pop(0)
     
     def dequeue_rear(self): 
         """Removes and returns an item from the rear of a deque"""
         if len(self._deque) > 0: 
-            return self.pop()
-
+            return self._deque.pop()
 ```
 
 ### Deque Analysis 
@@ -334,6 +383,31 @@ Using Python list functionality for a deque, front-of-deque operations are O(n),
 | dequeue_front | pop(i) | O(n) |
 | dequeue_rear | pop() | O(1) | 
 
+
+### Deque Application 
+
+One application of a Deque is as a palindrome checker, which requires comparing every pair of first and last letters of a word to see if they match. 
+
+```python
+def is_palindrome(word:str):
+    """Returns true if a given word is a Palindrome
+    
+    >>> is_palindrome('MadamMeetAdam')
+    False
+    >>> is_palindrome('MadamImAdam')
+    True
+    """
+    characters = Deque()
+    for char in word: 
+        characters.enqueue_rear(char.lower())
+    is_equal = True
+    while len(characters) > 1 and is_equal: 
+        alpha = characters.dequeue_front() 
+        omega = characters.dequeue_rear() 
+        if alpha != omega: 
+            is_equal = False 
+    return is_equal 
+```
 
 
 ## References 
