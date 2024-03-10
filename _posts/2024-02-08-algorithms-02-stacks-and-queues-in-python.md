@@ -3,6 +3,21 @@ AIDE MEMOIRE
 Algorithms: Stacks and Queues in Python 
 ========================================= 
 
+
+A __stack__ enables you to __push__ and __pop__ from the top of a stack. The abstract data type (ADT) can be implemented with python lists using append and pop, which both operate on the tail of a list: 
+```python
+my_stack = list() 
+my_stack.append("alpha") # push 
+my_stack.pop() # pop  
+```
+A __queue__ enables you to __enqueue__ and __dequeue__ from the front and rear of a queue. It, too, can be implemented with python lists using append and pop(0), which operate on the tail and head of a list respectively: 
+```python
+my_queue = list() 
+my_queue.append("alpha") # enqueue 
+my_queue.append("bravo") # enqueue 
+my_queue.pop(0) # dequeue
+```
+
 Stacks and Queues are referred to as linear data structures as each item sits in an ordered position in a list. They have a top and bottom. 
 
 
@@ -19,12 +34,22 @@ The Stack Abstract Data Type has three operations:
 * __peek__ - preview the top-most value 
 
 
+### Stack Analysis 
+
+As implemented with python list functionality, the principal operations are O(1): 
+
+| ADT | Python | Big-Oh | 
+| --- | --------- | ------ |
+| push | append() | O(1) |
+| pop | pop() | O(1) | 
+| peek | slice [:-1] | O(k) |
+
+
 ### Stack Implementation 
 
 In Python, the stack can be implemented using the existing list functionality. 
 
 ```python 
-
 class Stack(object): 
     """Implements a stack using python list functionality
     
@@ -53,19 +78,7 @@ class Stack(object):
         """Returns the last item from the stack without removing it"""
         if len(self._stack) > 0: 
             return self._stack[-1] 
-
-```
-
-
-### Stack Analysis 
-
-As implemented with python list functionality, the principal operations are O(1): 
-
-| ADT | Python | Big-Oh | 
-| --- | --------- | ------ |
-| push | append() | O(1) |
-| pop | pop() | O(1) | 
-| peek | slice [:-1] | O(k) |
+``` 
 
 
 ### Stack Applications
@@ -158,8 +171,7 @@ def convert_infix_to_postfix(infix: str)-> str :
         outputs.append(operators.pop())
     
     # results
-    return " ".join(outputs)
-
+    return " ".join(outputs) 
 ```
 
 #### _Calculating postfix expressions with Stacks_: 
@@ -214,8 +226,6 @@ def calculate_postfix(postfix:str) -> float:
 ```
 
 
-
-
 ## Queues 
 
 Queues are First-In, First-Out (FIFO) abstract data type. 
@@ -227,11 +237,21 @@ The Queue abstract data type has two principal operations:
 * __dequeue__ - Removes the value at the front of the queue
 
 
+### Queue Analysis 
+
+With the way that Python implements pop, a dequeue operation is O(n), while an enqueue is O(1) using append. 
+
+| ADT | Python | Big-Oh | 
+| --- | --------- | ------ |
+| enqueue | append() | O(1) |
+| dequeue | pop(i) | O(n) | 
+
+
 ### Queue Implementation 
+
 Queues can be implemented in Python using list functionality. 
 
 ```python
-
 class Queue(object): 
     """Implements a queue using Python list functionality. 
 
@@ -261,17 +281,7 @@ class Queue(object):
     def __len__(self): 
         """Returns the size of the queue"""
         return len(self._queue) 
-
 ```
-
-### Queue Analysis 
-
-With the way that Python implements pop, a dequeue operation is O(n), while an enqueue is O(1) using append. 
-
-| ADT | Python | Big-Oh | 
-| --- | --------- | ------ |
-| enqueue | append() | O(1) |
-| dequeue | pop(i) | O(n) | 
 
 
 ### Queue Application 
@@ -312,9 +322,7 @@ print(f"queue --> {print_queue}")
 next_job = print_queue.dequeue() 
 print(f"next --> {next_job}")
 print(f"queue --> {print_queue}") 
-
 ```
-
 
 
 ## Deques
@@ -328,6 +336,19 @@ The Deque has four principal operations:
 * enqueue_rear
 * dequeue_front
 * dequeue_rear
+
+
+### Deque Analysis 
+
+Using Python list functionality for a deque, front-of-deque operations are O(n), while rear-of-deque operations are O(1).  
+
+| ADT | Python | Big-Oh | 
+| --- | --------- | ------ |
+| enqueue_front | insert(i, item) | O(n) |
+| enqueue_rear | append() | O(1) |
+| dequeue_front | pop(i) | O(n) |
+| dequeue_rear | pop() | O(1) | 
+
 
 ### Deque Implementation 
 
@@ -371,17 +392,6 @@ class Deque(object):
         if len(self._deque) > 0: 
             return self._deque.pop()
 ```
-
-### Deque Analysis 
-
-Using Python list functionality for a deque, front-of-deque operations are O(n), while rear-of-deque operations are O(1).  
-
-| ADT | Python | Big-Oh | 
-| --- | --------- | ------ |
-| enqueue_front | insert(i, item) | O(n) |
-| enqueue_rear | append() | O(1) |
-| dequeue_front | pop(i) | O(n) |
-| dequeue_rear | pop() | O(1) | 
 
 
 ### Deque Application 
