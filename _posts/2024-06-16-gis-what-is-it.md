@@ -46,6 +46,15 @@ Non-Spatial Data:
 Data Management: 
 - storage, organisation and retrieval of data in a DBMS. 
 
+
+# Further Reading 
+
+Heywood, I., Cornelius, S. & Carver, S. (2011). "Chapter 1: What is GIS?", An Introduction to Geographical Information Systems, 4th Ed. N.Y.: Prentice Hall. 
+
+Longley, P. A. et al. (2011). "Chapter 1: Geographic Information: Science, Systems and Society", Geographic Information Systems & Science, 3rd Ed. Hoboken, NJ: Wiley.
+
+
+
 QED 
 
 © Adam Heinz 
