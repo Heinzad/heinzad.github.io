@@ -1,3 +1,4 @@
+{% include mermaid.html %}
 AIDE MEMOIRE
 
 # Introduction to Databases
