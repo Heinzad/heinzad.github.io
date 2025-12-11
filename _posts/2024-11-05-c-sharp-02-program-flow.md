@@ -45,7 +45,7 @@ Relational operators return a boolean value when used in an assertion:
 
 The If statement provides control-of-flow logic. 
 
-```mermaid
+```
 flowchart LR
     A((begin))
     B{evaluate}
@@ -63,7 +63,7 @@ A simple if statement can be written with the syntax:
 ### if-else-if Statement
 
 
-```mermaid
+```
 flowchart TD
     A((begin))
     B{evaluate}
@@ -95,7 +95,7 @@ MessageBox.Show(msgText);
 
 The if-else statement can be nested (in indented blocks), or serial, with else if statements (same indentation).
 
-```mermaid
+```
 flowchart TD
     A((begin))
     B{evaluate1}
@@ -212,7 +212,7 @@ A while loop repeats for as long a condition remains true. The basic syntax is:
 
 Note that an infinite loop can occur if the check condition is written in such a way that it is never met.
 
-```mermaid
+```
 flowchart TD
     A((begin))
     B[/.../]
@@ -244,7 +244,7 @@ while (counter < 5)
 
 Do-While is a post-test loop in that it performs the check after the first iteration
 
-```mermaid
+```
 flowchart TD
     A((begin))
     B[/statement/]
@@ -277,7 +277,7 @@ do
 The for loop uses a counter variable to control the number of iterations. The basic syntax is: 
 `for ({initExpression}; {testExpression}; {updateExpression};) statement;`. You do not modify the counter variable in the body of the for loop. 
 
-```mermaid
+```
 flowchart TD
     A((begin))
     B[/initialize/]

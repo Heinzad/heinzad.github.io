@@ -16,8 +16,8 @@ Databases are used to manage large collections of data:
 - Conceptual: Entities, attributes, constraints 
 - External: End-user views
 
-```mermaid
-graph TD;
+graph: 
+```
     ExternalView1-->ConceptualSchema
     ExternalView2-->ConceptualSchema
     ConceptualSchema-->InternalSchema
