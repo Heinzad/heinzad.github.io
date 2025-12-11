@@ -10,9 +10,8 @@ After publishing the first post, the question was then how to make it more sophi
 
 We could visualise this with [Mermaid](https://mermaid-js.github.io/mermaid/#/) , if it worked :
 
-````
-```mermaid
-gitGraph
+graph:
+```
        commit
        commit
        branch develop
@@ -23,7 +22,6 @@ gitGraph
        commit
        commit 
 ``` 
-````
 
 The first step was easy as source control in VS Code had a big `Clone` button. How to do branching? 
 

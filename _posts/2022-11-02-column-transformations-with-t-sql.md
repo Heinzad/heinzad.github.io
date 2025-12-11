@@ -33,8 +33,7 @@ Information from one table column is copied to a different table column.
 
 Copy transformation data flow diagram: 
 
-```mermaid 
-graph LR; 
+graph: 
 A[string]-- in -->T(copy); 
 T-- out -->B[string];
 ``` 
@@ -58,8 +57,8 @@ Information in one data format is changed to a different data format.
 
 Reformat data flow diagram: 
 
-```mermaid 
-graph LR; 
+graph: 
+```
 A[decimal]-- in -->T(reformat); 
 T-- out -->B[float];
 ``` 
@@ -161,8 +160,8 @@ If we build a dictionary of transformations by column code, we can then leverage
 
 We can conceptualise transformations in graph format: 
 
-```mermaid 
-graph LR; 
+graph: 
+``` 
 S((source)) -- input --> X((transformation)) 
 X -- output --> T((target))
 S -. from .-> ST((src tbl)) 
