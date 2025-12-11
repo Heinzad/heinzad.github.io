@@ -21,7 +21,6 @@ Navigate to the Microsoft Purview account in the Azure Portal.
 
 **Azure > Microsoft Purview accounts >**  
   
----
 | Role | Description | Scope | Group Assignment | 
 | ---- | ----------- | ----- | ---------------- | 
 | Owner | Grants full access to manage all resources, including the ability to assign roles in Azure RBAC. | This resource |
