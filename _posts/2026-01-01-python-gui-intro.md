@@ -74,7 +74,7 @@ Further Reading
 
 - G4G (4 Aug 2025). ["Python Tkinter"](https://www.geeksforgeeks.org/python/python-gui-tkinter/), Geeks for Geeks. 
 
-- David Amos. ["Python GUI Programming: Your Tkinter Tutorial"](), Real Python. 
+- David Amos. ["Python GUI Programming: Your Tkinter Tutorial"](https://realpython.com/python-gui-tkinter/), Real Python. 
 
 - Python Tutorial. ["Ttk Widgets"](https://www.pythontutorial.net/tkinter/tkinter-ttk/).
 
