@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Blog Archive
+title: "Posts"
+permalink: /posts/
 ---
 
 {% for tag in site.tags %}
