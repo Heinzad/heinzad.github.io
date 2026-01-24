@@ -1,9 +1,12 @@
+---
+title: "Permissions in Microsoft Purview"
+tags: Purview
+author: "Adam Heinz"
+date: 2025-12-10 10:57:00
+---
+
 AIDE MEMOIRE
 
-
-
-Permissions in Microsoft Purview
-================================
 
 Role-Based Access Control (RBAC) applies at several levels in Microsoft Purview. 
 
@@ -30,7 +33,7 @@ Navigate to the Microsoft Purview account in the Azure Portal.
 Microsoft Purview portal
 ------------------------
 
-### Settings
+### Tenant Settings
 
 Navigate to the Role group settings in the Microsoft Purview portal. 
 
@@ -64,20 +67,20 @@ Navigate to the roles and permissions settings for the Unified Catalog in the Mi
 
 ### Data Map Role assignments
 
-*Permissions set at the domain level will cascade down through the child collections unless inheritance is restricted.*
+*Permissions set at the domain level are global. They will be inherited by child collections. Their inheritance cannot be restricted.*
 
 **Microsoft Purview > Data Map > {Domain} >**
 
 
 | Role | Description |
 | ---- | ----------- |
-| Domain admins | Edit the domain and its details. Add users and groups to roles in the domain. Create collections in the domain and assign collection admins.|
+| Domain admins | Edit the domain and its details. Add users and groups to roles in the domain. Create collections in the domain and assign collection admins.
+
+The permissions that can be applied at the collection level (see below) can be applied at the domain level, but such global permissions should only be granted rarely, if ever. 
 
 **Microsoft Purview > Data Map > {Domain} > {Collection} >**
 
-If these permissions have not been set at the domain level they may be set at the collection level instead. 
-
-*Inherited collection admins cannot be removed.* 
+*Permissions set at the collection level are local. They will be inherited by child collections unless inheritance is restricted.*
 
 | Role | Description | 
 | ---- | ----------- | 

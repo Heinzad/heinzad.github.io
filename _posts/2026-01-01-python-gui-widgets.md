@@ -1,3 +1,10 @@
+---
+layout: post
+tags: Python
+author: "Adam Heinz"
+date: 2026-01-01 11:00:00
+---
+
 AIDE MEMOIRE 
 
 Python GUI Widgets
