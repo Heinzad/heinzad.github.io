@@ -1,3 +1,11 @@
+---
+layout: post
+tags: Metadata
+title: "Metadata Descriptions"
+author: "Adam Heinz"
+date: 2025-03-10 10:00:00
+---
+
 AIDE MEMOIRE  
 
 How to Write Table and Column Descriptions
