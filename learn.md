@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Posts"
-permalink: /posts/
+title: "Learn"
+permalink: /learn/
 ---
 
 {% for tag in site.tags %}
