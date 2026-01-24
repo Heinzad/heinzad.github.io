@@ -1,3 +1,11 @@
+---
+layout: post
+tags: SQL_Server
+title: "T-SQL View Definition"
+author: "Adam Heinz"
+date: 2025-03-10 10:00:00
+---
+
 AIDE MEMOIRE 
 
 
