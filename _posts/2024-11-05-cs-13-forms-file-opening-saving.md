@@ -1,3 +1,11 @@
+---
+layout: post
+tags: C#
+title: "C# Forms File Opening and Saving"
+author: "Adam Heinz"
+date: 2024-11-05 10:00:00
+---
+
 AIDE MEMOIRE
 
 Opening and Saving Files with C\#
