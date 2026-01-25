@@ -1,5 +1,5 @@
 ---
-title: "03. Linked Lists"
+title: "Algorithms 03 Linked Lists"
 author: "Adam Heinz"
 date: 2024-02-08T03:00:00-00:00
 categories:

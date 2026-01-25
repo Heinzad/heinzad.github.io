@@ -1,5 +1,5 @@
 ---
-title: "03. C# Files Reading and Writing"
+title: "C# 03: Files Reading and Writing"
 author: "Adam Heinz"
 date: 2024-11-05T03:00:00-00:00
 categories:

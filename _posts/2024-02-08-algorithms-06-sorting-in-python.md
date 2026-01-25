@@ -1,5 +1,5 @@
 ---
-title: "06. Sorting"
+title: "Algorithms 06: Sorting"
 author: "Adam Heinz"
 date: 2024-02-08T06:00:00-00:00
 categories:
