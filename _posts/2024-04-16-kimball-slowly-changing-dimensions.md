@@ -1,3 +1,10 @@
+---
+layout: post
+tags: Kimball
+title: "Slowly Changing Dimensions"
+author: "Adam Heinz"
+date: 2024-06-16 01:00:00
+---
 AIDE MEMOIRE
 
 Slowly Changing Dimensions 
