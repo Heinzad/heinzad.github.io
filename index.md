@@ -1,6 +1,8 @@
 ---
 layout: default
-title: "Adam Heinz"
+title: Portfolio
 ---
+
+# Adam Heinz
 
 Data Engineer, Business Intelligence Developer, Power BI Developer
