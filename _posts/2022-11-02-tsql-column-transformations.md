@@ -1,7 +1,11 @@
-Aide Memoire 
+---
+layout: post
+tags: MSSQL
+title: "Column Transformations in SQL Server"
+author: "Adam Heinz"
+date: 2022-11-02 01:00:00
+---
 
-Column Transformations for data storage in MS SQL Server 
-====================================================== 
 
 It is useful to perform transformations that enable us to store data in several generic formats. 
 

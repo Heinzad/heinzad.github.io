@@ -1,7 +1,10 @@
-Aide Memoire 
-
-How to record data lineage in json format with T-SQL 
-============================================================== 
+---
+layout: post
+tags: MSSQL
+title: "Record Transformation History with JSON in SQL Server"
+author: "Adam Heinz"
+date: 2022-07-17 01:00:00
+---
 
 ETL is a big topic, but one critical aspect is to record the transformations that have been done to a piece of data. 
 

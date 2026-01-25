@@ -1,8 +1,11 @@
-AIDE MEMOIRE 
-
-How to verify a table name in tsql 
-==================================== 
-*Verify input values against metadata in SQL Server* 
+---
+layout: post
+tags: MSSQL
+title: "Verify Parameterised Table Name in SQL Server"
+author: "Adam Heinz"
+date: 2022-06-11 01:00:00
+---
+Verify input values against metadata in SQL Server.  
 
 When receiving input from a stored procedure, for security's sake it is a good thing to verify the inputs. 
 

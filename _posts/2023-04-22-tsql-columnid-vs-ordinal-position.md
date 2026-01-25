@@ -1,7 +1,10 @@
-Aide Memoire 
-
-ColumnID vs Ordinal Position in Sql Server 
-========================================== 
+---
+layout: post
+tags: MSSQL
+title: "ColumnID vs Ordinal Position in Sql Server"
+author: "Adam Heinz"
+date: 2023-04-23 01:00:00
+---
 
 There are times when you need to extend the information schema columns. 
 One example is obtaining the column id, as opposed to getting the ordinal position. 

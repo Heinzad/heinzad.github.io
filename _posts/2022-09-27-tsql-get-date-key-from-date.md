@@ -1,7 +1,10 @@
-Aide Memoire 
-
-How to get a date number from a date in MSSQL 
-============================================= 
+---
+layout: post
+tags: MSSQL
+title: "Get a Date Number from a Date in SQL Server"
+author: "Adam Heinz"
+date: 2022-09-27 01:00:00
+---
 
 When working in Business Intelligence or data engineering it is often necessary to use a date key instead of a date value. 
 

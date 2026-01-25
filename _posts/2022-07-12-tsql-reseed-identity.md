@@ -1,9 +1,11 @@
-Aide Memoire 
+---
+layout: post
+tags: MSSQL
+title: "Reseed an Identity Column in SQL Server"
+author: "Adam Heinz"
+date: 2022-07-12 01:00:00
+---
 
-Reseed an Identity Column with TSQL 
-=================================== 
-
-## Background 
 After switching partitions into a new table, error messages started occurring because the identity column was trying to add new values starting from 1, which was colliding with the switched-in values that went millions of values higher. 
 
 What was needed was to reseed the identity column one value higher than the top value in the column. 

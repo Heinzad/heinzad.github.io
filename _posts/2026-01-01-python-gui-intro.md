@@ -1,6 +1,7 @@
 ---
 layout: post
 tags: Python
+title: "Python GUI Introduction"
 author: "Adam Heinz"
 date: 2026-01-01 10:00:00
 ---
