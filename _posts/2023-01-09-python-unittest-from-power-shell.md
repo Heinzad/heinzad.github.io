@@ -5,8 +5,10 @@ title: "Using the VS Code PowerShell Terminal to Run Unit Tests with Python"
 author: "Adam Heinz"
 date: 2023-01-09 01:00:00
 ---
+How to solve the "ModuleNotFound" error when running Python's from terminal unittest within a project folder structure, according to Zed Shaw.  
 
-Running Python's from terminal unittest within a project folder structure can generate the dreaded "ModuleNotFound" error. 
+
+# Overview 
 
 The use of terminal and the project folder structure is advocated in Zed Shaw's [Learn Python 3 The Hard Way](https://learnpythonthehardway.org/python3/). 
 
@@ -19,26 +21,27 @@ The important bit is the "python -m" syntax, which allows [relative imports of t
 Without it, many attempts to run unit testing from the terminal will fail. 
 
 
---- 
+
 ## Project Directory Structure 
 
 
 Zed Shaw advocates the following directory structure which we can apply to the automated testing example of exercise 48 (ex48): 
 
+```
 myprojects/ 
+├── ex48/ 
+|   ├── ex48/
+|   |   ├── __ init __.py 
+|   |   └── lexicon.py
+|   ├── bin/ 
+|   ├── docs/
+|   ├── tests/
+|       ├── __ init __.py
+|       └── test_lexicon.py 
+└── ...
+```
 
-* ex48/ 
-    * ex48/
-        * __ init __.py 
-        * lexicon.py
-    * bin/ 
-    * docs/
-    * tests/
-        * __ init __.py
-        * test_lexicon.py 
 
-
---- 
 ### Lexicon Script 
 
 

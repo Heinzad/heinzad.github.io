@@ -1,16 +1,14 @@
 ---
 layout: post
 tags: Python
-title: "Python GUI Introduction"
+title: "GUI Introduction"
 author: "Adam Heinz"
 date: 2026-01-01 10:00:00
 ---
+How to use Tkinter to create a GUI for a Python application.  
 
-AIDE MEMOIRE
 
-Python GUI Introduction
-=======================
-
+# Overview
 
 Tkinter is part of the Python standard library. It is a wrapper around the Tcl/Tk GUI. Use it to build user interfaces.
 

@@ -5,11 +5,8 @@ title: "12. C# Forms: List, Check, and Radio Buttons"
 author: "Adam Heinz"
 date: 2024-11-05 12:00:00
 ---
+How to Use List, Check, and Radio Buttons in C# Forms.  
 
-AIDE MEMOIRE
-
-How to Use List, Check, and Radio Buttons in C# Forms
-=====================================================
 
 ## List Box
 

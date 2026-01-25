@@ -1,12 +1,13 @@
 ---
-title: "Permissions in Microsoft Purview"
+title: "Permissions"
 tags: Purview
 author: "Adam Heinz"
 date: 2025-12-10 10:57:00
 ---
+How to apply RBAC in Microsoft Purview.  
 
-AIDE MEMOIRE
 
+# Overview
 
 Role-Based Access Control (RBAC) applies at several levels in Microsoft Purview. 
 

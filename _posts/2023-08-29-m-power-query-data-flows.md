@@ -1,15 +1,16 @@
 ---
 layout: post
-tags: PowerBI
+tags: [Power BI]
 title: "Power Query Data Flows"
 author: "Adam Heinz"
 date: 2023-08-29 01:00:00
 ---
-AIDE MEMOIRE 
+How to edit the auto-generated code to make a dataflow maintainable and deployable.  
 
-# Data Flows with Power Query m 
 
-At the time of writing, parameters do not work in power query dataflows in the same way as they work in power query for datasets. However, we can introduce some efficiencies to make a dataflow maintainable and deployable. It just requires editing the auto-generated code. 
+# Overview
+
+Parameters do not work in power query dataflows in the same way as they work in power query for datasets. However, we can introduce some efficiencies to make a dataflow maintainable and deployable. It just requires editing the auto-generated code. 
  
 
 ## 0. Initial Import

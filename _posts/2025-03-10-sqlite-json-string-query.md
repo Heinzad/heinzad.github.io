@@ -1,15 +1,13 @@
 ---
 layout: post
 tags: SQLite
-title: "Query Json Strings in SQLite"
+title: "Query Json Strings"
 author: "Adam Heinz"
 date: 2022-12-07 01:00:00
 ---
+How to store and query strings in json format in SQLite.  
 
-SQLite can store and query strings in json format. 
-
-Setup 
------
+# Setup 
 
 ```sql 
     CREATE TABLE testable (

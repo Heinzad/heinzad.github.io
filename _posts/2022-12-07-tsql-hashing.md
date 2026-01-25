@@ -1,12 +1,16 @@
 ---
 layout: post
 tags: MSSQL
-title: "Fingerprinting Records in SQL Server"
+title: "Hashing Records in SQL Server"
 author: "Adam Heinz"
 date: 2022-12-07 01:00:00
 ---
+How to fingerprint table contents to dectect unique records.  
 
-Hashing is a technique that can be used to identify records. It has come to particular prominence with its use in Data Vault techniques. 
+
+# Overview
+
+Hashing is a technique that can be used to identify records. It has come to particular prominence with its use in Data Vault techniques.
 
 * Thanks to the GDPR, there has been a need to remove customer information without destroying a database. Building a customer business key from the hash of the customer's details means that the hash key can remain in the database even after the customer's details have been erased. 
 

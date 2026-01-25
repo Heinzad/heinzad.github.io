@@ -5,11 +5,9 @@ title: "02. C# Program Flow"
 author: "Adam Heinz"
 date: 2024-11-05 02:00:00
 ---
+How to use program flow with C\#.  
 
-AIDE MEMOIRE 
 
-Program Flow with C\#
-=====================
 
 # Control Structures
 

@@ -5,11 +5,7 @@ title: "05. C# Methods"
 author: "Adam Heinz"
 date: 2024-11-05 05:00:00
 ---
-
-AIDE MEMOIRE
-
-C# Methods
-==========
+How to use methods in C#.  
 
 
 # Void Method 

@@ -1,14 +1,14 @@
 ---
 layout: post
 tags: Algorithms
-title: "06. Sorting in Python"
+title: "06. Sorting"
 author: "Adam Heinz"
 date: 2024-02-08 06:00:00
 ---
-AIDE MEMOIRE
+How to analyse and implement quadratic and logarithmic sorting methods in Python.  
 
-Sorting
-======= 
+
+# Overview
 
 Sorting methods are classified as: 
 * quadratic - O(n2) 

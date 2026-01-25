@@ -5,13 +5,10 @@ title: "T-SQL View Definition"
 author: "Adam Heinz"
 date: 2025-03-10 10:00:00
 ---
-
-AIDE MEMOIRE 
-
+How to get a View Definition in SQL Server.  
 
 
-How to get a View Definition in SQL Server
-========================================== 
+# Overview
 
 In SQL Server, information schema views has a "view definition" column that is capped at 4000 characters. Here's how to overide that limit and get the full object definition: 
 

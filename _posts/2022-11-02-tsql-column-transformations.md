@@ -5,9 +5,10 @@ title: "Column Transformations in SQL Server"
 author: "Adam Heinz"
 date: 2022-11-02 01:00:00
 ---
+How to use copy and reformat transformations from one table to another. 
 
 
-It is useful to perform transformations that enable us to store data in several generic formats. 
+# Overview
 
 If we think of the tool in which the information is going to be displayed, it is probably only going to handle a number of key data formats. 
 

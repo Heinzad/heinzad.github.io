@@ -5,11 +5,10 @@ title: "SQLite Table Info"
 author: "Adam Heinz"
 date: 2025-04-22 10:00:00
 ---
+How to Get Table Information in SQLite.   
 
-AIDE MEMOIRE 
 
-How to Get Table Information in SQLite 
-====================================== 
+# Overview
 
 SQLite does not have `INFORMATION_SCHEMA.TABLES`, but it does have `table_info` and other alternatives. 
 

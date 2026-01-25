@@ -5,10 +5,12 @@ title: "Get a Date Number from a Date in SQL Server"
 author: "Adam Heinz"
 date: 2022-09-27 01:00:00
 ---
+When working in Business Intelligence or data engineering it is often necessary to use a date key instead of a date value. We can do this by converting date formats to numbers.  
 
-When working in Business Intelligence or data engineering it is often necessary to use a date key instead of a date value. 
 
-We can do this by [converting date formats](https://www.sqlshack.com/sql-convert-date-functions-and-formats/). 
+# Overview
+
+- [converting date formats](https://www.sqlshack.com/sql-convert-date-functions-and-formats/). 
 
 There are two steps to generating a date key from a date value: 
 (1) convert to date format 112 -- YYYYMMDD 
