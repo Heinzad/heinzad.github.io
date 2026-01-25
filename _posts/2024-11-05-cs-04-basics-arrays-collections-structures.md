@@ -1,3 +1,11 @@
+---
+layout: post
+tags: C#
+title: "04. C# Arrays Collections and Structures"
+author: "Adam Heinz"
+date: 2024-11-05 04:00:00
+---
+
 AIDE MEMOIRE
 
 

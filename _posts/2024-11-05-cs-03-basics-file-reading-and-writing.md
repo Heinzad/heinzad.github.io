@@ -1,3 +1,11 @@
+---
+layout: post
+tags: C#
+title: "03. C# Files Reading and Writing"
+author: "Adam Heinz"
+date: 2024-11-05 03:00:00
+---
+
 AIDE MEMOIRE
 
 Reading and Writing Files with C\#
