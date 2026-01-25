@@ -1,15 +1,14 @@
 ---
 layout: post
 tags: Python
-title: "Python GUI Widgets"
+title: "GUI Widgets"
 author: "Adam Heinz"
 date: 2026-01-01 11:00:00
 ---
+How to use Tkinter widgets to create a GUI for a Python application.  
 
-AIDE MEMOIRE 
 
-Python GUI Widgets
-=======================
+# Overview
 
 Widgets are the building blocks of user interaction in Tkinter. 
 Each widget has a class. 

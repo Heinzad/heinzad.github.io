@@ -5,6 +5,10 @@ title: "Reseed an Identity Column in SQL Server"
 author: "Adam Heinz"
 date: 2022-07-12 01:00:00
 ---
+How to use dynamic sql to reseed the identity column in a staging table to be one value higher that the top value in the target table when switching partitions.  
+
+
+# Overview
 
 After switching partitions into a new table, error messages started occurring because the identity column was trying to add new values starting from 1, which was colliding with the switched-in values that went millions of values higher. 
 

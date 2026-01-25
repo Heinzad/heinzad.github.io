@@ -1,15 +1,14 @@
 ---
 layout: post
 tags: Metadata
-title: "Metadata Descriptions"
+title: "Describing Database Objects"
 author: "Adam Heinz"
 date: 2025-03-10 10:00:00
 ---
+How to write table and column descriptions to support data validation.  
 
-AIDE MEMOIRE  
 
-How to Write Table and Column Descriptions
-==========================================
+# Overview
 
 Good descriptions make it easy to write data validation rules. 
 

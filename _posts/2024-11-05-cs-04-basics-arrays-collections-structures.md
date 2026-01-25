@@ -1,16 +1,14 @@
 ---
 layout: post
 tags: C#
-title: "04. C# Arrays Collections and Structures"
+title: "04. C# Data Structures"
 author: "Adam Heinz"
 date: 2024-11-05 04:00:00
 ---
+How to use arrays, collections and structures in C\#.  
 
-AIDE MEMOIRE
 
-
-Arrays, Collections and Structures with C\#
-===========================================
+# Overview
 
 Reference types differ from the value types previously discussed.
 - *Value types* are initilised with one-part syntax `{type} {variableName};`, where the variable name points to a chunk of memory. 

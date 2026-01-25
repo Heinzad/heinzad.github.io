@@ -1,14 +1,14 @@
 ---
 layout: post
 tags: Algorithms
-title: "04. Recursion in Python"
+title: "04. Recursion"
 author: "Adam Heinz"
 date: 2024-02-08 04:00:00
 ---
-AIDE MEMOIRE
+How to analyse and implement recursion in Python.  
 
-Recursion
-=========
+
+# Overview
 
 There are components of recursive function: 
 * a base case 

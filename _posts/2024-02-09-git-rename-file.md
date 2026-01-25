@@ -5,10 +5,10 @@ title: "Rename a File"
 author: "Adam Heinz"
 date: 2024-02-09 01:00:00
 ---
-AIDE MEMOIRE
+How to Rename a File Using the Git Command Line.  
 
-How to Rename a File Using the Git Command Line
-===============================================
+
+# Overview
 
 Use the "mv" command to rename an existing file: 
 

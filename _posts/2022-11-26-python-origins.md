@@ -1,7 +1,14 @@
-Aide Memoire 
+---
+layout: post
+tags: Python
+title: "The Origins of Python"
+author: "Adam Heinz"
+date: 2022-11-26 01:00:00
+---
+How bubble sort helps explain why Python gained an audience among programmers. 
 
-Read 'The Origins of Python' explained with bubble sort 
-======================================================= 
+
+# Overview
 
 Seen on [Hacker News](https://news.ycombinator.com/): 
 

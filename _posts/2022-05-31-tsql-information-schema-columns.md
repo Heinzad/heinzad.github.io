@@ -1,17 +1,14 @@
 ---
 layout: post
 tags: MSSQL
-title: "Information Schema Columns"
+title: "Information Schema Columns in SQL Server"
 author: "Adam Heinz"
 date: 2022-05-03 01:00:00
 ---
+When lost in data space, it can be handy to find a column in a hurry from the information schema. 
 
-Finding Columns with T-SQL 
-============================= 
 
-### *How to find a column in SQL Server databases with information schema* 
-
-When lost in data space, it can be handy to find a column in a hurry. 
+# Overview
 
 Most databases will have an id column somewhere, so let's use that as an example. 
 

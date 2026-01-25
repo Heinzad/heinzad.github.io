@@ -5,12 +5,10 @@ title: "01. C# Types and Variables"
 author: "Adam Heinz"
 date: 2024-11-05 01:00:00
 ---
+How to use data types and variables in C#.  
 
-AIDE MEMOIRE
 
-Data Types and Variables in C\#
-===============================
-
+# Overview
 
 C\# is a strongly typed language. 
 

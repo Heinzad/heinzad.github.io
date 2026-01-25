@@ -5,8 +5,10 @@ title: "User Stories and Acceptance Criteria"
 author: "Adam Heinz"
 date: 2022-12-02 01:00:00
 ---
+How to write user stories and acceptance criteria that help bridge the gap between business analysts and developers.  
 
-Well-written user stories and acceptance criteria can help bridge the gap between business analysts and developers. 
+
+# Overview
 
 SAFe - Scaled Agile Framework for enterprises - provides explanatory material that is quite useful for building a shared reference point for a team. 
 

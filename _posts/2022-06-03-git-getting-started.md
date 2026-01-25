@@ -5,10 +5,10 @@ title: "Getting Started with Git"
 author: "Adam Heinz"
 date: 2023-06-03 01:00:00
 ---
-AIDE MEMOIRE 
- 
-How to use a feature branching workflow in Github
-=================================================
+How to use a feature branching workflow in Github.  
+
+
+# Overview
 
 This Git Hub pages site was set up thanks to Chad Balwin's [Building a Free Blog with GitHub Pages in Minutes](https://chadbaldwin.net/2021/03/14/how-to-build-a-sql-blog.html) (14 March 2021) instructions and template. 
 

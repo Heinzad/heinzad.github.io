@@ -5,10 +5,10 @@ title: "Dynamic SQL with ASCII in SQL Server"
 author: "Adam Heinz"
 date: 2022-08-20 01:00:00
 ---
+Dynamic sql can feel like viewing a photographic negative. Using ASCII symbols can keep things manageable when working with double- or triple-negatives.  
 
 
-Using ASCII Symbols in T-SQL 
-============================ 
+# Overview
 
 Dynamic sql can be tricky at the best of times. Using [ASCII](https://www.asciitable.com) symbols can help make it clear what you are looking at. 
 

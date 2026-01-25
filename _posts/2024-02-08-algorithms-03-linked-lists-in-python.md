@@ -1,14 +1,14 @@
 ---
 layout: post
 tags: Algorithms
-title: "03. Linked Lists in Python"
+title: "03. Linked Lists"
 author: "Adam Heinz"
 date: 2024-02-08 03:00:00
 ---
-AIDE MEMOIRE
+How to analyse and implement linked lists in Python. 
 
-Linked Lists
-============
+
+# Overview
 
 Lists are collection of nodes that are linked together by their references to each other. 
 - An __unordered list__ is joined only by the sequence of the addition of items to the list. 
