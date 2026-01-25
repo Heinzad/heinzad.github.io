@@ -1,13 +1,10 @@
 ---
 layout: post
 tags: PowerBI
-title: "Power BI Dataasets from Data Flows"
+title: "Power BI Datasets from Data Flows"
 author: "Adam Heinz"
 date: 2023-08-30 01:00:00
 ---
-AIDE MEMOIRE
-
-# How to build datasets from dataflows in Power BI
 
 When accessing Power BI dataflows when building datasets, the default behaviour is for Power BI to reference the dataflow guid directly. That may cause problems later if an old dataflow is replaced with a newer one with its own guid. Editing the power query to reference dataflow names may be the safer option. 
 

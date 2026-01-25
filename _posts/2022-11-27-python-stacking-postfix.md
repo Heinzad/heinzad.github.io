@@ -1,7 +1,10 @@
-Aide Memoire 
-
-How to stack Postfix expressions in Python 
-========================================== 
+---
+layout: post
+tags: Python
+title: "Stack Postfix Expressions in Python"
+author: "Adam Heinz"
+date: 2022-11-27 01:00:00
+---
 
 Postfix, or [Reverse Polish Notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation) is ideal for performing maths on a stack. 
 

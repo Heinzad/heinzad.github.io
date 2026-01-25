@@ -1,4 +1,11 @@
-AIDE MEMOIRE 
+---
+layout: post
+tags: Python
+title: "Using the VS Code PowerShell Terminal to Run Unit Tests with Python"
+author: "Adam Heinz"
+date: 2023-01-09 01:00:00
+---
+
 
 How to run Python unittest in a project structure using the PowerShell terminal 
 =============================================================================== 
