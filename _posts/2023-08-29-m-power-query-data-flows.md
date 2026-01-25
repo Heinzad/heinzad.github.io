@@ -1,3 +1,10 @@
+---
+layout: post
+tags: PowerBI
+title: "Power Query Data Flows"
+author: "Adam Heinz"
+date: 2023-08-29 01:00:00
+---
 AIDE MEMOIRE 
 
 # Data Flows with Power Query m 

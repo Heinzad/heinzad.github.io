@@ -1,3 +1,10 @@
+---
+layout: post
+tags: PowerBI
+title: "Power BI Dataasets from Data Flows"
+author: "Adam Heinz"
+date: 2023-08-30 01:00:00
+---
 AIDE MEMOIRE
 
 # How to build datasets from dataflows in Power BI
