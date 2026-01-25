@@ -5,10 +5,10 @@ title: "venv: Python virtual environment"
 author: "Adam Heinz"
 date: 2024-06-02 01:00:00
 ---
-AIDE MEMOIRE
+How to setup and use venv to create virtual environments in Python.  
 
-How to use virtual environments in Python with Venv 
-=================================================== 
+
+# Overview
 
 Virtual environments enable us to manage project-specific dependencies in python using venv. 
 

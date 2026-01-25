@@ -1,16 +1,20 @@
 ---
 layout: post
 tags: MSSQL
-title: "Verify Parameterised Table Name in SQL Server"
+title: "Verify Parameterised Table Names in SQL Server"
 author: "Adam Heinz"
 date: 2022-06-11 01:00:00
 ---
-Verify input values against metadata in SQL Server.  
+Prevent SQL injection by verifying input values against metadata in SQL Server.  
+
+
+# Overview
 
 When receiving input from a stored procedure, for security's sake it is a good thing to verify the inputs. 
 
 Sometimes the inputs may be table names - particularly if the proc is generating dynamic sql. 
 Other times, schema drift may mean that a proc was left calling a table that no longer exists.  
+
 
 ## Example 
 Take an imaginary table "test"."testable" for example. 

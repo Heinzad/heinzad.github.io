@@ -1,14 +1,14 @@
 ---
 layout: post
 tags: Algorithms
-title: "05. Searching in Python"
+title: "05. Searching"
 author: "Adam Heinz"
 date: 2024-02-08 05:00:00
 ---
-AIDE MEMOIRE
+How to understand and implement sequential search, binary search, or hashing in Python.  
 
-Searching
-=========
+
+# Overview
 
 Searching whether or not an item is present in a collection of items is commonly done using sequential search, binary search, or hashing approaches. 
 

@@ -5,6 +5,10 @@ title: "Record Transformation History with JSON in SQL Server"
 author: "Adam Heinz"
 date: 2022-07-17 01:00:00
 ---
+How to use JSON strings to detail the data transformations that have been applied to a record using T-SQL.  
+
+
+# Overview
 
 ETL is a big topic, but one critical aspect is to record the transformations that have been done to a piece of data. 
 

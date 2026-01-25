@@ -5,11 +5,10 @@ title: "13. C# Forms: File Opening and Saving"
 author: "Adam Heinz"
 date: 2024-11-05 10:00:00
 ---
+How to open and saving files in C\# forms.  
 
-AIDE MEMOIRE
 
-Opening and Saving Files with C\#
-=================================
+# Overview
 
 The applicaion displays standard Windows dialog boxes for opening and saving files when using: 
 - OpenFileDialog

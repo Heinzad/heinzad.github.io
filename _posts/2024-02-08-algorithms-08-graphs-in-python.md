@@ -1,14 +1,14 @@
 ---
 layout: post
 tags: Algorithms
-title: "08. Graphs in Python"
+title: "08. Graphs"
 author: "Adam Heinz"
 date: 2024-02-08 08:00:00
 ---
-AIDE MEMOIRE
+How to analyse and implement graphs in Python.  
 
-Graphs
-======
+
+# Overview
 
 Graphs have:
 * vertices (nodes)

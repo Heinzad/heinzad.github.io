@@ -5,6 +5,10 @@ title: "ColumnID vs Ordinal Position in Sql Server"
 author: "Adam Heinz"
 date: 2023-04-23 01:00:00
 ---
+How to get SQL Server properties that are not in the information schema.  
+
+
+# Overview
 
 There are times when you need to extend the information schema columns. 
 One example is obtaining the column id, as opposed to getting the ordinal position. 

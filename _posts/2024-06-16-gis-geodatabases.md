@@ -5,12 +5,10 @@ title: "Geodatabases"
 author: "Adam Heinz"
 date: 2024-06-16 01:00:00
 ---
+What is a Geodatabase in ArcGIS?  
 
-AIDE MEMOIRE
 
-What is a Geodatabase? 
-======================
-
+# Overview
 
 Geodatabases are a term utilised by ArcGIS. They can usefully be contrasted with shapefiles and spatial databases. 
 

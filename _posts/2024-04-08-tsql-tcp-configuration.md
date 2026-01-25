@@ -5,10 +5,10 @@ title: "T-SQL TCP Configuration"
 author: "Adam Heinz"
 date: 2024-04-08 01:00:00
 ---
-AIDE MEMOIRE
+How to set TCP Network Configurations in SQL Server.  
 
-How to Configure TCP Network Configurations
-=========================================== 
+
+# Overview
 
 TCP is a very common means of accessing SQL Server. To set it up on a Windows machine we will need to cover: 
 - SQL Server Configuration Manager

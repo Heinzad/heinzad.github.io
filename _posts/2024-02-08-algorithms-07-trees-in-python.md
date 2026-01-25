@@ -1,15 +1,14 @@
 ---
 layout: post
 tags: Algorithms
-title: "07. Sorting in Python"
+title: "07. Trees"
 author: "Adam Heinz"
 date: 2024-02-08 07:00:00
 ---
-AIDE MEMOIRE 
+How to analyse and implement binary search trees and traverse them in Python.  
 
 
-Trees
-=====
+# Overview
 
 Trees consist of a root and subtrees. 
 

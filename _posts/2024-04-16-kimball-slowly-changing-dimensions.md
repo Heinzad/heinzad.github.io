@@ -5,10 +5,10 @@ title: "Slowly Changing Dimensions"
 author: "Adam Heinz"
 date: 2024-06-16 01:00:00
 ---
-AIDE MEMOIRE
+How to apply Slowly Changing Dimensions with the Kimball method.  
 
-Slowly Changing Dimensions 
-========================== 
+
+# Overview
 
 Dimensional modelling is used in many data warehouse schemas for fast reads by minimising the number of joins required in a reporting query. Most dimensional modelling applies either a star or snowflake schema.
 

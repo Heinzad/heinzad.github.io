@@ -5,8 +5,10 @@ title: "Getting Started with Python"
 author: "Adam Heinz"
 date: 2023-01-08 01:00:00
 ---
+"All you need is a simple text editor, a shell, and Python" according to Zed Shaw.   
 
-"All you need is a simple text editor, a shell, and Python." 
+
+# Overview
 
 Zed Shaw's [Learn Python 3 The Hard Way](https://learnpythonthehardway.org/python3/) recommends that beginners avoid using an IDE (Integrated Development Environment). However, his favourite text editor, atom, no longer exists. Notepad++ gives a minimalist text editor with few distractions. 
 

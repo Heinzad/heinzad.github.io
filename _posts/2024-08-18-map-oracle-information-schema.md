@@ -5,11 +5,10 @@ title: "Map Oracle to Information Schema"
 author: "Adam Heinz"
 date: 2024-08-18 01:00:00
 ---
+How to map Oracle DBA tables to an Information Schema.  
 
-AIDE MEMOIRE
 
-How to Map Oracle to Information Schema
-=======================================
+# Overview
 
 Schemata:  
 ```sql
