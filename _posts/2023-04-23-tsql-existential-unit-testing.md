@@ -1,7 +1,10 @@
-Aide Memoire 
-
-How To Perform Basic Unit Testing In MS SQL Server 
-=================================================== 
+---
+layout: post
+tags: MSSQL
+title: "Testing Object Existence in SQL Server"
+author: "Adam Heinz"
+date: 2023-04-23 01:00:00
+---
 
 When using migration scripts for deployments, it is essential to first test if an object exists before attempting to create it. If the test fails, we can then run the script to create the object. Afterwards, we need to run the same test again to verify the action succeeded. 
 

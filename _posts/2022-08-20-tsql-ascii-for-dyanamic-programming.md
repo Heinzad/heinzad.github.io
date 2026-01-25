@@ -1,4 +1,11 @@
-Aide Memoire
+---
+layout: post
+tags: MSSQL
+title: "Dynamic SQL with ASCII in SQL Server"
+author: "Adam Heinz"
+date: 2022-08-20 01:00:00
+---
+
 
 Using ASCII Symbols in T-SQL 
 ============================ 

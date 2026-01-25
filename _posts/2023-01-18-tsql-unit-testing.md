@@ -1,14 +1,16 @@
-AIDE MEMOIRE 
-
-How to Perform Unit Testing in MS SQL Server 
-============================================ 
+---
+layout: post
+tags: MSSQL
+title: "Unit Testing in SQL Server"
+author: "Adam Heinz"
+date: 2023-01-18 01:00:00
+---
 
 Unit testing in databases is a notoriously difficult challenge. 
 
 There are several levels involved in testing a user stored procedure (USP). 
 
 
---- 
 ## Verifying Object Existence 
 
 One form of unit testing focuses on whether or not an object exists. This form of unit testing will fail before you build the nominated object, and pass after a successful build. 

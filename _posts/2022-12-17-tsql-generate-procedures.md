@@ -1,8 +1,10 @@
-Aide Memoire 
-
-How to Generate User Stored Procedures in SQL Server 
-==================================================== 
-
+---
+layout: post
+tags: MSSQL
+title: "Generate Stored Procedures in SQL Server"
+author: "Adam Heinz"
+date: 2022-12-17 01:00:00
+--- 
 
 We can automate the creation of stored procedures from models with just a table or two. 
 

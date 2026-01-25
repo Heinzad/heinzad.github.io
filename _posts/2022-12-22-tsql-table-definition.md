@@ -1,7 +1,11 @@
-Aide Memoire 
+---
+layout: post
+tags: MSSQL
+title: "Get a Table Definition in SQL Server"
+author: "Adam Heinz"
+date: 2022-12-22 01:00:00
+---
 
-How to get a table definition in MS SQL 
-======================================= 
 
 Object definitions are so handy for views and routines that everybody wants them for tables as well. 
 
