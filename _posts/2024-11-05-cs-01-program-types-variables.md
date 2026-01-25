@@ -1,3 +1,11 @@
+---
+layout: post
+tags: C#
+title: "01. C# Types and Variables"
+author: "Adam Heinz"
+date: 2024-11-05 01:00:00
+---
+
 AIDE MEMOIRE
 
 Data Types and Variables in C\#

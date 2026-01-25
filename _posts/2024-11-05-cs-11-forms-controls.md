@@ -1,3 +1,11 @@
+---
+layout: post
+tags: C#
+title: "11. C# Forms and Controls"
+author: "Adam Heinz"
+date: 2024-11-05 11:00:00
+---
+
 AIDE MEMOIRE
 
 Forms and Controls in C#
