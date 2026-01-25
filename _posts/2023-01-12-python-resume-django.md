@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: Python
 title: "Resume a Django project with Python"
 author: "Adam Heinz"
-date: 2023-01-12 01:00:00
+date: 2023-01-12T01:00:00-00:00
+categories:
+  - Python
 ---
 How to reactivate the virtual environment and restart the server using the Powershell terminal when returning to a Django project.  
 

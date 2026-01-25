@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: MSSQL
 title: "Verify Parameterised Table Names in SQL Server"
 author: "Adam Heinz"
-date: 2022-06-11 01:00:00
+date: 2022-06-11T01:00:00-00:00
+categories:
+  - MSSQL
 ---
 Prevent SQL injection by verifying input values against metadata in SQL Server.  
 

@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: GIS
 title: "Geodatabases"
 author: "Adam Heinz"
-date: 2024-06-16 01:00:00
+date: 2024-06-16T01:00:00-00:00
+categories:
+  - GIS
 ---
 What is a Geodatabase in ArcGIS?  
 

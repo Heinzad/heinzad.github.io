@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: MSSQL
 title: "Hashing Records in SQL Server"
 author: "Adam Heinz"
-date: 2022-12-07 01:00:00
+date: 2022-12-07T01:00:00-00:00
+categories:
+  - MSSQL
 ---
 How to fingerprint table contents to dectect unique records.  
 

@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: MSSQL
 title: "Unit Testing in SQL Server"
 author: "Adam Heinz"
-date: 2023-01-18 01:00:00
+date: 2023-01-18T01:00:00-00:00
+categories:
+  - MSSQL
 ---
 How to unit test database objects with T-SQL.  
 

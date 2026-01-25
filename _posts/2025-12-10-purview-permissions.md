@@ -1,8 +1,8 @@
 ---
-title: "Permissions"
-tags: Purview
 author: "Adam Heinz"
-date: 2025-12-10 10:57:00
+date: 2025-12-10T01:00:00-00:00
+categories:
+  - Purview
 ---
 How to apply RBAC in Microsoft Purview.  
 

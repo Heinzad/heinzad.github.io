@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: Python
 title: "GUI Widgets"
 author: "Adam Heinz"
-date: 2026-01-01 11:00:00
+date: 2026-01-01T01:00:00-00:00
+categories:
+  - Python
 ---
 How to use Tkinter widgets to create a GUI for a Python application.  
 

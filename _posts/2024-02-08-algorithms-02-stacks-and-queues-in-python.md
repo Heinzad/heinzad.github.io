@@ -1,9 +1,11 @@
 ---
-layout: post
-tags: Algorithms
 title: "02. Stacks and Queues"
 author: "Adam Heinz"
-date: 2024-02-08 02:00:00
+date: 2024-02-08T02:00:00-00:00
+categories:
+  Algorithns
+tags:
+  - Python
 ---
 How to analyse and implement stacks and queues in Python.  
 

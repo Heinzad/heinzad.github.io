@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: MSSQL
 title: "Get a Table Definition in SQL Server"
 author: "Adam Heinz"
-date: 2022-12-22 01:00:00
+date: 2022-12-22T01:00:00-00:00
+categories:
+  - MSSQL
 ---
 How to use a user-defined table type to create a table that can store the output of a query.  
 

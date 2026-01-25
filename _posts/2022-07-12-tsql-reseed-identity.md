@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: MSSQL
 title: "Reseed an Identity Column in SQL Server"
 author: "Adam Heinz"
-date: 2022-07-12 01:00:00
+date: 2022-07-12T01:00:00-00:00
+categories:
+  - MSSQL
 ---
 How to use dynamic sql to reseed the identity column in a staging table to be one value higher that the top value in the target table when switching partitions.  
 

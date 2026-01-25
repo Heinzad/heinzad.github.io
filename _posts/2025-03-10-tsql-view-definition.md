@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: MSSQL
 title: "T-SQL View Definition"
 author: "Adam Heinz"
-date: 2025-03-10 10:00:00
+date: 2025-03-10T01:00:00-00:00
+categories:
+  - MSSQL
 ---
 How to get a View Definition in SQL Server.  
 

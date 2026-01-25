@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: Python
 title: "Using the VS Code PowerShell Terminal to Run Unit Tests with Python"
 author: "Adam Heinz"
-date: 2023-01-09 01:00:00
+date: 2023-01-09T01:00:00-00:00
+categories:
+  - Python
 ---
 How to solve the "ModuleNotFound" error when running Python's from terminal unittest within a project folder structure, according to Zed Shaw.  
 

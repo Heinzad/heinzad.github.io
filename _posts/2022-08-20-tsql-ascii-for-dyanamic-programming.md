@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: MSSQL
 title: "Dynamic SQL with ASCII in SQL Server"
 author: "Adam Heinz"
-date: 2022-08-20 01:00:00
+date: 2022-08-20T01:00:00-00:00
+categories:
+  - MSSQL
 ---
 Dynamic sql can feel like viewing a photographic negative. Using ASCII symbols can keep things manageable when working with double- or triple-negatives.  
 

@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: Python
 title: "GUI Introduction"
 author: "Adam Heinz"
-date: 2026-01-01 10:00:00
+date: 2026-01-01T01:00:00-00:00
+categories:
+  - Python
 ---
 How to use Tkinter to create a GUI for a Python application.  
 

@@ -1,9 +1,11 @@
 ---
-layout: post
-tags: Algorithms
 title: "08. Graphs"
 author: "Adam Heinz"
-date: 2024-02-08 08:00:00
+date: 2024-02-08T08:00:00-00:00
+categories:
+  Algorithns
+tags:
+  - Python
 ---
 How to analyse and implement graphs in Python.  
 

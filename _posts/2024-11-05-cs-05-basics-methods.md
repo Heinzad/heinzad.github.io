@@ -1,9 +1,11 @@
 ---
-layout: post
-tags: C#
 title: "05. C# Methods"
 author: "Adam Heinz"
-date: 2024-11-05 05:00:00
+date: 2024-11-05T05:00:00-00:00
+categories:
+  C#
+tags:
+  - Language
 ---
 How to use methods in C#.  
 

@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: Python
 title: "Getting Started with Python"
 author: "Adam Heinz"
-date: 2023-01-08 01:00:00
+date: 2023-01-08T01:00:00-00:00
+categories:
+  - Python
 ---
 "All you need is a simple text editor, a shell, and Python" according to Zed Shaw.   
 

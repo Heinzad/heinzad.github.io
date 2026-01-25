@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: SQLite
 title: "SQLite Table Info"
 author: "Adam Heinz"
-date: 2025-04-22 10:00:00
+date: 2025-04-22T01:00:00-00:00
+categories:
+  - SQLite
 ---
 How to Get Table Information in SQLite.   
 

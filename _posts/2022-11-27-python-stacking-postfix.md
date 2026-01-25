@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: Python
 title: "Stack Postfix Expressions in Python"
 author: "Adam Heinz"
-date: 2022-11-27 01:00:00
+date: 2022-11-27T01:00:00-00:00
+categories:
+  - Python
 ---
 How to get Python to do some maths for us.  
 

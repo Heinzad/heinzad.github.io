@@ -1,9 +1,11 @@
 ---
-layout: post
-tags: C#
 title: "02. C# Program Flow"
 author: "Adam Heinz"
-date: 2024-11-05 02:00:00
+date: 2024-11-05T02:00:00-00:00
+categories:
+  C#
+tags:
+  - Language
 ---
 How to use program flow with C\#.  
 

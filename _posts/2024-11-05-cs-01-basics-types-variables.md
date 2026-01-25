@@ -1,9 +1,11 @@
 ---
-layout: post
-tags: C#
 title: "01. C# Types and Variables"
 author: "Adam Heinz"
-date: 2024-11-05 01:00:00
+date: 2024-11-05T01:00:00-00:00
+categories:
+  C#
+tags:
+  - Language
 ---
 How to use data types and variables in C#.  
 

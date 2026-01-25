@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: Kimball
 title: "Slowly Changing Dimensions"
 author: "Adam Heinz"
-date: 2024-06-16 01:00:00
+date: 2024-06-16T01:00:00-00:00
+categories:
+  - Kimball
 ---
 How to apply Slowly Changing Dimensions with the Kimball method.  
 
