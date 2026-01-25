@@ -1,3 +1,11 @@
+---
+layout: post
+tags: Oracle
+title: "Oracle Information Schema Mapping"
+author: "Adam Heinz"
+date: 2024-11-03 01:00:00
+---
+
 AIDE MEMOIRE
 
 How to Map Oracle to Information Schema
