@@ -1,7 +1,10 @@
-Aide Memoire 
-
-How to fingerprint records with hashing in sql server 
-===================================================== 
+---
+layout: post
+tags: MSSQL
+title: "Fingerprinting Records in SQL Server"
+author: "Adam Heinz"
+date: 2022-12-07 01:00:00
+---
 
 Hashing is a technique that can be used to identify records. It has come to particular prominence with its use in Data Vault techniques. 
 

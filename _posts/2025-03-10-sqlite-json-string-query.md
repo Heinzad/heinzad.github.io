@@ -1,9 +1,10 @@
-AIDE MEMORE
-
-
-
-How to Query Json Strings in SQLite 
-=================================== 
+---
+layout: post
+tags: SQLite
+title: "Query Json Strings in SQLite"
+author: "Adam Heinz"
+date: 2022-12-07 01:00:00
+---
 
 SQLite can store and query strings in json format. 
 
