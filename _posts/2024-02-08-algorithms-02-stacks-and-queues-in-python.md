@@ -1,7 +1,14 @@
+---
+layout: post
+tags: Algorithms
+title: "02. Stacks and Queues in Python"
+author: "Adam Heinz"
+date: 2024-02-08 02:00:00
+---
 AIDE MEMOIRE
 
-Algorithms: Stacks and Queues in Python 
-========================================= 
+Stacks and Queues
+================= 
 
 
 A __stack__ enables you to __push__ and __pop__ from the top of a stack. The abstract data type (ADT) can be implemented with python lists using append and pop, which both operate on the tail of a list: 

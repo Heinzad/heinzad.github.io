@@ -1,7 +1,14 @@
+---
+layout: post
+tags: Algorithms
+title: "06. Sorting in Python"
+author: "Adam Heinz"
+date: 2024-02-08 06:00:00
+---
 AIDE MEMOIRE
 
-Algorithms: Sorting in Python 
-============================= 
+Sorting
+======= 
 
 Sorting methods are classified as: 
 * quadratic - O(n2) 

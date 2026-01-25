@@ -1,7 +1,14 @@
+---
+layout: post
+tags: Algorithms
+title: "05. Searching in Python"
+author: "Adam Heinz"
+date: 2024-02-08 05:00:00
+---
 AIDE MEMOIRE
 
-Algorithms: Searching in Python
-===============================
+Searching
+=========
 
 Searching whether or not an item is present in a collection of items is commonly done using sequential search, binary search, or hashing approaches. 
 

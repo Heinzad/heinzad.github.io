@@ -1,8 +1,15 @@
+---
+layout: post
+tags: Algorithms
+title: "07. Sorting in Python"
+author: "Adam Heinz"
+date: 2024-02-08 07:00:00
+---
 AIDE MEMOIRE 
 
 
-Algorithms: Trees in Python 
-=========================== 
+Trees
+=====
 
 Trees consist of a root and subtrees. 
 
