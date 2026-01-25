@@ -1,6 +1,14 @@
+---
+layout: post
+tags: Databases
+title: "Introduction to Databases"
+author: "Adam Heinz"
+date: 2024-11-03 01:00:00
+---
+
 AIDE MEMOIRE
 
-# Introduction to Databases
+# Overview
 
 Databases are used to manage large collections of data:  
 
