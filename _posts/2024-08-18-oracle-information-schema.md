@@ -3,7 +3,7 @@ layout: post
 tags: Oracle
 title: "Oracle Information Schema Mapping"
 author: "Adam Heinz"
-date: 2024-11-03 01:00:00
+date: 2024-08-18 01:00:00
 ---
 
 AIDE MEMOIRE
