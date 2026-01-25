@@ -5,11 +5,10 @@ title: "Geospatial Information Sytems"
 author: "Adam Heinz"
 date: 2024-06-16 01:00:00
 ---
+What is GIS?  
 
-AIDE MEMOIRE
 
-What is GIS? 
-============ 
+# Overview
 
 A Geographic or Geospatial Information System has 5 components: 
 
