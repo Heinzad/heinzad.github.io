@@ -1,3 +1,3 @@
 # Adam Heinz
 
-portfolio
+Data Engineer, Business Intelligence Developer, Power BI Developer
