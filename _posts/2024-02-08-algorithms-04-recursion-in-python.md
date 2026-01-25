@@ -1,9 +1,10 @@
 ---
-layout: post
-tags: Algorithms
-title: "04. Recursion"
 author: "Adam Heinz"
-date: 2024-02-08 04:00:00
+date: 2024-02-08T04:00:00-00:00
+categories:
+  Algorithns
+tags:
+  - Python
 ---
 How to analyse and implement recursion in Python.  
 

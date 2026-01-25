@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: Python
 title: "Connect to an Azure SQL Database using Python"
 author: "Adam Heinz"
-date: 2023-09-04 01:00:00
+date: 2023-09-04T01:00:00-00:00
+categories:
+  - Python
 ---
 How to connect to an Azure SQL database using Active Directory with MFA.  
 

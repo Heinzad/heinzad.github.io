@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: Metadata
 title: "Describing Database Objects"
 author: "Adam Heinz"
-date: 2025-03-10 10:00:00
+date: 2025-03-10T01:00:00-00:00
+categories:
+  - Metadata
 ---
 How to write table and column descriptions to support data validation.  
 

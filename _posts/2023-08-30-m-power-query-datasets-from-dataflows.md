@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: [Power BI]
 title: "Power BI Datasets from Data Flows"
 author: "Adam Heinz"
-date: 2023-08-30 01:00:00
+date: 2023-08-30T01:00:00-00:00
+categories:
+  - Power BI
 ---
 How to edit a power query (m) to reference dataflow names rather than guids.  
 

@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: MSSQL
 title: "Testing Object Existence in SQL Server"
 author: "Adam Heinz"
-date: 2023-04-23 01:00:00
+date: 2023-04-23T01:00:00-00:00
+categories:
+  - MSSQL
 ---
 How to support idempotency by testing if an object exists.  
 

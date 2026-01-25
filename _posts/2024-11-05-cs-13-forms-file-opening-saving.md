@@ -1,9 +1,11 @@
 ---
-layout: post
-tags: C#
 title: "13. C# Forms: File Opening and Saving"
 author: "Adam Heinz"
-date: 2024-11-05 10:00:00
+date: 2024-11-05T12:00:00-00:00
+categories:
+  C#
+tags:
+  - Forms
 ---
 How to open and saving files in C\# forms.  
 

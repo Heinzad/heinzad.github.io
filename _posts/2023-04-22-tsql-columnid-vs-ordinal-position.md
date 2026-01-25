@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: MSSQL
 title: "ColumnID vs Ordinal Position in Sql Server"
 author: "Adam Heinz"
-date: 2023-04-23 01:00:00
+date: 2023-04-23T01:00:00-00:00
+categories:
+  - MSSQL
 ---
 How to get SQL Server properties that are not in the information schema.  
 

@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: MSSQL
 title: "T-SQL TCP Configuration"
 author: "Adam Heinz"
-date: 2024-04-08 01:00:00
+date: 2024-04-08T01:00:00-00:00
+categories:
+  - MSSQL
 ---
 How to set TCP Network Configurations in SQL Server.  
 

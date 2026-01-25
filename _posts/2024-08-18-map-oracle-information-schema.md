@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: Metadata
 title: "Map Oracle to Information Schema"
 author: "Adam Heinz"
-date: 2024-08-18 01:00:00
+date: 2024-08-18T01:00:00-00:00
+categories:
+  - Metadata
 ---
 How to map Oracle DBA tables to an Information Schema.  
 

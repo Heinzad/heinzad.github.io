@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: Metadata
 title: "Map Oracle, SQL Server, and Postgres Data Types"
 author: "Adam Heinz"
-date: 2022-09-08 01:00:00
+date: 2022-09-08T01:00:00-00:00
+categories:
+  - Metadata
 ---
 Any data warehousing operation crossing source systems is probably going to need to map data types across the source systems if they are all to land in the same platform.  
 

@@ -1,9 +1,11 @@
 ---
-layout: post
-tags: C#
 title: "03. C# Files Reading and Writing"
 author: "Adam Heinz"
-date: 2024-11-05 03:00:00
+date: 2024-11-05T03:00:00-00:00
+categories:
+  C#
+tags:
+  - Language
 ---
 How to read and write files with C\#.  
 

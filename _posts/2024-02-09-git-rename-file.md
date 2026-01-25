@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: Git
 title: "Rename a File"
 author: "Adam Heinz"
-date: 2024-02-09 01:00:00
+date: 2024-02-09T01:00:00-00:00
+categories:
+  - GIT
 ---
 How to Rename a File Using the Git Command Line.  
 

@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: GIS
 title: "Geospatial Information Sytems"
 author: "Adam Heinz"
-date: 2024-06-16 01:00:00
+date: 2024-06-16T01:00:00-00:00
+categories:
+  - GIS
 ---
 
 AIDE MEMOIRE

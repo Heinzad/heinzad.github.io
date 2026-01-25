@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: Git
 title: "Getting Started with Git"
 author: "Adam Heinz"
-date: 2023-06-03 01:00:00
+date: 2023-06-03T01:00:00-00:00
+categories:
+  - GIT
 ---
 How to use a feature branching workflow in Github.  
 

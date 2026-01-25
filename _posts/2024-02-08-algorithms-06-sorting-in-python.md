@@ -1,9 +1,11 @@
 ---
-layout: post
-tags: Algorithms
 title: "06. Sorting"
 author: "Adam Heinz"
-date: 2024-02-08 06:00:00
+date: 2024-02-08T06:00:00-00:00
+categories:
+  Algorithns
+tags:
+  - Python
 ---
 How to analyse and implement quadratic and logarithmic sorting methods in Python.  
 

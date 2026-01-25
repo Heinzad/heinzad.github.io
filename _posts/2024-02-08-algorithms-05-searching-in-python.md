@@ -1,9 +1,11 @@
 ---
-layout: post
-tags: Algorithms
 title: "05. Searching"
 author: "Adam Heinz"
-date: 2024-02-08 05:00:00
+date: 2024-02-08T05:00:00-00:00
+categories:
+  Algorithns
+tags:
+  - Python
 ---
 How to understand and implement sequential search, binary search, or hashing in Python.  
 

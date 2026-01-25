@@ -1,9 +1,11 @@
 ---
-layout: post
-tags: Algorithms
 title: "01. Algorithm Analysis"
 author: "Adam Heinz"
-date: 2024-02-08 01:00:00
+date: 2024-02-08T01:00:00-00:00
+categories:
+  Algorithns
+tags:
+  - Python
 ---
 Understanding asymptotic analysis and big-O notation.  
 

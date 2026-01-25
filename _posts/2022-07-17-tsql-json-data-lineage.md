@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: MSSQL
 title: "Record Transformation History with JSON in SQL Server"
 author: "Adam Heinz"
-date: 2022-07-17 01:00:00
+date: 2022-07-17T01:00:00-00:00
+categories:
+  - MSSQL
 ---
 How to use JSON strings to detail the data transformations that have been applied to a record using T-SQL.  
 

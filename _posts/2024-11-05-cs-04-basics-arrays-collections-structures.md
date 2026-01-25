@@ -1,9 +1,11 @@
 ---
-layout: post
-tags: C#
 title: "04. C# Data Structures"
 author: "Adam Heinz"
-date: 2024-11-05 04:00:00
+date: 2024-11-05T04:00:00-00:00
+categories:
+  C#
+tags:
+  - Language
 ---
 How to use arrays, collections and structures in C\#.  
 

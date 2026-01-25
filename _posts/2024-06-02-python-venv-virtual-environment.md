@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: Python
 title: "venv: Python virtual environment"
 author: "Adam Heinz"
-date: 2024-06-02 01:00:00
+date: 2024-06-02T01:00:00-00:00
+categories:
+  - Python
 ---
 How to setup and use venv to create virtual environments in Python.  
 

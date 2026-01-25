@@ -1,9 +1,11 @@
 ---
-layout: post
-tags: Algorithms
 title: "07. Trees"
 author: "Adam Heinz"
-date: 2024-02-08 07:00:00
+date: 2024-02-08T07:00:00-00:00
+categories:
+  Algorithns
+tags:
+  - Python
 ---
 How to analyse and implement binary search trees and traverse them in Python.  
 

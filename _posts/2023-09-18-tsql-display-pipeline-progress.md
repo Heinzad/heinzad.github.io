@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: MSSQL
 title: "T-SQL: Display Pipeline Progress"
 author: "Adam Heinz"
-date: 2024-04-08 01:00:00
+date: 2024-04-08T01:00:00-00:00
+categories:
+  - MSSQL
 ---
 How to display the progress of a pipeline in MS SQL Server.  
 

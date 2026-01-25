@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: MSSQL
 title: "Information Schema Columns in SQL Server"
 author: "Adam Heinz"
-date: 2022-05-03 01:00:00
+date: 2022-05-03T01:00:00-00:00
+categories:
+  - MSSQL
 ---
 When lost in data space, it can be handy to find a column in a hurry from the information schema. 
 

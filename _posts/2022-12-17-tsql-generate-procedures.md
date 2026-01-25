@@ -1,9 +1,9 @@
 ---
-layout: post
-tags: MSSQL
 title: "Generate Stored Procedures in SQL Server"
 author: "Adam Heinz"
-date: 2022-12-17 01:00:00
+date: 2022-12-17T01:00:00-00:00
+categories:
+  - MSSQL
 ---
 How to automate the creation of stored procedures from models with just a table or two.  
 
