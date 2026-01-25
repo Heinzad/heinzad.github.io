@@ -1,5 +1,5 @@
 ---
-title: "12. C# Forms: List, Check, and Radio Buttons"
+title: "C# 12: Forms: List, Check, and Radio Buttons"
 author: "Adam Heinz"
 date: 2024-11-05T12:00:00-00:00
 categories:

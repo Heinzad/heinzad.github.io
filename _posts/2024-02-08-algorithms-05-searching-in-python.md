@@ -1,5 +1,5 @@
 ---
-title: "05. Searching"
+title: "Algorithms 05: Searching"
 author: "Adam Heinz"
 date: 2024-02-08T05:00:00-00:00
 categories:

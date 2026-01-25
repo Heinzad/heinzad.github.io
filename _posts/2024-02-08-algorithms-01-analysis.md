@@ -1,5 +1,5 @@
 ---
-title: "01. Algorithm Analysis"
+title: "Algorithms 01: Analysis"
 author: "Adam Heinz"
 date: 2024-02-08T01:00:00-00:00
 categories:

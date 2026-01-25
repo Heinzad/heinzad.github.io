@@ -1,5 +1,5 @@
 ---
-title: "08. Graphs"
+title: "Algorithms 08: Graphs"
 author: "Adam Heinz"
 date: 2024-02-08T08:00:00-00:00
 categories:
