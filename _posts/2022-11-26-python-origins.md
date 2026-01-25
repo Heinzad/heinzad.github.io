@@ -3,14 +3,9 @@ layout: post
 tags: Python
 title: "The Origins of Python"
 author: "Adam Heinz"
-date: 2022-11-26 01:00:00
+date: 2021-11-16 01:00:00
 ---
-How bubble sort helps explain why Python gained an audience among programmers. 
-
-
-# Overview
-
-Seen on [Hacker News](https://news.ycombinator.com/): 
+Read 'The Origins of Python' explained with bubble sort 
 
 Lambert Meertens, ["The Origins of Python"](https://inference-review.com/article/the-origins-of-python), Inference, vol 7 no 3 November 2022  
 
