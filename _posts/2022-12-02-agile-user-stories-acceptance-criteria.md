@@ -5,16 +5,10 @@ title: "User Stories and Acceptance Criteria"
 author: "Adam Heinz"
 date: 2022-12-02 01:00:00
 ---
-AIDE MEMOIRE 
-
-How to Write User Stories and Acceptance Criteria for Agile 
-=========================================================== 
-
-Test-driven development is critical to knowing whether or not your progam actually works in the way it was expected to. 
 
 Well-written user stories and acceptance criteria can help bridge the gap between business analysts and developers. 
 
-Love it or hate it, SAFe - Scaled Agile Framework for enterprises - provides explanatory material that is quite useful for building a shared reference point for a team. 
+SAFe - Scaled Agile Framework for enterprises - provides explanatory material that is quite useful for building a shared reference point for a team. 
 
 
 # User Stories 
