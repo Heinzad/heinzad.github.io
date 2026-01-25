@@ -1,7 +1,7 @@
 ---
 layout: post
-tags: Oracle
-title: "Oracle Information Schema Mapping"
+tags: Metadata
+title: "Map Oracle to Information Schema"
 author: "Adam Heinz"
 date: 2024-08-18 01:00:00
 ---
