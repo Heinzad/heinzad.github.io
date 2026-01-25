@@ -6,10 +6,6 @@ author: "Adam Heinz"
 date: 2023-01-09 01:00:00
 ---
 
-
-How to run Python unittest in a project structure using the PowerShell terminal 
-=============================================================================== 
-
 Running Python's from terminal unittest within a project folder structure can generate the dreaded "ModuleNotFound" error. 
 
 The use of terminal and the project folder structure is advocated in Zed Shaw's [Learn Python 3 The Hard Way](https://learnpythonthehardway.org/python3/). 
