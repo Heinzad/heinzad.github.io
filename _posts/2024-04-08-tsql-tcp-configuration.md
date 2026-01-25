@@ -1,3 +1,10 @@
+---
+layout: post
+tags: MSSQL
+title: "T-SQL TCP Configuration"
+author: "Adam Heinz"
+date: 2024-04-08 01:00:00
+---
 AIDE MEMOIRE
 
 How to Configure TCP Network Configurations
