@@ -1,6 +1,10 @@
-AIDE MEMOIRE 
-
-# How to connect to an Azure SQL Database with MFA using Python 
+---
+layout: post
+tags: Python
+title: "Connect to an Azure SQL Database with MFA using Python"
+author: "Adam Heinz"
+date: 2023-09-04 01:00:00
+---
 
 It is a bit of a puzzle to connect to an Azure SQL Database as easily as in SQL Server Management Studio (SSMS), using Active Directory with MFA. 
 

@@ -1,13 +1,13 @@
-AIDE MEMOIRE 
-
-How to Resume a Django project
-================================= 
+---
+layout: post
+tags: Python
+title: "Resume a Django project with Python"
+author: "Adam Heinz"
+date: 2023-01-12 01:00:00
+---
 
 When returning to a Django project, reactivate the virtual environment and restart the server using the Powershell terminal. 
 
-
-
---- 
 ### Reactivate the virtual environment 
 
 Instructions on [setting up a venv Python virtual environment for Django](https://docs.djangoproject.com/en/4.1/howto/windows/) can be found on the project website. 

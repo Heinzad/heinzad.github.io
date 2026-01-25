@@ -1,8 +1,10 @@
-AIDE MEMOIRE 
-
-How to Get Started with Python 
-============================== 
-
+---
+layout: post
+tags: Python
+title: "Getting Started with Python"
+author: "Adam Heinz"
+date: 2023-01-08 01:00:00
+---
 
 "All you need is a simple text editor, a shell, and Python." 
 
