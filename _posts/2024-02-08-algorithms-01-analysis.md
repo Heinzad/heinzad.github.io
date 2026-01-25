@@ -1,7 +1,14 @@
+---
+layout: post
+tags: Algorithms
+title: "01. Algorithm Analysis"
+author: "Adam Heinz"
+date: 2024-02-08 01:00:00
+---
 AIDE MEMOIRE 
 
-Algorithms: Analysis 
-=================== 
+Analysis 
+======== 
 
 Analysing Algorithms requires both a knowlege of logarithms and of Big-O notation. 
 

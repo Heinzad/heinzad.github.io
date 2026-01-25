@@ -1,7 +1,14 @@
+---
+layout: post
+tags: Algorithms
+title: "04. Recursion in Python"
+author: "Adam Heinz"
+date: 2024-02-08 04:00:00
+---
 AIDE MEMOIRE
 
-Algorithms: Recursion in Python
-===============================
+Recursion
+=========
 
 There are components of recursive function: 
 * a base case 

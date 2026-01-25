@@ -1,7 +1,14 @@
+---
+layout: post
+tags: Algorithms
+title: "08. Graphs in Python"
+author: "Adam Heinz"
+date: 2024-02-08 08:00:00
+---
 AIDE MEMOIRE
 
-Algorithms: Graphs in Python
-============================
+Graphs
+======
 
 Graphs have:
 * vertices (nodes)
