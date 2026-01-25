@@ -1,6 +1,7 @@
 ---
 layout: post
 tags: Python
+title: "Python GUI Widgets"
 author: "Adam Heinz"
 date: 2026-01-01 11:00:00
 ---
