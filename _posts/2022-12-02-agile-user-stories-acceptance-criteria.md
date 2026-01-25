@@ -1,4 +1,11 @@
-Aide Memoire 
+---
+layout: post
+tags: Agile
+title: "User Stories and Acceptance Criteria"
+author: "Adam Heinz"
+date: 2022-12-02 01:00:00
+---
+AIDE MEMOIRE 
 
 How to Write User Stories and Acceptance Criteria for Agile 
 =========================================================== 

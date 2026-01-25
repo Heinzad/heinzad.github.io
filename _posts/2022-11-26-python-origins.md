@@ -1,9 +1,11 @@
-Aide Memoire 
-
+---
+layout: post
+tags: Python
+title: "The Origins of Python"
+author: "Adam Heinz"
+date: 2021-11-16 01:00:00
+---
 Read 'The Origins of Python' explained with bubble sort 
-======================================================= 
-
-Seen on [Hacker News](https://news.ycombinator.com/): 
 
 Lambert Meertens, ["The Origins of Python"](https://inference-review.com/article/the-origins-of-python), Inference, vol 7 no 3 November 2022  
 
@@ -42,7 +44,3 @@ for i in range(len(a)-1):
 "Python’s ease of learning gave it a competitive advantage in a period when there was a perpetual need for more programmers. Its clean syntax and semantics make it easier to maintain a software base written in Python than other languages—an important consideration given that the cost of maintaining software dwarfs the cost of creating new software" (Meertens 2022). 
 
 (https://inference-review.com/article/the-origins-of-python)  
-
-
-Adam Heinz 
-28 November 2022 
