@@ -22,7 +22,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Adam Heinz"
 description              : "Data Intelligence"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://heinzad.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 #baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "heinzad.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Adam Heinz"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/AdamHeinz_2019.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Data Engineer, Business Intelligence Developer, Power BI Developer"
   location         : "New Zealand"
   email            :
