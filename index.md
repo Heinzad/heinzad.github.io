@@ -1,7 +1,7 @@
 ---
 layout: splash
 author_profile: true
-title: "To live is to learn"
+title: "Adam Heinz"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -9,7 +9,7 @@ header:
   #actions:
   #  - label: "Download"
   #    url: "#test-link"
-#excerpt: "Data Intelligence"
+excerpt: "To live is to learn"
 intro: 
   - excerpt: "Data Engineering, Data Governance, Business Intelligence, Geospatial"
 feature_row:
