@@ -9,25 +9,25 @@ header:
   #actions:
   #  - label: "Download"
   #    url: "#test-link"
-excerpt: "To live is to learn"
+excerpt: "Data Intelligence"
 intro: 
   - excerpt: "Data Engineering, Data Governance, Business Intelligence, Geospatial"
 feature_row:
   - image_path: /assets/images/ChChSmartCities_AdamHeinz.jpg
-    title: "City Dashboard"
-    excerpt: "Smart Cities, Christchurch City Council"
+    title: "Data & Analytics"
+    excerpt: "City Dashboard, Smart Cities, Christchurch City Council"
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--primary"
   - image_path: /assets/images/Awarua_AdamHeinz.jpg
-    title: "Awarua"
-    excerpt: "Maori Land Loss"
+    title: "Historical GIS"
+    excerpt: "Awarua: Maori Land Loss in Taihape ki Manawatu"
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--secondar"
   - image_path: /assets/images/ChChEqHousingRecovery_AdamHeinz.png
-    title: "Housing Construction"
-    excerpt: "Post-Earthquake Recovery in Christchurch"
+    title: "Business Intelligence"
+    excerpt: "Housing Construction during the Post-Earthquake Recovery in Christchurch"
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--primary"
