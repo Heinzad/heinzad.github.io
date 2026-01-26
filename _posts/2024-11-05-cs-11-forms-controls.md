@@ -1,5 +1,5 @@
 ---
-title: "11. C# Forms and Controls"
+title: "C# 11: Forms and Controls"
 author: "Adam Heinz"
 date: 2024-11-05T11:00:00-00:00
 categories:

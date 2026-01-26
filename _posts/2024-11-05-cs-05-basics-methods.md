@@ -1,5 +1,5 @@
 ---
-title: "05. C# Methods"
+title: "C# 05: Methods"
 author: "Adam Heinz"
 date: 2024-11-05T05:00:00-00:00
 categories:

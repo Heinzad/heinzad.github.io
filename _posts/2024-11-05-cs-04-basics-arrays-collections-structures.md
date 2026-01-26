@@ -1,5 +1,5 @@
 ---
-title: "04. C# Data Structures"
+title: "C# 04: Data Structures"
 author: "Adam Heinz"
 date: 2024-11-05T04:00:00-00:00
 categories:

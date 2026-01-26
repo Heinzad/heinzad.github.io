@@ -1,5 +1,5 @@
 ---
-title: "07. Trees"
+title: "Algorithms 07: Trees"
 author: "Adam Heinz"
 date: 2024-02-08T07:00:00-00:00
 categories:

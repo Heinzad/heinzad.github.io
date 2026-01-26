@@ -1,5 +1,5 @@
 ---
-title: "01. C# Types and Variables"
+title: "C# 01: Types and Variables"
 author: "Adam Heinz"
 date: 2024-11-05T01:00:00-00:00
 categories:

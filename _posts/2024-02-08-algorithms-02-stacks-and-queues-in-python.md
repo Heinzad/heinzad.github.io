@@ -1,5 +1,5 @@
 ---
-title: "02. Stacks and Queues"
+title: "Algorithms 02: Stacks and Queues"
 author: "Adam Heinz"
 date: 2024-02-08T02:00:00-00:00
 categories:
