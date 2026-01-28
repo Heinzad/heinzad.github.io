@@ -14,20 +14,20 @@ intro:
   - excerpt: "Data Engineering, Data Governance, Business Intelligence, Geospatial"
 feature_row:
   - image_path: /assets/images/ChChSmartCities_AdamHeinz.jpg
-    title: "Data & Analytics"
-    excerpt: "City Dashboard, Smart Cities, Christchurch City Council"
+    title: "Smart Cities"
+    excerpt: "City Dashboard & Data Hub"
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--primary"
   - image_path: /assets/images/Awarua_AdamHeinz.jpg
     title: "Historical GIS"
-    excerpt: "Awarua: Maori Land Loss in Taihape ki Manawatu"
+    excerpt: "Awarua: Maori Land Loss in Taihape"
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--secondar"
   - image_path: /assets/images/ChChEqHousingRecovery_AdamHeinz.png
-    title: "Business Intelligence"
-    excerpt: "Housing Construction during the Post-Earthquake Recovery in Christchurch"
+    title: "Monitoring & Evaluation"
+    excerpt: "Housing Construction during Post-Earthquake Recovery"
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--primary"
