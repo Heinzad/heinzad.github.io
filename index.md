@@ -11,7 +11,7 @@ header:
   #    url: "#test-link"
 excerpt: "To live is to learn"
 intro: 
-  - excerpt: "Data Governance Architect, Data Engineer, Business Intelligence Developer, Geospatial Analyst Developer"
+  - excerpt: "Data Governance, Data Engineering, Business Intelligence, Geospatial"
 feature_row:
   - image_path: /assets/images/ChChSmartCities_AdamHeinz.jpg
     title: "Smart Cities"
