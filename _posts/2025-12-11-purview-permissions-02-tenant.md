@@ -1,4 +1,5 @@
 ---
+title: "Purview Permissions 2: Tenant-Level Permissions"
 author: "Adam Heinz"
 date: 2025-12-11T01:00:00-00:00
 categories:
