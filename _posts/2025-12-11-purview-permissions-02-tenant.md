@@ -1,7 +1,7 @@
 ---
 title: "Purview Permissions 2: Tenant-Level Permissions"
 author: "Adam Heinz"
-date: 2025-12-11T01:00:00-00:00
+date: 2025-12-12T01:00:00-00:00
 categories:
   - Purview
 ---
@@ -44,7 +44,7 @@ Navigate to the Role group settings in the Microsoft Purview portal.
 | Item | Role Name | Role Description | Built-in Role Group |
 | ---- | --------- | ---------------- | ------------------ |
 | 1 | Admin Unit Extension Manager | . | Organisation Management |
-| 2 | Role Management | Manage role group membership and create or delete custom role groups. | Purview Administrators |
+| 2 | Role Management | Manage role group membership and create or delete custom role groups. | Organisation Management |
   
 
 ### (1) MS Purview Data Governance Administrators
@@ -57,7 +57,7 @@ Navigate to the Role group settings in the Microsoft Purview portal.
 | 1 | Admin Unit Extension Manager | . | Purview Administrators |
 | 2 | Purview Domain Manager | Create, edit, and delete domains and perform role assignments. | Purview Administrators |
 | 3 | Role Management | Manage role group membership and create or delete custom role groups. | Purview Administrators |
-| 4 | Data Governance Administrator | Delegates the first level of access for business domain creators and other application-level permissions. | Data Governance |
+| 4 | Data Governance Administrator | Delegate the first level of access for business domain creators and other application-level permissions. | Data Governance |
   
 
 
@@ -94,6 +94,8 @@ Navigate to the Role group settings in the Microsoft Purview portal.
 
 Note: Insights readers need to have at least data reader role access to a collection to view reports about that specific collection.  
 
+
+---
 
 QED 
 
