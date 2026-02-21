@@ -13,6 +13,12 @@ excerpt: "To live is to learn"
 intro: 
   - excerpt: "Data Governance, Data Engineering, Business Intelligence, Geospatial"
 feature_row:
+  - image_path: /assets/images/PurviewDataGov_AdamHeinz.jpg
+    title: "Data Governance"
+    excerpt: "Architecture and Enablement"
+    #url: "#test-link"
+    #btn_label: "Read More"
+    #btn_class: "btn--primary"
   - image_path: /assets/images/ChChSmartCities_AdamHeinz.jpg
     title: "Smart Cities"
     excerpt: "City Dashboard & Data Hub"
