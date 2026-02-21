@@ -20,14 +20,8 @@ feature_row:
     #btn_label: "Read More"
     #btn_class: "btn--primary"
   - image_path: /assets/images/ChChSmartCities_AdamHeinz.jpg
-    title: "Smart Cities"
-    excerpt: "City Dashboard & Data Hub"
-    #url: "#test-link"
-    #btn_label: "Read More"
-    #btn_class: "btn--primary"
-  - image_path: /assets/images/CentralCity3D_AdamHeinz.jpg
-    title: "Earthquake Recovery"
-    excerpt: "Central City Building Consents"
+    title: "Data Engineering"
+    excerpt: "Smart Cities: City Dashboard & Data Hub"
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--primary"
@@ -37,7 +31,14 @@ feature_row:
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--primary"
-  - image_path: /assets/images/DeprivationChristurchMetro_AdamHeinz.jpg
+  - image_path: /assets/images/CentralCity3D_AdamHeinz.jpg
+    title: "Earthquake Recovery"
+    excerpt: "Central City Building Consents"
+    #url: "#test-link"
+    #btn_label: "Read More"
+    #btn_class: "btn--primary"
+  
+  - image_path: /assets/images/DeprivationChristchurchMetro_AdamHeinz.jpg
     title: "Geospatial"
     excerpt: "Atlas of Deprivation"
     #url: "#test-link"
