@@ -15,7 +15,7 @@ intro:
 feature_row:
   - image_path: /assets/images/PurviewDataGov_AdamHeinz.png
     title: "Data Governance"
-    excerpt: "People, Process, Technology"
+    excerpt: "Enabling Digital Business"
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--primary"
@@ -33,20 +33,20 @@ feature_row:
     #btn_class: "btn--primary"
   - image_path: /assets/images/CentralCity3D_AdamHeinz.jpg
     title: "Earthquake Recovery"
-    excerpt: "Central City Building Consents"
+    excerpt: "3D Model of the new Central City from building consents"
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--primary"
   
   - image_path: /assets/images/DeprivationChristchurchMetro_AdamHeinz.jpg
     title: "Geospatial"
-    excerpt: "Atlas of Deprivation"
+    excerpt: "Distribution of Deprivation across a city"
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--primary"
   - image_path: /assets/images/Awarua_AdamHeinz.jpg
     title: "Historical GIS"
-    excerpt: "Commission of Inquiry"
+    excerpt: "Evidence for a Commission of Inquiry"
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--primary"
