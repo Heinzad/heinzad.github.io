@@ -33,14 +33,14 @@ feature_row:
     #btn_class: "btn--primary"
   - image_path: /assets/images/CentralCity3D_AdamHeinz.jpg
     title: "Earthquake Recovery"
-    excerpt: "Central City Building Consents"
+    excerpt: "3D Model of the new Central City from building consents"
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--primary"
   
   - image_path: /assets/images/DeprivationChristchurchMetro_AdamHeinz.jpg
     title: "Geospatial"
-    excerpt: "Degrees of Deprivation"
+    excerpt: "Distribution of Deprivation across a city"
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--primary"
