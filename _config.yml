@@ -311,6 +311,12 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  vitae:
+    output: true
+    permalink: /:collection/:path/
+
 
 # Defaults
 defaults:
@@ -325,3 +331,11 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _vitae
+  - scope:
+      path: ""
+      type: vitae
+    values:
+      layout: single
+      author_profile: false
+      share: true
