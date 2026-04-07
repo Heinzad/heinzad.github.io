@@ -1,0 +1,31 @@
+---
+title: "Taihape District Inquiry - Waitangi Tribunal"
+excerpt: "Inquiry Facilitation"
+author: "Adam Heinz"
+date: 2026-03-30T20:00:09-01:00
+---
+*Advise a Commission of Inquiry*
+
+- Consult iwi, hapu and whanau to develop research programmes. 
+
+Role: Research Analyst & Inquiry Facilitator.  
+Taihape: Rangitīkei ki Rangipō District inquiry (WAI 2180)  
+Waitangi Tribunal Unit, Ministry of Justice.  
+
+--- 
+
+Started up a commission of inquiry into 30 Treaty claims in Taihape and surrounding areas, from the first consultative conferences in 2009 through to the launch of a cross-agency research programme in mid-2011.  
+
+- Co-ordinated consultative conferences and associated discussion papers
+- Advised presiding officer, drafted judicial directions
+- Developed relationships with tangata whenua, legal representatives, external stakeholders
+- Co-ordinated research programme, identifiying research needs, performing research planning, drafting
+project briefs and commissions, liaising with external contractors.
+- Developed and maintained inquiry web page and document store. 
+  
+
+*Policy Papers:*  
+
+- [‘Taihape Inquiry: Casebook Research Programme’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_40265085/Wai%202180,%206.2.20.pdf), Discussion Paper, Nov 2011 (Wai 2180 6.2.20). 
+- [‘Taihape Inquiry: Research Discussion Paper and Supplementary Bibliography’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_49146868/Wai%202180,%206.2.21.pdf), Oct 2010 (Wai 2180 6.2.21). 
+- [‘The Taihape Inquiry District: Inquiry Process, Boundaries, Issues, Options’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_548513/Wai%202180,%206.2.7.pdf), May 2010 (Wai 2180 6.2.7). 

@@ -1,0 +1,15 @@
+---
+title: "Tongariro National Park District Inquiry - Statement of Issues"
+excerpt: "Research & Analysis"
+author: "Adam Heinz"
+date: 2026-03-30T20:06:02-00:00
+---
+*Analyse Treaty Issues*
+
+Role: Research Analyst & Inquiry Facilitator.  
+Te Kāhui Maunga: The National Park District Inquiry (Wai 1130)
+Waitangi Tribunal Unit, Ministry of Justice.  
+
+Outcome:  
+
+- Waitangi Tribunal, ‘Statement of Issues’.  
