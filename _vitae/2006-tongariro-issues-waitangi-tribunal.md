@@ -1,6 +1,6 @@
 ---
 title: "Tongariro National Park District Inquiry - Statement of Issues"
-excerpt: "Research & Analysis"
+excerpt: "Analysing the issues for inquiry in Tongariro, 2004."
 author: "Adam Heinz"
 date: 2026-03-30T20:06:02-00:00
 ---

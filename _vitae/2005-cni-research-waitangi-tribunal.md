@@ -1,6 +1,6 @@
 ---
-title: "Maori Land Trusts and Incorporations - Commissioned Research"
-excerpt: "Research & Analysis"
+title: "Maori Land Trusts and Incorporations - Research Report"
+excerpt: "Researching the effects of different legal structures on Maori land ownership, 2005"
 author: "Adam Heinz"
 date: 2026-03-30T20:05:00-00:00
 ---
@@ -14,7 +14,7 @@ Technology: Excel, MS Access.
    
 Achievement:   
 
-- Bayley, Nicholas; Boulton, Leanne; Heinz, Adam, [‘Maori Land Trusts and Incorporations in the Twentieth Century in the Central North Island Inquiry Region’](), research report commissioned by the Waitangi Tribunal, 2005, 227pp (Wai 1200 G4).   
+- Bayley, Nicholas; Boulton, Leanne; Heinz, Adam, ‘Maori Land Trusts and Incorporations in the Twentieth Century in the Central North Island Inquiry Region’, research report commissioned by the Waitangi Tribunal, 2005, 227pp (Wai 1200 G4).   
 
 ---
 

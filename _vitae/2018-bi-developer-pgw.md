@@ -1,6 +1,6 @@
 ---
-title: "Operational Data Store Developer"
-excerpt: "Data Engineering"
+title: "Operational Data Store"
+excerpt: "Saving an ERP from month-end reporting, 2018-2020"
 author: "Adam Heinz"
 date: 2026-03-30T20:18:00-00:00
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Replacement District Plan Submissions Database"
-excerpt: "Monitoring & Evaluation"
+excerpt: "Developing a database to register submissions on the strategic direction of post-quake Christchurch, 2014"
 author: "Adam Heinz"
 date: 2026-03-30T20:14:01-00:00
 ---

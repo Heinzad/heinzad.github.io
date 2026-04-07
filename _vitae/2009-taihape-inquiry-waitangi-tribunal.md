@@ -1,8 +1,8 @@
 ---
-title: "Taihape District Inquiry - Waitangi Tribunal"
-excerpt: "Inquiry Facilitation"
+title: "Taihape District Inquiry - Facilitation"
+excerpt: "Starting up a commission of inquiry in Taihape and surrounding areas, 2009-2012."
 author: "Adam Heinz"
-date: 2026-03-30T20:00:09-01:00
+date: 2026-03-30T20:09:01-00:00
 ---
 *Advise a Commission of Inquiry*
 
