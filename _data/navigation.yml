@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Life"
+    url:  /vitae/
   - title: "Learn"
     url: /categories/
   #- title: "Quick-Start Guide"
