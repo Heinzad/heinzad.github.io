@@ -1,5 +1,5 @@
 ---
-title: "Whanganui District Inquiry - Statement of Issues"
+title: "Whanganui District Inquiry - Statement of Issues, 2006"
 excerpt: "Analysing the issues for inquiry in Whanganui, Waitangi Tribunal Research Unit, 2006."
 author: "Adam Heinz"
 date: 2026-03-30T20:06:03-00:00

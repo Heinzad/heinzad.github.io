@@ -1,5 +1,5 @@
 ---
-title: "Replacement District Plan Notification"
+title: "Replacement District Plan - Notification, 2015"
 excerpt: "Geospatial Data Engineering to notify affected property owners of proposed changes to the Christchurch district plan, CCC Monitoring & Research Unit, 2015."
 author: "Adam Heinz"
 date: 2026-03-30T20:15:00-00:00
