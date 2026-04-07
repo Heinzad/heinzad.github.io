@@ -1,8 +1,6 @@
 ---
 title: Curriculum Vitae
-layout: single
+layout: archive
 permalink: /vitae/
-collection: vitae
-entries_layout: grid
-classes: wide
+author_profile: true
 ---
