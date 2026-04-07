@@ -1,19 +1,17 @@
 ---
 title: "Built Environment Monitoring, 2012"
-excerpt: "Monitoring land availablity in Christchurch City, CCC Monitoring & Research Unit, 2012-2016."
+excerpt: "Monitoring land availablity in Christchurch City. CCC Monitoring & Research Unit, 2012-2016."
 author: "Adam Heinz"
 date: 2026-03-30T20:12:00-00:00
 ---
-*Quantify amount of land available for urban development*   
+*Monitoring land availablity in Christchurch City.*   
 
 Role: Research Analyst  
 Monitoring & Research Unit  
 Christchurch City Council  
-
-Technology: Mapinfo, Geomedia, Google Earth, Microsoft SQL Server database engine (MS SQL), Report Server (SSRS).  
   
 
-Achievements:   
+Monitoring Report:     
 
 - MBIE, CCC, [Christchurch Housing Accord Monitoring Report](https://ccc.govt.nz/assets/Documents/Services/Social-Housing/Christchurch-Housing-Accord-Monitoring-Report-Dec-2014.pdf), December 2014.
 
@@ -44,6 +42,12 @@ Responsibilities:
 - Identify changes in the land supply by analyzing building construction and zoning rules.
 - Develop data models and dashboards.
 - Provide quarterly and annual reports and indicator sheets: vacant land register, CCC-MBIE housing accord, Central City Recovery, Greenfield land capacity.  
+  
+  
+Technology:  
+  
+- Mapinfo, Geomedia, Google Earth
+- Microsoft SQL Server database engine (MS SQL), Report Server (SSRS).  
 
 Outcomes:  
 
@@ -51,4 +55,4 @@ Outcomes:
 reporting in SSRS and data cleansing in MapInfo, Geomedia, and ArcGIS.
 - Vacant Land analysis supplied to Power Network companies to plan for resential and industrial growth. 
 
-July 2013  
+2013  

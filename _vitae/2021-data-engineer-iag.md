@@ -1,14 +1,12 @@
 ---
 title: "Customer Remediation, 2021"
-excerpt: "Detecting data quality challenges back to the migration from mainframes to relational databases, IAG Data & Analytics, 2021-2022."
+excerpt: "Detecting data quality challenges back to the migration from mainframes to relational databases. IAG Data & Analytics, 2021-2022."
 author: "Adam Heinz"
 date: 2026-03-30T20:21:00-00:00
 ---
-*Customer Remediation*   
+*Detecting data quality challenges back to the migration from mainframes to relational databases.*   
 
 Role: Data Engineer, IAG.  
-
-Technology: Microsoft SQL Server database engine (MS SQL), Report Server and Power BI Service (Power BI). 
 
   
 Achievements:  
@@ -25,6 +23,11 @@ Responsibilities:
 - SQL Database design and development (tables, views, functions, stored procedures)
 - Testing
 - Data supply for form letters
+
+
+Technology:  
+
+- Microsoft SQL Server database engine (MS SQL), Report Server and Power BI Service (Power BI). 
 
 
 2021

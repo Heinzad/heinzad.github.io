@@ -1,20 +1,14 @@
 ---
 title: "Replacement District Plan - Notification, 2015"
-excerpt: "Geospatial Data Engineering to notify affected property owners of proposed changes to the Christchurch district plan, CCC Monitoring & Research Unit, 2015."
+excerpt: "Geospatial Data Engineering to notify affected property owners of proposed changes to the Christchurch district plan. CCC Monitoring & Research Unit, 2015."
 author: "Adam Heinz"
 date: 2026-03-30T20:15:00-00:00
 ---
-*Address matching*  
+*Geospatial Data Engineering to notify affected property owners of proposed changes to the Christchurch district plan.*  
 
 Role: Research Analyst  
 Monitoring & Research Unit  
 Christchurch City Council  
-
-Technology: Geomedia, Google Earth, Microsoft SQL Server database engine (MS SQL).  
-
-Outcomes:  
-
-- 500,000 affected property owners identified and contacted.  
 
 Achievements:  
 
@@ -42,5 +36,14 @@ Responsibilities:
 - Link CCC property information to NZ Post postal delivery addresses (GeoPAF). 
 - Provide spreadsheet outputs for mail merge letter content and attachments. 
 
+
+Technology:  
+
+- Geomedia, Google Earth
+- Microsoft SQL Server database engine (MS SQL).  
+
+Outcomes:  
+
+- 500,000 affected property owners identified and contacted.  
 
 2015

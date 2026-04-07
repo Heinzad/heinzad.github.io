@@ -1,16 +1,16 @@
 ---
 title: "Tauranga Distict Inquiry - Facilitation, 2005"
-excerpt: "Completing a commission of inquiry in Tauranga and surrounding areas, Waitangi Tribunal Research Unit, 2005-2010."
+excerpt: "Completing a commission of inquiry in Tauranga and surrounding areas. Waitangi Tribunal Research Unit, 2005-2010."
 author: "Adam Heinz"
 date: 2026-03-30T20:05:01-00:00
 ---
-*Advise a Commission of Inquiry*
+*Completing a commission of inquiry in Tauranga and surrounding areas.*
 
 Role: Research Analyst & Inquiry Facilitator.  
 Tauranga Moana District Inquiry Stage 2  
 Waitangi Tribunal Unit, Ministry of Justice.  
 
-Outcome:  
+Waitangi Tribunal Report:  
 
 - [Tauranga Moana 1886-2006: Report on the Post-Raupatu Claims](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_68361885/Wai215vol1.pdf), Waitangi Tribunal, Wellington, 2010.  
 
@@ -28,4 +28,8 @@ Responsibilities:
 
 - Consult iwi, hapu and whanau to develop research programmes. 
 - Advise a Commission of Inquiry.
+
+Outcome: 
+
+- Commission of inquiry completed.  
 
