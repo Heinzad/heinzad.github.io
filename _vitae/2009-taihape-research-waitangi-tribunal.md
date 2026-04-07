@@ -1,5 +1,5 @@
 ---
-title: "Taihape Research Scoping - Research Report"
+title: "Taihape Research Scoping - Research Report, 2009"
 excerpt: "Researching the effects of Public Works legislation on Maori land loss in the Taihape area, Waitangi Tribunal Research Unit, 2009."
 author: "Adam Heinz"
 date: 2026-03-30T20:09:02-00:00
