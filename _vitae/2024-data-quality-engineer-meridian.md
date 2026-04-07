@@ -1,6 +1,6 @@
 ---
 title: "Data Governance"
-excerpt: "Implementing a data product catalog, data lineage and data quality tests in Microsoft Purview, 2024-2025"
+excerpt: "Implementing a data product catalog, data lineage and data quality tests in Microsoft Purview, MEL Data AI & Analytics, 2024-2025"
 author: "Adam Heinz"
 date: 2026-03-30T20:24:00-00:00
 ---

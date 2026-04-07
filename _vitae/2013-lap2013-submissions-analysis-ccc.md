@@ -1,6 +1,6 @@
 ---
 title: "Local Alcohol Policy - Submissions Analysis"
-excerpt: "Developing a database to register an unprecedented number of submissions made from multiple sources on curtailing alcohol sales in the inner city, 2013."
+excerpt: "Developing a database to register an unprecedented number of submissions made from multiple sources on curtailing alcohol sales in the inner city, CCC Monitoring & Research Unit, 2013."
 author: "Adam Heinz"
 date: 2026-03-30T20:13:02-00:00
 ---
