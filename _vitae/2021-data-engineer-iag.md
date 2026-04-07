@@ -1,6 +1,6 @@
 ---
 title: "Customer Remediation"
-excerpt: "Detecting data quality challenges back to the migration from mainframes to relational databases, 2021"
+excerpt: "Detecting data quality challenges back to the migration from mainframes to relational databases, IAG Data & Analytics, 2021-2022."
 author: "Adam Heinz"
 date: 2026-03-30T20:21:00-00:00
 ---

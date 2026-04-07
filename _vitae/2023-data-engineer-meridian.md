@@ -1,13 +1,13 @@
 ---
 title: "Powering BI"
-excerpt: "Building a data lakehouse with Databricks and ADLSG2, 2023."
+excerpt: "Building a data lakehouse with Databricks and ADLSG2, MEL Data AI & Analytics, 2023-2024."
 author: "Adam Heinz"
 date: 2026-03-30T20:23:00-00:00
 ---
 *Data Lakehouse*  
 
 Role: Data Engineer  
-Meridian Energy  
+Meridian Energy Limited  
 
 Technology: Databricks, SQL Server database engineAzure Databricks, Azure SQL, Azure Data Factory, Azure Data Lake Generation 2, Power BI, Microsoft SQL Server (MS SQL).  
 

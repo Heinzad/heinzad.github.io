@@ -1,6 +1,6 @@
 ---
 title: "Defence Force Archives"
-excerpt: "Providing service records to descendants of service personnel, 2023."
+excerpt: "Providing service records to descendants of service personnel, HQNZDF, 2003."
 author: "Adam Heinz"
 date: 2026-03-30T20:03:00-00:00
 ---
