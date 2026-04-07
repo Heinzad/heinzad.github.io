@@ -1,6 +1,6 @@
 ---
 title: "Powering BI"
-excerpt: "Data Engineering"
+excerpt: "Building a data lakehouse with Databricks and ADLSG2, 2023."
 author: "Adam Heinz"
 date: 2026-03-30T20:23:00-00:00
 ---

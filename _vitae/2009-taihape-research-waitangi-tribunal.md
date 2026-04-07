@@ -1,6 +1,6 @@
 ---
-title: "Taihape Research Scoping - Commissioned Research"
-excerpt: "Research & Analysis"
+title: "Taihape Research Scoping - Research Report"
+excerpt: "Researching the effects of Public Works legislation on Maori land loss in the Taihape area, 2009."
 author: "Adam Heinz"
 date: 2026-03-30T20:09:02-00:00
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Replacement District Plan Notification"
-excerpt: "Geospatial Data Engineering"
+excerpt: "Geospatial Data Engineering to notify affected property owners of proposed changes to the Christchurch district plan, 2015."
 author: "Adam Heinz"
 date: 2026-03-30T20:15:00-00:00
 ---

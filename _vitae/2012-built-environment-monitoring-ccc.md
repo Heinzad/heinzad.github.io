@@ -1,6 +1,6 @@
 ---
 title: "Built Environment Monitoring"
-excerpt: "Monitoring & Evaluation"
+excerpt: "Monitoring land availablity in Christchurch City, 2012-2016."
 author: "Adam Heinz"
 date: 2026-03-30T20:12:00-00:00
 ---

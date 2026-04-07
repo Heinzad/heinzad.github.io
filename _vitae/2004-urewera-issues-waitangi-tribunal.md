@@ -1,6 +1,6 @@
 ---
-title: "Te Urewera Inquiry - Statement of Issues"
-excerpt: "Research & Analysis"
+title: "Te Urewera District Inquiry - Statement of Issues"
+excerpt: "Analysing the issues for inquiry in Te Urewera, 2004."
 author: "Adam Heinz"
 date: 2026-03-30T20:04:01-00:00
 ---

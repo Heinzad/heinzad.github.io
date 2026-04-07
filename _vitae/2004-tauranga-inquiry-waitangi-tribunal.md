@@ -1,6 +1,6 @@
 ---
-title: "Tauranga Distict Inquiry - Facilitation, 2005-2010"
-excerpt: "Completing a commission of inquiry in Tauranga and surrounding areas"
+title: "Tauranga Distict Inquiry - Facilitation"
+excerpt: "Completing a commission of inquiry in Tauranga and surrounding areas, 2005-2010"
 author: "Adam Heinz"
 date: 2026-03-30T20:04:02-00:00
 ---
