@@ -1,6 +1,6 @@
 ---
 title: Curriculum Vitae
-layout: collection
+layout: single
 permalink: /vitae/
 collection: vitae
 entries_layout: grid
