@@ -1,18 +1,16 @@
 ---
 title: "Maori Land Trusts and Incorporations - Research Report, 2005"
-excerpt: "Researching the effects of different legal structures on Maori land ownership in the Central North Island, Waitangi Tribunal Research Unit, 2005."
+excerpt: "Researching the effects of different legal structures on Maori land ownership in the Central North Island. Waitangi Tribunal Research Unit, 2005."
 author: "Adam Heinz"
 date: 2026-03-30T20:05:00-00:00
 ---
-*Research findings accepted by a Commission of Inquiry* 
+*Researching the effects of different legal structures on Maori land ownership in the Central North Island.* 
 
 Role: Research Analyst & Inquiry Facilitator.  
 Central North Island Regional inquiry (WAI 1200).  
 Waitangi Tribunal Unit, Ministry of Justice. 
 
-Technology: Excel, MS Access.  
-   
-Achievement:   
+Research Report:  
 
 - Bayley, Nicholas; Boulton, Leanne; Heinz, Adam, ‘Maori Land Trusts and Incorporations in the Twentieth Century in the Central North Island Inquiry Region’, research report commissioned by the Waitangi Tribunal, 2005, 227pp (Wai 1200 G4).   
 
@@ -31,6 +29,14 @@ Responsibilites:
 - Meet research deadlines. 
 - Present and defend research findings. 
 
+Technology:  
+
+- Excel 
+- MS Access.  
+
 Outcome:  
 
-- Research paper
+- Research presented. 
+- Research findings accepted by a commission of inquiry.  
+
+2005  

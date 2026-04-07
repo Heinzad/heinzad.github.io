@@ -1,25 +1,21 @@
 ---
 title: "Local Alcohol Policy - Submissions Analysis, 2013"
-excerpt: "Developing a database to register an unprecedented number of submissions made from multiple sources on curtailing alcohol sales in the inner city, CCC Monitoring & Research Unit, 2013."
+excerpt: "Developing a database to register an unprecedented number of submissions made from multiple sources on curtailing alcohol sales in the inner city. CCC Monitoring & Research Unit, 2013."
 author: "Adam Heinz"
 date: 2026-03-30T20:13:02-00:00
 ---
-
-*Design and development of a submissions database to enable analysis and reporting on submissions.* 
+*Developing a database to register an unprecedented number of submissions made from multiple sources on curtailing alcohol sales in the inner city.* 
 
 Role: Research Analyst 
 Monitoring & Research Unit 
 Christchurch City Council.  
 
-Technology: MS Access, Microsoft SQL Server database engine (MS SQL).  
-
-
 Achievements:  
 
-- Over 4000 public submissions registered then reported to council.  
+- Registered over 4000 public submissions and reported to council.  
 
   
-*Policy Paper:*  
+Policy Paper:  
   
 - Policy Team, Strategic Policy Unit, Monitoring and Research Team, Transport and Research Unit, [‘Draft Local Alcohol Policy 2013: Summary and analysis of submissions received during the Special Consultative Procedure, from 31 May - 1 July 2013’](https://resources.ccc.govt.nz/files/TheCouncil/policiesreportsstrategies/policies/groups/alcohol/DraftLAPSummaryandanalysisofsubmissionsJuly2013.pdf). Prepared by the Christchurch City Council, July 2013. 
 
@@ -32,4 +28,9 @@ The Local Alcohol Policy consultation required several Facebook surveys by the L
 - Charts and Graphs were printed on pages 8-49 of the report to Council. 
 
 
-July 2013  
+Technology:  
+- MS Access
+- Microsoft SQL Server database engine (MS SQL).  
+
+
+2013  

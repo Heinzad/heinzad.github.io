@@ -1,19 +1,17 @@
 ---
 title: "Three Year Plan 2013 - Submissions Analysis, 2014"
-excerpt: "Developing a database to support analysis with Nvivo, CCC Monitoring & Research Unit, 2013."
+excerpt: "Developing a database to support submissions analysis with Nvivo. CCC Monitoring & Research Unit, 2013."
 author: "Adam Heinz"
 date: 2026-03-30T20:13:01-00:00
 ---
-
-*Design and development of a submissions database to support Nvivo.*  
+*Developing a database to support submissions analysis with Nvivo.*  
 
 Role: Research Analyst  
 Monitoring & Research Unit  
 Christchurch City Council  
 
-Technology: Nvivo, MS Access, Microsoft SQL Server database engine (MS SQL).    
-
-Outcome:  
+   
+Report:  
 
 Christchurch City Three Year Plan 2013-16. [‘We Have Listened’](https://ccc.govt.nz/assets/Documents/The-Council/Plans-Strategies-Policies-Bylaws/Plans/Long-Term-Plan/typ2013/TYPVol1Wehavelistened.pdf), Christchurch City Council, 2013.
 
@@ -33,6 +31,18 @@ Built: MS Access forms & reports, SQL Server backend database. Developed tables 
 entry forms to enter handwritten submissions, reports with graphs and word clouds, and views for
 NVIVO to access. 
 
-Outcome: Public submissions registerd and analysed. 
+Responsibilities:  
 
-March 2013
+- Design and development of a submissions database to support Nvivo.
+
+Technology:  
+
+- Nvivo
+- MS Access forms & reports
+- Microsoft SQL Server database engine (MS SQL). 
+
+Outcome:  
+
+- Public submissions registerd and analysed. 
+
+2013
