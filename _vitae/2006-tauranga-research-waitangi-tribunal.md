@@ -3,6 +3,7 @@ title: "Tauranga Maori Land Alienation - Research Report, 2006"
 excerpt: "Researching the effects of Public Works legislation on the Maori land remaining in the Tauranga area after war and confiscation. Waitangi Tribunal Research Unit, 2006."
 author: "Adam Heinz"
 date: 2026-03-30T20:06:01-00:00
+order: 242
 ---
 *Researching the effects of Public Works legislation on the Maori land remaining in the Tauranga area after war and confiscation.* 
 

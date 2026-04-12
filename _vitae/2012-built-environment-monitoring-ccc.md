@@ -3,6 +3,7 @@ title: "Built Environment Monitoring, 2012"
 excerpt: "Monitoring land availablity in Christchurch City. CCC Monitoring & Research Unit, 2012-2016."
 author: "Adam Heinz"
 date: 2026-03-30T20:12:00-00:00
+order: 310
 ---
 *Monitoring land availablity in Christchurch City.*   
 

@@ -3,6 +3,7 @@ title: "Operational Data Store, 2019"
 excerpt: "Saving an ERP from month-end reporting. PGW Corporate IT, 2018-2020"
 author: "Adam Heinz"
 date: 2026-03-30T20:18:00-00:00
+order: 400
 ---
 *Saving an ERP from month-end reporting.*   
 

@@ -3,6 +3,7 @@ title: "Maori Land Trusts and Incorporations - Research Report, 2005"
 excerpt: "Researching the effects of different legal structures on Maori land ownership in the Central North Island. Waitangi Tribunal Research Unit, 2005."
 author: "Adam Heinz"
 date: 2026-03-30T20:05:00-00:00
+order: 230
 ---
 *Researching the effects of different legal structures on Maori land ownership in the Central North Island.* 
 

@@ -3,6 +3,7 @@ title: "Tauranga Distict Inquiry - Facilitation, 2005"
 excerpt: "Completing a commission of inquiry in Tauranga and surrounding areas. Waitangi Tribunal Research Unit, 2005-2010."
 author: "Adam Heinz"
 date: 2026-03-30T20:05:01-00:00
+order: 241
 ---
 *Completing a commission of inquiry in Tauranga and surrounding areas.*
 
