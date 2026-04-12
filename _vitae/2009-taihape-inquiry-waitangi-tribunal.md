@@ -1,6 +1,6 @@
 ---
 title: "Taihape District Inquiry - Facilitation"
-excerpt: "Starting up a commission of inquiry in Taihape and surrounding areas. Waitangi Tribunal Research Unit, 2009-2012."
+excerpt: "Research Facilitation - Starting up a commission of inquiry in Taihape and surrounding areas. Waitangi Tribunal Research Unit, 2009-2012."
 author: "Adam Heinz"
 date: 2026-03-30T20:09:01-00:00
 ordinal: 271

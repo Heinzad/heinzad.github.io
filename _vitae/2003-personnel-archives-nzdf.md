@@ -1,6 +1,6 @@
 ---
 title: "Defence Force Archives"
-excerpt: "Providing service records to descendants of service personnel. HQ NZDF, 2003."
+excerpt: "Database Development - Providing service records to descendants of service personnel. HQ NZDF, 2003."
 author: "Adam Heinz"
 date: 2026-03-30T20:03:00-00:00
 ordinal: 110

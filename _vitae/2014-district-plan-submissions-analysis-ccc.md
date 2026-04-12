@@ -1,6 +1,6 @@
 ---
 title: "Replacement District Plan - Submissions Analysis"
-excerpt: "Developing a database to register submissions on the strategic direction of post-quake Christchurch. CCC Monitoring & Research Unit, 2014"
+excerpt: "Database Development - Register submissions on the strategic direction of post-quake Christchurch. CCC Monitoring & Research Unit, 2014"
 author: "Adam Heinz"
 date: 2026-03-30T20:14:01-00:00
 ordinal: 340

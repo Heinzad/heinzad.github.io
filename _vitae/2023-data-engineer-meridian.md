@@ -1,6 +1,6 @@
 ---
 title: "Data Lakehouse"
-excerpt: "Building a data lakehouse with Databricks and ADLSG2, MEL Data AI & Analytics. 2023-2024."
+excerpt: "Data Engineering - Building a data lakehouse with Databricks and ADLSG2, MEL Data AI & Analytics. 2023-2024."
 author: "Adam Heinz"
 date: 2026-03-30T20:23:00-00:00
 ordinal: 710
@@ -12,7 +12,7 @@ Meridian Energy Limited
 
 Achievements:  
 
-- Loaded 600 tables into a Databricks proof-of-concept (Delta Live Tables). 
+- Loaded 600 tables into a Databricks proof-of-concept of metadata-driven development (Delta Live Tables). 
 - Rebuilt 50 Power BI reports using dataflows. 
 
 ---
