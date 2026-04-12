@@ -1,9 +1,9 @@
 ---
-title: "City Monitor, 2016"
+title: "City Monitor"
 excerpt: "Engineering a data hub and live dashboard for an entire city. CCC Smart Cities, 2016-2017."
 author: "Adam Heinz"
 date: 2026-03-30T20:16:00-00:00
-order: 360
+ordinal: 360
 ---
 *Engineering a data hub and live dashboard for an entire city.* 
   

@@ -1,9 +1,9 @@
 ---
-title: "Quantifying Maori Land Alienation in Te Rohe Potae - Research Report, 2008"
+title: "Quantifying Maori Land Alienation in Te Rohe Potae - Research Report"
 excerpt: "Researching the effects of legislation on Maori land loss in the Waikato. Waitangi Tribunal Research Unit, 2008."
 author: "Adam Heinz"
 date: 2026-03-30T20:08:00-00:00
-order: 260
+ordinal: 260
 ---
 *Researching the effects of legislation on Maori land loss in the Waikato.* 
   
