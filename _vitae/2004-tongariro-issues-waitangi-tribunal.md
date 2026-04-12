@@ -1,6 +1,6 @@
 ---
 title: "Tongariro National Park District Inquiry - Statement of Issues"
-excerpt: "Analysing issues for inquiry in Tongariro. Waitangi Tribunal Research Unit, 2004."
+excerpt: "Research & Analysis - Identifying issues for inquiry in Tongariro. Waitangi Tribunal Research Unit, 2004."
 author: "Adam Heinz"
 date: 2026-03-30T20:04:02-00:00
 ordinal: 210

@@ -1,6 +1,6 @@
 ---
 title: "City Monitor"
-excerpt: "Engineering a data hub and live dashboard for an entire city. CCC Smart Cities, 2016-2017."
+excerpt: "Data Engineering - Building a data hub and live dashboard for an entire city. CCC Smart Cities, 2016-2017."
 author: "Adam Heinz"
 date: 2026-03-30T20:16:00-00:00
 ordinal: 360
