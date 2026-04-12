@@ -1,9 +1,9 @@
 ---
-title: "Three Year Plan 2013 - Submissions Analysis, 2014"
+title: "Three Year Plan 2013 - Submissions Analysis"
 excerpt: "Developing a database to support submissions analysis with Nvivo. CCC Monitoring & Research Unit, 2013."
 author: "Adam Heinz"
 date: 2026-03-30T20:13:01-00:00
-order: 330
+ordinal: 330
 ---
 *Developing a database to support submissions analysis with Nvivo.*  
 

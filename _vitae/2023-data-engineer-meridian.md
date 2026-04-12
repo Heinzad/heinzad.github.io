@@ -1,9 +1,9 @@
 ---
-title: "Powering BI, 2023"
+title: "Powering BI"
 excerpt: "Building a data lakehouse with Databricks and ADLSG2, MEL Data AI & Analytics. 2023-2024."
 author: "Adam Heinz"
 date: 2026-03-30T20:23:00-00:00
-order: 710
+ordinal: 710
 ---
 *Building a data lakehouse with Databricks and ADLSG2, MEL Data AI & Analytics.*  
 
