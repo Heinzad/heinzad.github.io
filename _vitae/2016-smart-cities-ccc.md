@@ -16,6 +16,8 @@ Achievements:
 
 - Research and Development of an operational dashboard for realtime information across the whole of council. 
 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/ChChSmartCities_AdamHeinz.jpg" alt="Data Engineering" class="full">
+
 ---
 
 The Mayor of Christchurch wanted a way for City Councilors and the executive to understand everything that was happening in the city. I researched the Chicago Smart Grid (built in partnership with the University of Chicago High-Performance Computing Center) as an approach that did just that, and did a proof-of-concept on the Microsoft SQLBI stack. 

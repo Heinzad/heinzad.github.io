@@ -16,6 +16,8 @@ Monitoring Report:
 
 - MBIE, CCC, [Christchurch Housing Accord Monitoring Report](https://ccc.govt.nz/assets/Documents/Services/Social-Housing/Christchurch-Housing-Accord-Monitoring-Report-Dec-2014.pdf), December 2014.
 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/ChChEqHousingRecovery_AdamHeinz.png" alt="Monitoring & Evaluation="full">
+
 ---
 
 The Resource Management Act (RMA) requires council to monitor the performance of the City Plan. This had been performed up until the September 2010 earthquakes, from 2001 to 2009.  
