@@ -4,6 +4,7 @@ excerpt: "Data Architecture - Implementing a data product catalog, data lineage 
 author: "Adam Heinz"
 date: 2026-03-30T20:24:00-00:00
 ordinal: 720
+image: /assets/images/PurviewDataGov_AdamHeinz.png
 ---
 *Implementing a data product catalog, data lineage and data quality tests in Microsoft Purview.*   
 
@@ -13,6 +14,8 @@ Meridian Energy.
 Achievements:  
 
 - Minimised Time-to-Value: new analysts brought up to speed in minutes rather than months.  
+
+![alternative text]({{ page.image }})
 
 ---
 
