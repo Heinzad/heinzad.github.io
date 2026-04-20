@@ -15,7 +15,8 @@ Achievements:
 
 - Minimised Time-to-Value: new analysts brought up to speed in minutes rather than months.  
 
-![alternative text]({{ page.image }})
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/PurviewDataGov_AdamHeinz.png" alt="Microsoft Purview Data Governance Solution" class="full">
+
 
 ---
 
