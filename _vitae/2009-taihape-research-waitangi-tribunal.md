@@ -17,6 +17,8 @@ Research Report:
 
 Heinz, Adam, [‘Waiouru Defence Lands: Research Scoping Report’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_549187/Wai%202180%2C%20A001.pdf), research report commissioned by the Waitangi Tribunal, 2009, 113pp (Wai 2180 A1).  
 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/Awarua_AdamHeinz.jpg" alt="Historical GIS" class="full">
+
 ---
 
 Analysing the coverage of existing research and the scope and extent of any further research needed on public works takings for defence purposes in the Waiouru area. 
