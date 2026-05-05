@@ -47,9 +47,9 @@ feature_row:
   - image_path: /assets/images/Awarua_AdamHeinz.jpg
     title: "Historical GIS"
     excerpt: "Evidence for a Commission of Inquiry"
-    #url: "#test-link"
-    #btn_label: "Read More"
-    #btn_class: "btn--primary"
+    url: /vitae/2009-taihape-research-waitangi-tribunal/
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
