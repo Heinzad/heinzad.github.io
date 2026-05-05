@@ -30,7 +30,7 @@ feature_row:
     excerpt: "Housing Construction during Post-Earthquake Recovery"
     url: /vitae/2012-built-environment-monitoring-ccc/
     btn_label: "Read More"
-  #btn_class: "btn--primary"
+    btn_class: "btn--primary"
   - image_path: /assets/images/CentralCity3D_AdamHeinz.jpg
     title: "Earthquake Recovery"
     excerpt: "3D Model of the Central City from new and historical building consents"

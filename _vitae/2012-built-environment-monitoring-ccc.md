@@ -16,7 +16,7 @@ Monitoring Report:
 
 - MBIE, CCC, [Christchurch Housing Accord Monitoring Report](https://ccc.govt.nz/assets/Documents/Services/Social-Housing/Christchurch-Housing-Accord-Monitoring-Report-Dec-2014.pdf), December 2014.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/ChChEqHousingRecovery_AdamHeinz.png" alt="Monitoring & Evaluation="full">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/ChChEqHousingRecovery_AdamHeinz.png" alt="Monitoring & Evaluation" class="full">
 
 ---
 
