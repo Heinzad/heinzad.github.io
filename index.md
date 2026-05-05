@@ -16,21 +16,21 @@ feature_row:
   - image_path: /assets/images/PurviewDataGov_AdamHeinz.png
     title: "Data Governance"
     excerpt: "Enabling Digital Business"
-    url: /vitae/2024-data-quality-engineer-meridian.md
-    #btn_label: "Read More"
-    #btn_class: "btn--primary"
+    url: /vitae/2024-data-quality-engineer-meridian/
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: /assets/images/ChChSmartCities_AdamHeinz.jpg
     title: "Data Engineering"
     excerpt: "Smart Cities: City Dashboard & Data Hub"
-    url: /vitae/2016-smart-cities-ccc.md
-    #btn_label: "Read More"
-    #btn_class: "btn--primary"
+    url: /vitae/2016-smart-cities-ccc/
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: /assets/images/ChChEqHousingRecovery_AdamHeinz.png
     title: "Monitoring & Evaluation"
     excerpt: "Housing Construction during Post-Earthquake Recovery"
-    url: /vitae/2012-built-environment-monitoring-ccc.md
-    #btn_label: "Read More"
-    #btn_class: "btn--primary"
+    url: /vitae/2012-built-environment-monitoring-ccc/
+    btn_label: "Read More"
+  #btn_class: "btn--primary"
   - image_path: /assets/images/CentralCity3D_AdamHeinz.jpg
     title: "Earthquake Recovery"
     excerpt: "3D Model of the Central City from new and historical building consents"
@@ -47,9 +47,9 @@ feature_row:
   - image_path: /assets/images/Awarua_AdamHeinz.jpg
     title: "Historical GIS"
     excerpt: "Evidence for a Commission of Inquiry"
-    #url: "#test-link"
-    #btn_label: "Read More"
-    #btn_class: "btn--primary"
+    url: /vitae/2009-taihape-research-waitangi-tribunal/
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
