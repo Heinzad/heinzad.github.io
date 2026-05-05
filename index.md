@@ -16,7 +16,7 @@ feature_row:
   - image_path: /assets/images/PurviewDataGov_AdamHeinz.png
     title: "Data Governance"
     excerpt: "Enabling Digital Business"
-    #url: "#test-link"
+    url: /_vitae/2024-data-quality-engineer-meridian.md
     #btn_label: "Read More"
     #btn_class: "btn--primary"
   - image_path: /assets/images/ChChSmartCities_AdamHeinz.jpg
