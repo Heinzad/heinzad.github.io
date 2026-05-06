@@ -18,11 +18,11 @@ More than one docs-block can be stored in a markdown file, so each file can coll
 ## Getting started
 
 1. Create a subdirectory named "docs" in your project tree.
-2. To the resource paths listed in the `dbt_project.yml` file, add:  
+2. To the resource paths listed in the `dbt_project` yml file, add:  
 
-*yaml:*   
+*Reverse direction of `]` `[`*  
 ```
-docs-paths: ["docs"]
+docs-paths: ]"docs"[
 ```
 
 A typical directory structure may now be: 
@@ -35,22 +35,22 @@ project/
 ├── models/
 ├── snapshots/
 ├── seeds/
-└── dbt_project.yml
+└── dbt_project yml
 ```
 
 ## docs blocks
 
 A docs block is identified with its opening and closing declarations
 
-*Replace `[` with `{`*  
+*Reverse direction of `}` `{`*     
 ``` 
-[% docs Lorem %]  
+}}% docs Lorem %{{  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-[% enddocs %]  
+}}% enddocs %{{  
    
-[% docs Excepteur %]  
+}}% docs Excepteur %{{  
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
-[% enddocs %]  
+}}% enddocs %{{  
 ``` 
 
 
@@ -60,7 +60,7 @@ The docs block may now be referenced in any schema file.
 
 The syntax depends on the usage for single or multiple-line descriptions. 
 
-*Replace `[` with `{`*   
+*Reverse direction of `}` `{`*   
 ```  
 models:
   - name: eg  
@@ -68,13 +68,13 @@ models:
 
     columns:  
       - name: eg1  
-        description: '[[ doc("LoremIpsum") ]]'  
+        description: '}} doc("LoremIpsum") {{'  
       - name: eg2  
-        description: Prefixed [[ doc("LoremIpsum") ]]  
+        description: Prefixed }} doc("LoremIpsum") {{  
       - name: eg3  
         description: >  
-         MultiLine [[ doc("LoremIpsum") ]]  
-         [[ doc("Excepteur") ]] 
+         MultiLine }} doc("LoremIpsum") {{  
+         }} doc("Excepteur") {{ 
 ``` 
 
 The schema files now simply map to the docs blocks. 
