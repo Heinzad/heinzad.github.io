@@ -22,7 +22,9 @@ More than one docs-block can be stored in a markdown file, so each file can coll
 
 *Reverse direction of `]` `[`*  
 ```
-docs-paths: ]"docs"[
+{% raw %}  
+docs-paths: ]"docs"[  
+{% endraw %}
 ```
 
 A typical directory structure may now be: 
@@ -42,15 +44,17 @@ project/
 
 A docs block is identified with its opening and closing declarations
 
-*Reverse direction of `}` `{`*     
+*Reverse direction and convert from `]` `[` to `{` `}`*     
 ``` 
-}}% docs Lorem %{{  
+{% raw %}
+]]% docs Lorem %[[  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-}}% enddocs %{{  
+]]% enddocs %[[  
    
-}}% docs Excepteur %{{  
+]]% docs Excepteur %[[  
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
-}}% enddocs %{{  
+]]% enddocs %[[  
+{% endraw %}
 ``` 
 
 
@@ -62,19 +66,21 @@ The syntax depends on the usage for single or multiple-line descriptions.
 
 *Reverse direction of `}` `{`*   
 ```  
+{% raw %}
 models:
   - name: eg  
     description: This model is an example
 
     columns:  
       - name: eg1  
-        description: '}} doc("LoremIpsum") {{'  
+        description: ']] doc("LoremIpsum") [['  
       - name: eg2  
-        description: Prefixed }} doc("LoremIpsum") {{  
+        description: Prefixed ]] doc("LoremIpsum") [[  
       - name: eg3  
         description: >  
-         MultiLine }} doc("LoremIpsum") {{  
-         }} doc("Excepteur") {{ 
+         MultiLine ]] doc("LoremIpsum") [[  
+         ]] doc("Excepteur") [[ 
+{% raw %}
 ``` 
 
 The schema files now simply map to the docs blocks. 
