@@ -43,15 +43,16 @@ project/
 A docs block is identified with its opening and closing declarations
 
 *markdown jinja:*  
-  
-> <code>{</code>% docs Lorem %<code>}</code>  
+
+{% raw %}  
+> &#123;% docs Lorem %&#125;  
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-> <code>{</code>% enddocs %<code>}</code>  
+> &#123;% enddocs %&#125;  
 >   
-> <code>{</code>% docs Excepteur %<code>}</code>  
+> &#123;% docs Excepteur %&#125;  
 > Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
-> <code>{</code>% enddocs %<code>}</code>  
-   
+> &#123;% enddocs %&#125;  
+{% endraw %}  
 
 
 ## doc references 
@@ -60,7 +61,8 @@ The docs block may now be referenced in any schema file.
 
 The syntax depends on the usage for single or multiple-line descriptions. 
 
-*yaml:*  
+*yaml:*   
+{% raw %}  
 ```
 models:
   - name: eg
@@ -76,6 +78,7 @@ models:
          MultiLine {{ doc("LoremIpsum") }}
          {{ doc("Excepteur") }}
 ```
+{% endraw %}  
 
 The schema files now simply map to the docs blocks. 
 
