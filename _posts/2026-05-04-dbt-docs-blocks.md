@@ -61,7 +61,8 @@ The docs block may now be referenced in any schema file.
 
 The syntax depends on the usage for single or multiple-line descriptions. 
 
-*yaml:*  
+*yaml:*   
+{% raw %}  
 ```
 models:
   - name: eg
@@ -77,6 +78,7 @@ models:
          MultiLine {{ doc("LoremIpsum") }}
          {{ doc("Excepteur") }}
 ```
+{% endraw %}  
 
 The schema files now simply map to the docs blocks. 
 
