@@ -21,7 +21,7 @@ More than one docs-block can be stored in a markdown file, so each file can coll
 2. To the resource paths listed in the `dbt_project.yml` file, add:  
 
 *yaml:*   
-```yml
+```
 docs-paths: ["docs"]
 ```
 
@@ -60,7 +60,7 @@ The docs block may now be referenced in any schema file.
 The syntax depends on the usage for single or multiple-line descriptions. 
 
 *yaml:*  
-```yml
+```
 models:
   - name: eg
     description: This model is an example
