@@ -45,13 +45,15 @@ A docs block is identified with its opening and closing declarations
 *markdown jinja:*  
 
 {% raw %}  
-> &#123;% docs Lorem %&#125;  
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-> &#123;% enddocs %&#125;  
->   
-> &#123;% docs Excepteur %&#125;  
-> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
-> &#123;% enddocs %&#125;  
+</code>
+&#123;% docs Lorem %&#125;  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+&#123;% enddocs %&#125;  
+   
+&#123;% docs Excepteur %&#125;  
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+&#123;% enddocs %&#125;  
+</code>
 {% endraw %}  
 
 
@@ -63,19 +65,21 @@ The syntax depends on the usage for single or multiple-line descriptions.
 
 *yaml:*   
 {% raw %}  
->models:
->  - name: eg  
->    description: This model is an example  
->
->    columns:  
->      - name: eg1  
->        description: '&#123;&#123; doc("LoremIpsum") &#125;&#125;'  
->      - name: eg2  
->        description: Prefixed &#123;&#123; doc("LoremIpsum") &#125;&#125;  
->      - name: eg3  
->        description: >  
->         MultiLine &#123;&#123; doc("LoremIpsum") &#125;&#125;  
->         &#123;&#123; doc("Excepteur") &#125;&#125;  
+<code>
+models:
+  - name: eg  
+    description: This model is an example
+
+    columns:  
+      - name: eg1  
+        description: '&#123;&#123; doc("LoremIpsum") &#125;&#125;'  
+      - name: eg2  
+        description: Prefixed &#123;&#123; doc("LoremIpsum") &#125;&#125;  
+      - name: eg3  
+        description: >  
+         MultiLine &#123;&#123; doc("LoremIpsum") &#125;&#125;  
+         &#123;&#123; doc("Excepteur") &#125;&#125; 
+</code> 
 {% endraw %}  
 
 The schema files now simply map to the docs blocks. 
