@@ -20,6 +20,7 @@ More than one docs-block can be stored in a markdown file, so each file can coll
 1. Create a subdirectory named "docs" in your project tree.
 2. To the resource paths listed in the `dbt_project.yml` file, add:  
 
+*yaml:*   
 ```yml
 docs-paths: ["docs"]
 ```
@@ -41,7 +42,8 @@ project/
 
 A docs block is identified with its opening and closing declarations
 
-```jinja
+*jinja:*   
+```
 {% docs Lorem %} 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 {% enddocs %}
@@ -57,6 +59,7 @@ The docs block may now be referenced in any schema file.
 
 The syntax depends on the usage for single or multiple-line descriptions. 
 
+*yaml:*  
 ```yml
 models:
   - name: eg
