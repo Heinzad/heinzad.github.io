@@ -44,13 +44,13 @@ A docs block is identified with its opening and closing declarations
 
 *markdown jinja:*  
 ```  
-{{ "{%  docs Lorem %}" }}
+&#123;%  docs Lorem %&#125;
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-{{ "{%  enddocs %}" }}
+&#123;% enddocs %&#125;
 
-{{ "{%  docs Excepteur %}" }}
+&#123;%  docs Excepteur %&#125;
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-{{ "{%  enddocs %}" }} 
+&#123;%  enddocs %&#125; 
 ```  
 
 
