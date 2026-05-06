@@ -82,7 +82,7 @@ models:
         description: >  
          MultiLine ]] doc("LoremIpsum") [[  
          ]] doc("Excepteur") [[ 
-{% raw %}
+{% endraw %}
 ``` 
 
 The schema files now simply map to the docs blocks. 
