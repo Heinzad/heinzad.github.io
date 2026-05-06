@@ -43,17 +43,20 @@ project/
 A docs block is identified with its opening and closing declarations
 
 *markdown jinja:*  
-{% raw %}
-    {% docs Lorem %} 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    {% enddocs %}
-{% endraw %}
-
-{% raw %}
-    {% docs Excepteur %}
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    {% enddocs %} 
-{% endraw %}
+{% raw %}  
+{% docs Lorem %}  
+{% endraw %}   
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+{% raw %}  
+{% enddocs %}  
+{% endraw %}  
+{% raw %}    
+{% docs Excepteur %}  
+{% endraw %}  
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+{% raw %}  
+{% enddocs %}   
+{% endraw %}  
 
 
 ## doc references 
