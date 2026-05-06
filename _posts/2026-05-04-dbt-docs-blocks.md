@@ -63,21 +63,19 @@ The syntax depends on the usage for single or multiple-line descriptions.
 
 *yaml:*   
 {% raw %}  
-```
-models:
-  - name: eg
-    description: This model is an example
-
-    columns:
-      - name: eg1
-        description: '{{ doc("LoremIpsum") }}'
-      - name: eg2
-        description: Prefixed {{ doc("LoremIpsum") }}
-      - name: eg3
-        description: >
-         MultiLine {{ doc("LoremIpsum") }}
-         {{ doc("Excepteur") }}
-```
+>models:
+>  - name: eg  
+>    description: This model is an example  
+>
+>    columns:  
+>      - name: eg1  
+>        description: '&#123;&#123; doc("LoremIpsum") &#125;&#125;'  
+>      - name: eg2  
+>        description: Prefixed &#123;&#123; doc("LoremIpsum") &#125;&#125;  
+>      - name: eg3  
+>        description: >  
+>         MultiLine &#123;&#123; doc("LoremIpsum") &#125;&#125;  
+>         &#123;&#123; doc("Excepteur") &#125;&#125;  
 {% endraw %}  
 
 The schema files now simply map to the docs blocks. 
