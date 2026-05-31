@@ -27,5 +27,7 @@ Outcome:
 - Submissions registered for Stage 1 strategic directions of the Replacement District Plan.  
 
 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/ChChDistrictPlan.png" alt="Submissions Analysis" class="full">
+
 © Adam Heinz 
 2014
