@@ -35,8 +35,8 @@ feature_row:
     title: "Earthquake Recovery"
     excerpt: "3D Model of the Central City from new and historical building consents"
     url: /vitae/2015-district-plan-notification-ccc.md
-    #btn_label: "Read More"
-    #btn_class: "btn--primary"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   
   - image_path: /assets/images/DeprivationChristchurchMetro_AdamHeinz.jpg
     title: "Geospatial"
