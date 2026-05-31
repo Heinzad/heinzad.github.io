@@ -34,7 +34,7 @@ feature_row:
   - image_path: /assets/images/CentralCity3D_AdamHeinz.jpg
     title: "Earthquake Recovery"
     excerpt: "3D Model of the Central City from new and historical building consents"
-    url: /vitae/2015-district-plan-notification-ccc.md
+    url: /vitae/2015-district-plan-notification-ccc/
     btn_label: "Read More"
     btn_class: "btn--primary"
   
