@@ -44,3 +44,5 @@ Outcomes:
 
 - Research paper  
 - Historical GIS published in mapbook by the Crown Rental Forestry Trust, and utilised by historical researchers.  
+
+© Adam Heinz 

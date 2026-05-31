@@ -14,3 +14,5 @@ Waitangi Tribunal Unit, Ministry of Justice.
 Outcome:    
 
 Waitangi Tribunal, ‘Statement of Issues, Stage 2’, June 2004 (Wai 894 1.3.4).  
+
+© Adam Heinz 

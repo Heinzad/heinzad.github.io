@@ -17,3 +17,6 @@ Outcome:
 Issues for inquiry identified from legal submissions.  
 
 - Waitangi Tribunal, ‘Statement of Issues’, November 2006 (Wai 903 1.4.2).
+
+
+© Adam Heinz 

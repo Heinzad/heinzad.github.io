@@ -49,4 +49,5 @@ Outcomes:
 
 - 500,000 affected property owners identified and contacted.  
 
+© Adam Heinz 
 2015

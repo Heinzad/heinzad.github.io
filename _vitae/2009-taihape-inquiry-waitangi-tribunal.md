@@ -30,3 +30,6 @@ Policy Papers:
 - [‘Taihape Inquiry: Casebook Research Programme’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_40265085/Wai%202180,%206.2.20.pdf), Discussion Paper, Nov 2011 (Wai 2180 6.2.20). 
 - [‘Taihape Inquiry: Research Discussion Paper and Supplementary Bibliography’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_49146868/Wai%202180,%206.2.21.pdf), Oct 2010 (Wai 2180 6.2.21). 
 - [‘The Taihape Inquiry District: Inquiry Process, Boundaries, Issues, Options’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_548513/Wai%202180,%206.2.7.pdf), May 2010 (Wai 2180 6.2.7). 
+
+
+© Adam Heinz 

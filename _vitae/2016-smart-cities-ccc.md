@@ -50,4 +50,5 @@ Outcomes:
 - Achieved near-real time performance by leveraging metadata-driven development, and parallel processing through SSIS orchestration.
 - Versions 1 and 2 presented in public at the first and second Smart Cities expos.  
 
+© Adam Heinz 
 2017

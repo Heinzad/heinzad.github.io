@@ -34,3 +34,4 @@ Outcome:
 
 - Commission of inquiry completed.  
 
+© Adam Heinz 

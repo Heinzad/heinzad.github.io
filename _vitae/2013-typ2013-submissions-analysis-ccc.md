@@ -46,4 +46,5 @@ Outcome:
 
 - Public submissions registerd and analysed. 
 
+© Adam Heinz 
 2013

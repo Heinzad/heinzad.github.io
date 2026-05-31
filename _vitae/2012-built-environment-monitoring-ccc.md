@@ -58,4 +58,6 @@ Outcomes:
 reporting in SSRS and data cleansing in MapInfo, Geomedia, and ArcGIS.
 - Vacant Land analysis supplied to Power Network companies to plan for resential and industrial growth. 
 
+
+© Adam Heinz 
 2013  

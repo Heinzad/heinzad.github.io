@@ -31,4 +31,5 @@ Technology:
 - Microsoft SQL Server database engine (MS SQL), Report Server and Power BI Service (Power BI). 
 
 
+© Adam Heinz 
 2021
