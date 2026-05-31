@@ -33,5 +33,5 @@ Technology:
 - Python
 - Databricks.  
 
-
+© Adam Heinz 
 2024

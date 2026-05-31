@@ -15,6 +15,8 @@ Achievements:
 
 -  “Address Matters” Presentation at Intergraph Users Conference (Christchurch, 2016).
 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/ChChDistrictPlan.jpg" alt="Data Engineering" class="full">
+
 ---
 
 The Resource Management Act (RMA) requires Council to notify all parties whose properties are affected by
@@ -47,4 +49,5 @@ Outcomes:
 
 - 500,000 affected property owners identified and contacted.  
 
+© Adam Heinz 
 2015

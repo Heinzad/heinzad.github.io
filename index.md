@@ -11,7 +11,7 @@ header:
   #    url: "#test-link"
 excerpt: "To live is to learn"
 intro: 
-  - excerpt: "Data Governance, Data Engineering, Business Intelligence, Geospatial"
+  - excerpt: "Portfolio"
 feature_row:
   - image_path: /assets/images/PurviewDataGov_AdamHeinz.png
     title: "Data Governance"
@@ -34,7 +34,7 @@ feature_row:
   - image_path: /assets/images/CentralCity3D_AdamHeinz.jpg
     title: "Earthquake Recovery"
     excerpt: "3D Model of the Central City from new and historical building consents"
-    #url: "#test-link"
+    url: /vitae/2015-district-plan-notification-ccc.md
     #btn_label: "Read More"
     #btn_class: "btn--primary"
   

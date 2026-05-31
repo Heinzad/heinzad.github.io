@@ -39,3 +39,5 @@ Technology:
 Outcome:  
 
 - Research developed an historical GIS methodology to analyse Maori land records.  
+
+© Adam Heinz 

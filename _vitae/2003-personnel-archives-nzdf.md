@@ -18,4 +18,5 @@ Outcomes:
 
 - Built an MS Access database for records mailouts.  
 
+© Adam Heinz 
 2003

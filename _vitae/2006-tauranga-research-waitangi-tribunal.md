@@ -44,3 +44,5 @@ Outcomes:
 
 - Research presented 
 - Research findings accepted by a commission of inquiry  
+
+© Adam Heinz 

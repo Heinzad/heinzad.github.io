@@ -37,4 +37,6 @@ Outcomes:
 
 - Achieved near real-time performance to supply fresh and accurate data within 15 minutes of a new record being created.  
 
+
+© Adam Heinz 
 2017

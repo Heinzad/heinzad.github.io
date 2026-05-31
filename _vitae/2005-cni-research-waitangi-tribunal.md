@@ -40,4 +40,6 @@ Outcome:
 - Research presented. 
 - Research findings accepted by a commission of inquiry.  
 
+
+© Adam Heinz 
 2005  

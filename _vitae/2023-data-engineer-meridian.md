@@ -32,5 +32,5 @@ Technology:
 - Microsoft SQL Server database engine (MS SQL).  
 
   
-
+© Adam Heinz 
 2023

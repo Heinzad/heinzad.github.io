@@ -27,5 +27,5 @@ Outcome:
 - Submissions registered for Stage 1 strategic directions of the Replacement District Plan.  
 
 
-
+© Adam Heinz 
 2014
