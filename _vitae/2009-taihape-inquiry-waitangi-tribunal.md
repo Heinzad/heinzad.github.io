@@ -12,6 +12,7 @@ Role: Research Analyst & Inquiry Facilitator.
 Taihape: Rangitīkei ki Rangipō District inquiry (WAI 2180)  
 Waitangi Tribunal Unit, Ministry of Justice.  
 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/WAI2180TaihapeInquiryMap.png" alt="Geospatial" class="full">
 --- 
 
 Started up a commission of inquiry into 30 Treaty claims in Taihape and surrounding areas, from the first consultative conferences in 2009 through to the launch of a cross-agency research programme in mid-2011.  
