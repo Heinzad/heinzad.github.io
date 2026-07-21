@@ -10,7 +10,11 @@ ordinal: 310
 Role: Research Analyst  
 Monitoring & Research Unit  
 Christchurch City Council  
-  
+
+Achievements: 
+
+- Design and development of a spatial data mart for built environment monitoring, to support reporting in SSRS and data cleansing in MapInfo, Geomedia, and ArcGIS. 
+- Increased the precision, quality and timeliness to support policy advice during the earthquake recovery. 
 
 Monitoring Report:     
 
@@ -20,25 +24,21 @@ Monitoring Report:
 
 ---
 
-The Resource Management Act (RMA) requires council to monitor the performance of the City Plan. This had been performed up until the September 2010 earthquakes, from 2001 to 2009.  
+**The Christchurch Vacant Land Register helped answer multi-million dollar questions**.  
 
-My first task at Council in 2012 was to re-run the old processes, which largely turned out to be irredeemably broken as the source data had changed so much in the intervening years.
+Does the city have enough land for new building construction? Water and electricity networks will need to be strengthened and extended from the urban fringe. Planning for these capital works involves 50-year timeframes. 
 
-I took responsibility for redeveloping the spatial analytics using data warehousing techniques to extract
-transform and load information from the source transactional databases through to a snowflake schema
-in a monitoring data mart. Reports are produced for the intranet and can be exported from a web browser to pdf, excel, etc.  
+My first task at Council in 2012 was to restart the built environment monitoring processes that had been interrupted by the Christchurch earthquakes. 
 
-The annual indicators are now available from 2010 onwards. The vacant land register informs Orion’s
-capital planning. 
+The challenge was that after a 3-year interruption by the Christchurch earthquakes, the old monitoring processes no longer worked. Old scripts no longer worked, and referred to data sources that no longer existed. There was no easy fix.  
 
-New quarterly reports were developed for the CCC_MBIE housing accord, the Central City Recovery Report, and Residential Greenfields report. They were amalgamated into one report to meet the requirements of the proposed National Policy Statement under the RMA.
+The actions I took were to use data warehousing techniques to extract transform and load spatial information from the source systems through to a data mart and monitoring reports published on the Council website. 
 
-- Rewrote outdated MapInfo scripts using MS SQL Server Management Studio
-- Designed SQL Server database containing tables, indexed views (for backwards compatability with
-Mapinfo), diagrams, functions, triggers, stored procedures
-- Developed spatial reports in SQL Server Report Builder 3.0
+The result was that I resumed annual publication of the Vacant Land Register from 2010 onwards. The vacant land register informed Orion’s capital planning for new electricity substations. 
 
-  
+Further quarterly reports were developed for the CCC-MBIE housing accord, the Central City Recovery Report, and Residential Greenfields report. They were amalgamated into one report to meet the requirements of the proposed National Policy Statement under the RMA.
+
+The Vacant Land Register informed analysis for the proposed Christchurch Replacement District Plan (2014) and Plan Change 14 (2024). 
 
 Responsibilities:  
 
@@ -46,16 +46,22 @@ Responsibilities:
 - Develop data models and dashboards.
 - Provide quarterly and annual reports and indicator sheets: vacant land register, CCC-MBIE housing accord, Central City Recovery, Greenfield land capacity.  
   
-  
+
 Technology:  
   
 - Mapinfo, Geomedia, Google Earth
 - Microsoft SQL Server database engine (MS SQL), Report Server (SSRS).  
 
+Actions: 
+
+- Rewrote MapInfo (MapBasic) scripts into SQL Server Spatial. 
+- Designed SQL Server database containing tables, indexed views, diagrams, functions, triggers, stored procedures. 
+- Developed data quality tests to identify remedial work needed. 
+- Developed data cleansing workflows for MapInfo, Geomedia, and Google Earth satellite imagery. 
+- Developed spatial reports in SQL Server Reporting Services. 
+
 Outcomes:  
 
-- Design and development of a spatial data mart for built environment monitoring, to support
-reporting in SSRS and data cleansing in MapInfo, Geomedia, and ArcGIS.
 - Vacant Land analysis supplied to Power Network companies to plan for resential and industrial growth. 
 
 
