@@ -25,15 +25,15 @@ feature_row:
     url: /vitae/2016-smart-cities-ccc/
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/ChChEqHousingRecovery_AdamHeinz.png
+  - image_path: /assets/images/CentralCity3D_AdamHeinz.jpg
     title: "Monitoring & Evaluation"
-    excerpt: "Housing Construction during Post-Earthquake Recovery"
+    excerpt: "Land Supply and Housing Construction during Post-Earthquake Recovery"
     url: /vitae/2012-built-environment-monitoring-ccc/
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/CentralCity3D_AdamHeinz.jpg
-    title: "Earthquake Recovery"
-    excerpt: "3D Model of the Central City from new and historical building consents"
+  - image_path: /assets/images/ChChDistrictPlan.png
+    title: "Property Addressing"
+    excerpt: "Notifying affected owners of natural hazards and rule changes"
     url: /vitae/2015-district-plan-notification-ccc/
     btn_label: "Read More"
     btn_class: "btn--primary"
