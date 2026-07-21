@@ -11,7 +11,7 @@ header:
   #    url: "#test-link"
 excerpt: "To live is to learn"
 intro: 
-  - excerpt: "Portfolio"
+  - excerpt: "Portfolio of Publicly Available Work"
 feature_row:
   - image_path: /assets/images/PurviewDataGov_AdamHeinz.png
     title: "Data Governance"
