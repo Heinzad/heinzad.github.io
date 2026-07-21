@@ -13,37 +13,32 @@ Christchurch City Council
 
 Achievements:  
 
--  “Address Matters” Presentation at Intergraph Users Conference (Christchurch, 2016).
+- Addressed mailouts to 500,000 affected property owners. 
+- “Address Matters” Presentation at Intergraph Users Conference (Christchurch, 2016).
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ChChDistrictPlan.png" alt="Notification" class="full">
 
 ---
+**What do 8000 returned letters look like?** Three rooms stuffed floor to ceiling with envelopes, crammed with 20 temporary workers. They are needed to fix the problem fast before it becomes an issue in the Environment Court.  
 
-The Resource Management Act (RMA) requires Council to notify all parties whose properties are affected by
-changes to the planning rules. This includes both property owners and occupiers (tenants). Failure to notify any affected party can result in litigation in the Environment Court. 
+The situation was that the Council used a street address dataset that had been verified to 85 percent accuracy for NZ Post bulk mail discounts. A 15 percent error rate is not sufficient when the Environment Court requires every affected party to be notified in a city of 500,000 properties. 
 
-There is an associated issue identified by LINZ in that in the absence of a national street address dataset, around 15-30 percent of properties nationwide are unable to be identified by a single address. The Council street address dataset has been verified to 85 percent accuracy for NZ Post bulk mail discounts. 
+I was assigned the challenge of achieving the 100 percent accuracy required.  
 
-I was assigned the challenge of achieving the 100 percent accuracy required by the RMA.  
+My actions were to work closely with the business support teams to understand the challenge and build trust in the solution. I then developed spatial algorithms to match Council street addresses with NZ Post’s postal delivery addresses, with data cleansing process to fix the remainder. 
 
-- I developed processes for business support teams to generate mail merge letters from spatial analysis
-performed by GIS teams, on terms dictated by the customer, based on stored procedures in SQL Server
-Spatial running algorithms to match Council street addresses with NZ Post’s postal delivery addresses.
-- The turnaround period decreased from 3 months to 10 days (including QA) and has an error rate of
-less than 1 percent, judged by postal returns.  
-- The process was also used by the GIS & Analytics team to notify properties affected by infrastructure works
+The result was a decreased turnaround period from analysis to mailout from 3 months down to 10 days, with an error rate of less than 1 percent, as judged by postal returns.  
 
 Responsibilities:  
 
-- Identify properties affected by changes to land use zoning. 
+- Perform Spatial Analysis to identify properties affected by natural hazards or changes to land use zoning. 
 - Link CCC property information to NZ Post postal delivery addresses (GeoPAF). 
 - Provide spreadsheet outputs for mail merge letter content and attachments. 
-
 
 Technology:  
 
 - Geomedia, Google Earth
-- Microsoft SQL Server database engine (MS SQL).  
+- Microsoft SQL Server Spatial (MS SQL).  
 
 Outcomes:  
 
