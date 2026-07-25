@@ -16,14 +16,14 @@ feature_row:
 
   - image_path: /assets/images/PurviewDataGov_AdamHeinz.png
     title: "Data Governance"
-    excerpt: "Enabling Digital Business"
+    excerpt: "Build trust in data. Minimise time-to-value."
     url: /vitae/2024-data-quality-engineer-meridian/
     btn_label: "Read More"
     btn_class: "btn--primary"
 
-  - image_path: /assets/images/ERPODS_AdamHeinz.png
+  - image_path: /assets/images/ERP_ODS_AdamHeinz.png
     title: "Data Architecture"
-    excerpt: "Operational Reporting: Accounts Payable"
+    excerpt: "Near-realtime operational reporting."
     url: /vitae/2018-bi-developer-pgw/
     btn_label: "Read More"
     btn_class: "btn--primary"
