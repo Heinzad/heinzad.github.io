@@ -11,26 +11,37 @@ header:
   #    url: "#test-link"
 excerpt: "To live is to learn"
 intro: 
-  - excerpt: "Portfolio of Publicly Available Work"
+  - excerpt: "Building trusted data platforms, governance frameworks, and geospatial solutions across public and private sectors"
 feature_row:
+
   - image_path: /assets/images/PurviewDataGov_AdamHeinz.png
     title: "Data Governance"
     excerpt: "Enabling Digital Business"
     url: /vitae/2024-data-quality-engineer-meridian/
     btn_label: "Read More"
     btn_class: "btn--primary"
+
+  - image_path: /assets/images/ERPODS_AdamHeinz.png
+    title: "Data Architecture"
+    excerpt: "Operational Reporting: Accounts Payable"
+    url: /vitae/2024-data-quality-engineer-meridian/
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
   - image_path: /assets/images/ChChSmartCities_AdamHeinz.jpg
     title: "Data Engineering"
     excerpt: "Smart Cities: City Dashboard & Data Hub"
     url: /vitae/2016-smart-cities-ccc/
     btn_label: "Read More"
     btn_class: "btn--primary"
+
   - image_path: /assets/images/CentralCity3D_AdamHeinz.jpg
     title: "Monitoring & Evaluation"
     excerpt: "Land Supply and Housing Construction during Post-Earthquake Recovery"
     url: /vitae/2012-built-environment-monitoring-ccc/
     btn_label: "Read More"
     btn_class: "btn--primary"
+
   - image_path: /assets/images/ChChDistrictPlan.png
     title: "Property Addressing"
     excerpt: "Notifying affected owners of natural hazards and rule changes"
@@ -44,6 +55,7 @@ feature_row:
     #url: "#test-link"
     #btn_label: "Read More"
     #btn_class: "btn--primary"
+
   - image_path: /assets/images/Awarua_AdamHeinz.jpg
     title: "Historical GIS"
     excerpt: "Evidence for a Commission of Inquiry"
