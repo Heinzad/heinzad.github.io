@@ -15,7 +15,7 @@ Achievements:
   
 - Near-Realtime Operational Reporting. 
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/ERP_ODS.png" alt="Notification" class="full">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/ERP_ODS_AdamHeinz.png" alt="Near-Realtime Data Architecture" class="full">
 
 ---
 
@@ -42,16 +42,16 @@ The result was to enable Accounts Payable staff to run every query they needed, 
 --- 
 Responsibilities:  
 
-- SQL Database design and development (tables, views, functions, and stored procedures)
-- ETL development (Wherescape Red, Microsoft Dynamics 365)
-- Tabular model design and development (SSAS, Power BI)
+- SQL Database design and development (tables, views, functions, and stored procedures). 
+- ETL development (Wherescape Red, Microsoft Dynamics 365). 
+- Tabular model design and development (SSAS, Power BI). 
 - Operational reporting from JD Edwards EnterpriseOne ERP for Accounting, Payables, Receivables, Procurement, Distribution Centres (SSRS, Power BI)
-- Human resources reporting and analytics from Payglobal (SSRS)  
+- Human resources reporting and analytics from Payglobal (SSRS).   
 
   
 Technology:  
 
-- JD Edwards ERP
+- JD Edwards ERP. 
 - Microsoft SQL Server database engine (MS SQL), Integration Services (SSIS), Analysis Services (SSAS), Report Server and Power BI Service (Power BI).  
   
 
