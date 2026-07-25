@@ -24,7 +24,7 @@ feature_row:
   - image_path: /assets/images/ERPODS_AdamHeinz.png
     title: "Data Architecture"
     excerpt: "Operational Reporting: Accounts Payable"
-    url: /vitae/2024-data-quality-engineer-meridian/
+    url: /vitae/2018-bi-developer-pgw/
     btn_label: "Read More"
     btn_class: "btn--primary"
 
