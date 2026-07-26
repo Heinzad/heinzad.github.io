@@ -21,6 +21,13 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
+  - image_path: /assets/images/MPD_AdamHeinz.png
+    title: "Data Remediation"
+    excerpt: "Data Quality troubleshooting."
+    url: /vitae/2018-data-engineer-iag/
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
   - image_path: /assets/images/ERP_ODS_AdamHeinz.png
     title: "Data Architecture"
     excerpt: "Near-realtime operational reporting."
