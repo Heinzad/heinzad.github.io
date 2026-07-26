@@ -16,7 +16,7 @@ Achievements:
 - Minimised Time-to-Value: new analysts brought up to speed in minutes rather than months.  
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/PurviewDataGov_AdamHeinz.png" alt="Data Governance" class="full">
-
+*Photo by Aaron Sebastian on Unsplash*
 ---
 
 Responsibilities:  

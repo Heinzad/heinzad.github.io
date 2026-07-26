@@ -16,6 +16,7 @@ Achievements:
 - Near-Realtime Operational Reporting. 
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ERP_ODS_AdamHeinz.png" alt="Near-Realtime Data Architecture" class="full">
+*Photo by James Lee on Unsplash* 
 
 ---
 
