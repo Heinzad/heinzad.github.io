@@ -9,11 +9,13 @@ ordinal: 600
 
 Role: Data Engineer, IAG.  
 
-  
 Achievements:  
 
-- Historical issues remediated for over 40,000 customers to the satisfaction of the FMA
+- Over 40,000 customers refunded to the satisfaction of the High Court.
 
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/MPD_AdamHeinz.png" alt="Multi-Policy Discount" class="full">
+*Photo by David Ford on Unsplash*
+      
 ---
 
 Responsibilities:  
