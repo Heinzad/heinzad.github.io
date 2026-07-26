@@ -14,7 +14,7 @@ Achievements:
 - Over 40,000 customers refunded to the satisfaction of the High Court.
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/MPD_AdamHeinz.png" alt="Multi-Policy Discount" class="full">
-*Photo by David Ford on Unsplash*
+*Photo by Josh Tere on Unsplash*
       
 ---
 
