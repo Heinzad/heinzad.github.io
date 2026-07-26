@@ -10,34 +10,36 @@ header:
   #  - label: "Download"
   #    url: "#test-link"
 excerpt: "To live is to learn"
+
 intro: 
   - excerpt: "Building trusted data platforms, governance frameworks, and geospatial solutions across public and private sectors"
+
 feature_row:
 
   - image_path: /assets/images/PurviewDataGov_AdamHeinz.png
     title: "Data Governance"
-    excerpt: "Build trust in data. Minimise time-to-value."
+    excerpt: "Build trust in data. Speed up time-to-value."
     url: /vitae/2024-data-quality-engineer-meridian/
     btn_label: "Read More"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/MPD_AdamHeinz.png
     title: "Data Remediation"
-    excerpt: "Data Quality troubleshooting."
+    excerpt: "Refunding customers ahead of court proceedings."
     url: /vitae/2018-data-engineer-iag/
     btn_label: "Read More"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/ERP_ODS_AdamHeinz.png
     title: "Data Architecture"
-    excerpt: "Near-realtime operational reporting."
+    excerpt: "Making data as fast as your customers are."
     url: /vitae/2018-bi-developer-pgw/
     btn_label: "Read More"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/ChChSmartCities_AdamHeinz.jpg
     title: "Data Engineering"
-    excerpt: "Smart Cities: City Dashboard & Data Hub"
+    excerpt: "City Data Hub & Dashboard"
     url: /vitae/2016-smart-cities-ccc/
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -50,7 +52,7 @@ feature_row:
     btn_class: "btn--primary"
 
   - image_path: /assets/images/ChChDistrictPlan.png
-    title: "Property Addressing"
+    title: "Address Matching"
     excerpt: "Notifying affected owners of natural hazards and rule changes"
     url: /vitae/2015-district-plan-notification-ccc/
     btn_label: "Read More"
