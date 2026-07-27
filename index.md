@@ -18,7 +18,7 @@ feature_row:
 
   - image_path: /assets/images/PurviewDataGov_AdamHeinz.png
     title: "Data Governance"
-    excerpt: "Speed onboarding new staff and contractors. Minimise time-to-value."
+    excerpt: "Faster onboarding speeds time-to-value of new staff, contractors, and projects."
     url: /vitae/2024-data-quality-engineer-meridian/
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -39,28 +39,28 @@ feature_row:
 
   - image_path: /assets/images/ChChSmartCities_AdamHeinz.jpg
     title: "Data Engineering"
-    excerpt: "City Data Hub & Dashboard."
+    excerpt: "Mixing live data and big data to understand everything everywhere in a city."
     url: /vitae/2016-smart-cities-ccc/
     btn_label: "Read More"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/CentralCity3D_AdamHeinz.jpg
     title: "Monitoring & Evaluation"
-    excerpt: "Post-quake land supply and housing construction monitoring ▪"
+    excerpt: "Tracking post-quake land supply and housing construction."
     url: /vitae/2012-built-environment-monitoring-ccc/
     btn_label: "Read More"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/ChChDistrictPlan.png
     title: "Address Matching"
-    excerpt: "Notifying 500,000 property owners. Avert adverse Court findings."
+    excerpt: "Notifying 500,000 property owners. Meeting court requirements."
     url: /vitae/2015-district-plan-notification-ccc/
     btn_label: "Read More"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/Awarua_AdamHeinz.jpg
     title: "Historical GIS"
-    excerpt: "Research and present evidence for a Commission of Inquiry."
+    excerpt: "Researching land ownership changes for a commission of inquiry."
     url: /vitae/2009-taihape-research-waitangi-tribunal/
     btn_label: "Read More"
     btn_class: "btn--primary"
