@@ -18,7 +18,7 @@ feature_row:
 
   - image_path: /assets/images/PurviewDataGov_AdamHeinz.png
     title: "Data Governance"
-    excerpt: "· Speed up onboarding new staff and contractors · minimise time-to-value ·"
+    excerpt: "· Speed onboarding new staff and contractors · minimise time-to-value ·"
     url: /vitae/2024-data-quality-engineer-meridian/
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -60,7 +60,7 @@ feature_row:
 
   - image_path: /assets/images/Awarua_AdamHeinz.jpg
     title: "Historical GIS"
-    excerpt: "· Present Evidence for a Commission of Inquiry ·"
+    excerpt: "· Research and present evidence for a Commission of Inquiry ·"
     url: /vitae/2009-taihape-research-waitangi-tribunal/
     btn_label: "Read More"
     btn_class: "btn--primary"
