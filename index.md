@@ -26,7 +26,7 @@ feature_row:
   - image_path: /assets/images/MPD_AdamHeinz.png
     title: "Data Remediation"
     excerpt: "Refunded 40,000 customers. Mitigated court fines."
-    url: /vitae/2018-data-engineer-iag/
+    url: /vitae/2021-data-engineer-iag/
     btn_label: "Read More"
     btn_class: "btn--primary"
 
