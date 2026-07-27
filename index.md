@@ -18,21 +18,21 @@ feature_row:
 
   - image_path: /assets/images/PurviewDataGov_AdamHeinz.png
     title: "Data Governance"
-    excerpt: "Build trust in data. Speed up time-to-value."
+    excerpt: "· Speed onboarding new staff and contractors · minimise time-to-value ·"
     url: /vitae/2024-data-quality-engineer-meridian/
     btn_label: "Read More"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/MPD_AdamHeinz.png
     title: "Data Remediation"
-    excerpt: "Refunding customers ahead of court proceedings."
+    excerpt: "· Refunded 40,000 customers · mitigated court fines ·"
     url: /vitae/2018-data-engineer-iag/
     btn_label: "Read More"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/ERP_ODS_AdamHeinz.png
     title: "Data Architecture"
-    excerpt: "Making data as fast as your customers are."
+    excerpt: "· Collecting overdue debt before it becomes outstanding ·"
     url: /vitae/2018-bi-developer-pgw/
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -46,28 +46,21 @@ feature_row:
 
   - image_path: /assets/images/CentralCity3D_AdamHeinz.jpg
     title: "Monitoring & Evaluation"
-    excerpt: "Land Supply and Housing Construction during Post-Earthquake Recovery"
+    excerpt: "· Post-Earthquake Land Supply and Housing Construction monitoring ·"
     url: /vitae/2012-built-environment-monitoring-ccc/
     btn_label: "Read More"
     btn_class: "btn--primary"
 
   - image_path: /assets/images/ChChDistrictPlan.png
     title: "Address Matching"
-    excerpt: "Notifying affected owners of natural hazards and rule changes"
+    excerpt: "· Notifying 500,000 property owners · Avert Environment Court findings ·"
     url: /vitae/2015-district-plan-notification-ccc/
     btn_label: "Read More"
     btn_class: "btn--primary"
-  
-  - image_path: /assets/images/DeprivationChristchurchMetro_AdamHeinz.jpg
-    title: "Geospatial"
-    excerpt: "Distribution of Deprivation across a city"
-    #url: "#test-link"
-    #btn_label: "Read More"
-    #btn_class: "btn--primary"
 
   - image_path: /assets/images/Awarua_AdamHeinz.jpg
     title: "Historical GIS"
-    excerpt: "Evidence for a Commission of Inquiry"
+    excerpt: "· Research and present evidence for a Commission of Inquiry ·"
     url: /vitae/2009-taihape-research-waitangi-tribunal/
     btn_label: "Read More"
     btn_class: "btn--primary"
