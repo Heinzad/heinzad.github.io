@@ -8,8 +8,11 @@ image: /assets/images/PurviewDataGov_AdamHeinz.png
 ---
 *Implementing a data product catalog, data lineage and data quality tests in Microsoft Purview.*   
 
-Role: Data Quality Engineer 
-Meridian Energy.  
+Role: Data Quality Engineer, Meridian Energy.  
+
+Technology:  
+
+- Microsoft Purview, Python, Databricks, Oracle, SQL Server.
 
 Achievements:  
 
@@ -26,12 +29,7 @@ Responsibilities:
 - Mapped organisational structure, business processes, and technical assets. 
 - Mapped business glossary to data domains.  
   
-    
-Technology:  
-
-- Microsoft Purview
-- Python
-- Databricks.  
+---   
 
 © Adam Heinz 
 2024
