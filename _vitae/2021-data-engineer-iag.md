@@ -9,6 +9,10 @@ ordinal: 600
 
 Role: Data Engineer, IAG.  
 
+Technology:  
+
+- Microsoft SQL Server database engine (MS SQL), Report Server and Power BI Service (Power BI). 
+
 Achievements:  
 
 - Over 40,000 customers refunded to the satisfaction of the High Court.
@@ -27,11 +31,7 @@ Responsibilities:
 - Testing
 - Data supply for form letters
 
-
-Technology:  
-
-- Microsoft SQL Server database engine (MS SQL), Report Server and Power BI Service (Power BI). 
-
+---
 
 © Adam Heinz 
 2021

@@ -23,6 +23,13 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
+  - image_path: /assets/images/Migration_AdamHeinz.png
+    title: "Data Migration"
+    excerpt: "Building a Lakehouse."
+    url: /vitae/2023-data-engineer-meridian/
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
   - image_path: /assets/images/MPD_AdamHeinz.png
     title: "Data Remediation"
     excerpt: "Refunded 40,000 customers. Mitigated court fines."
@@ -39,7 +46,7 @@ feature_row:
 
   - image_path: /assets/images/ChChSmartCities_AdamHeinz.jpg
     title: "Data Engineering"
-    excerpt: "Mixing live data and big data to understand everything everywhere in a city."
+    excerpt: "Big data to understand everything everywhere in a city."
     url: /vitae/2016-smart-cities-ccc/
     btn_label: "Read More"
     btn_class: "btn--primary"
