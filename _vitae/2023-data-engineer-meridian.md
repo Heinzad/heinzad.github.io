@@ -1,13 +1,15 @@
 ---
 title: "Data Migration"
-excerpt: "Data Engineering - Building a data lakehouse with Databricks and ADLSG2, MEL Data AI & Analytics. 2023-2024."
+excerpt: "Migrating to a modern data platform with Databricks — BI Specialist, Data AI & Analytics, Meridian Energy Limited, 2023-2024."
 author: "Adam Heinz"
 date: 2026-03-30T20:23:00-00:00
 ordinal: 710
 ---
 *Building a data lakehouse*  
 
-Role: Data Engineer, Meridian Energy Limited  
+Role: Data Engineer  
+Department: ICT Information Communications and Technology  
+Organisation: Meridian Energy  
 
 Technology: 
 
@@ -32,7 +34,7 @@ Responsibilities:
 
   
 ---
-Photo by Sulthan Auliya on Unsplash
-
+*Photo by Sulthan Auliya on Unsplash*
+  
 © Adam Heinz 
 2023
