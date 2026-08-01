@@ -12,7 +12,7 @@ header:
 excerpt: "To live is to learn"
 
 intro: 
-  - excerpt: "Building trusted data platforms, governance frameworks, and geospatial solutions across public and private sectors"
+  - excerpt: "Data Engineer architecting and delivering trusted data platforms, governance frameworks and geospatial solutions across public and private sectors"
 
 feature_row:
 
@@ -45,7 +45,7 @@ feature_row:
     btn_class: "btn--primary"
 
   - image_path: /assets/images/ChChSmartCities_AdamHeinz.jpg
-    title: "Data Engineering"
+    title: "Data Federation"
     excerpt: "Big data sensing everything everywhere in a city."
     url: /vitae/2016-smart-cities-ccc/
     btn_label: "Read More"
