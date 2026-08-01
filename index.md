@@ -25,7 +25,7 @@ feature_row:
 
   - image_path: /assets/images/Migration_AdamHeinz.png
     title: "Data Migration"
-    excerpt: "Building a Lakehouse."
+    excerpt: "Enabling advanced analytics with a modern data platform."
     url: /vitae/2023-data-engineer-meridian/
     btn_label: "Read More"
     btn_class: "btn--primary"
