@@ -1,6 +1,6 @@
 ---
 title: "Data Migration"
-excerpt: "Migrating to a modern data platform with Databricks — BI Specialist, Data AI & Analytics, Meridian Energy Limited, 2023-2024."
+excerpt: "Migrating to a modern data platform with Databricks — BI Specialist, Data AI & Analytics, MEL, 2023-2024."
 author: "Adam Heinz"
 date: 2026-03-30T20:23:00-00:00
 ordinal: 710
@@ -9,7 +9,7 @@ ordinal: 710
 
 Title: Business Intelligence Specialist  
 Department: ICT Information Communications and Technology  
-Organisation: Meridian Energy  
+Organisation: Meridian Energy Limited 
 
 Technology: 
 

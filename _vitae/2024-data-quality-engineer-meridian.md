@@ -1,6 +1,6 @@
 ---
 title: "Data Governance"
-excerpt: "Implementing a data product catalog, data lineage and data quality tests in Microsoft Purview — Data Quality Engineer, Data AI & Analytics, Meridian Energy Limited, 2024-2025"
+excerpt: "Implementing a data product catalog, data lineage and data quality tests in Microsoft Purview — Data Quality Engineer, Data AI & Analytics, MEL, 2024-2025"
 author: "Adam Heinz"
 date: 2026-03-30T20:24:00-00:00
 ordinal: 720
@@ -10,7 +10,7 @@ image: /assets/images/PurviewDataGov_AdamHeinz.png
 
 Title: Data Quality Engineer  
 Department: ICT Information Communications and Technology  
-Organisation: Meridian Energy  
+Organisation: Meridian Energy Limited 
 
 Technology:  
 
