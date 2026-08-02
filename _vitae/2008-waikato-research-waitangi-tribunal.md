@@ -1,5 +1,5 @@
 ---
-title: "Geospatial Database Development"
+title: "Historical GIS"
 excerpt: "Research Report: Quantifying the effects of legislation on Maori land loss in the Waikato — Research Analyst, Waitangi Tribunal Research Unit, MOJ, 2008."
 author: "Adam Heinz"
 date: 2026-03-30T20:08:00-00:00

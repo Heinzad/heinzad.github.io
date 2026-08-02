@@ -1,5 +1,5 @@
 ---
-title: "Database Development"
+title: "Historical GIS"
 excerpt: "Research Report: Quantifying the effects of Public Works legislation on the Maori land remaining in the Tauranga area after war and confiscation — Research Analyst, Waitangi Tribunal Research Unit, MOJ, 2006."
 author: "Adam Heinz"
 date: 2026-03-30T20:06:01-00:00
