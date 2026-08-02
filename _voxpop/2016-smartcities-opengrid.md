@@ -11,14 +11,16 @@ In January 2016 The City of Chicago launched its OpenGrid map (in addition to it
 
 The image displayed here is of "311 Service Requests - Pot Holes Reported" within Ward 2. If you report a pothole, you can go online, click on a point and the pop-up window tells you what was done about that pothole. The possibilities seem endless.
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/opengrid_311_requests.jpg" alt="OpenStreetMap" class="full">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/opengrid_311_requests.jpg" alt="OpenGrid" class="full">
 
-"Plenario" ingests information from a CKAN or Socrata open data portal, or csv file. Indexing locates the information in space and time. 
+[Plenario](http://plenar.io/) ingests information for any city in the world, from a CKAN or Socrata open data portal, or csv file. Indexing locates the information in space and time. 
 
-"OpenGrid" visualises the results of various geospatial and temporal searches on a map. Further Data Mining and analytics can be performed in python or R, etc, by connecting to the API. 
+[OpenGrid](https://opengrid.io/) visualises the results of various geospatial and temporal searches on a map. Further Data Mining and analytics can be performed in python or R, etc, by connecting to the API.  
 
-Further Reading 
---------------- 
+---
+
+### Further Reading:  
+
 
 City of Chicago, [OpenGrid]( https://opengrid.io/ ) 
 
