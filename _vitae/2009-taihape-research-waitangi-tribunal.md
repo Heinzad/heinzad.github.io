@@ -1,6 +1,6 @@
 ---
 title: "Geospatial Database Development"
-excerpt: "Taihape Research Scoping Report: Effects of Public Works legislation on Maori land loss in the Taihape area — Research Analyst, Waitangi Tribunal Research Unit, MOJ, 2009."
+excerpt: "Research Report: Quantifying the effects of Public Works legislation on Maori land loss in the Taihape area — Research Analyst, Waitangi Tribunal Research Unit, MOJ, 2009."
 author: "Adam Heinz"
 date: 2026-03-30T20:09:02-00:00
 ordinal: 272

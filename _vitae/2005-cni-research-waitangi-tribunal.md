@@ -1,6 +1,6 @@
 ---
-title: "Research Database Development"
-excerpt: "Quantifying the effects of different legal structures on Maori land ownership in the Central North Island — Research Analyst, Waitangi Tribunal Research Unit, MOJ, 2005."
+title: "Database Development"
+excerpt: "Research Report: Quantifying the effects of different legal structures on Maori land ownership in the Central North Island — Research Analyst, Waitangi Tribunal Research Unit, MOJ, 2005."
 author: "Adam Heinz"
 date: 2026-03-30T20:05:00-00:00
 ordinal: 230
