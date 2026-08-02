@@ -1,15 +1,15 @@
 ---
 title: "Data Architecture"
-excerpt: "Operational Reporting - Saving an ERP from month-end. PGW Corporate IT, 2018-2020"
+excerpt: "Saving an ERP from month-end reporting — BI Developer, Corporate IT, PGW, 2018-2020"
 author: "Adam Heinz"
 date: 2026-03-30T20:18:00-00:00
 ordinal: 400
 ---
 *Solving ERP overload.*   
 
-Role: BI Developer  
-Corporate IT  
-PGG Wrightson.
+Title: Business Intelligence Developer  
+Department: Corporate IT  
+Organisation: PGG Wrightson
 
 Achievements:  
   

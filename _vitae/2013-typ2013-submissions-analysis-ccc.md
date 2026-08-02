@@ -1,16 +1,20 @@
 ---
-title: "Three Year Plan 2013 - Submissions Analysis"
-excerpt: "Database Development - Support submissions analysis with Nvivo. CCC Monitoring & Research Unit, 2013."
+title: "Database Development"
+excerpt: "Three Year Plan 2013: Submissions analysis — Research Analyst, Strategy & Planning, CCC, 2013"
 author: "Adam Heinz"
 date: 2026-03-30T20:13:01-00:00
 ordinal: 330
 ---
 *Developing a database to support submissions analysis with Nvivo.*  
 
-Role: Research Analyst  
-Monitoring & Research Unit  
-Christchurch City Council  
+Title: Research Analyst  
+Department: Strategy & Planning  
+Organisation: Christchurch City Council  
 
+Technology:  
+
+- Nvivo  
+- MS Access forms & reports, MS SQL Server database engine.
    
 Report:  
 
@@ -35,12 +39,7 @@ NVIVO to access.
 Responsibilities:  
 
 - Design and development of a submissions database to support Nvivo.
-
-Technology:  
-
-- Nvivo
-- MS Access forms & reports
-- Microsoft SQL Server database engine (MS SQL). 
+ 
 
 Outcome:  
 

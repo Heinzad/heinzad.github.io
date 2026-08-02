@@ -1,15 +1,15 @@
 ---
-title: "Replacement District Plan - Notification"
-excerpt: "Geospatial Data Engineering - Notify affected property owners of proposed changes to the Christchurch district plan. CCC Monitoring & Research Unit, 2015."
+title: "Address Matching"
+excerpt: "Replacement District Plan: Notify affected property owners of proposed changes to the Christchurch district plan — Research Analyst, Strategy & Planning, CCC, 2015."
 author: "Adam Heinz"
 date: 2026-03-30T20:15:00-00:00
 ordinal: 350
 ---
 *Geospatial Data Engineering to notify affected property owners of proposed changes to the Christchurch district plan.*  
 
-Role: Research Analyst  
-Monitoring & Research Unit  
-Christchurch City Council  
+Title: Research Analyst  
+Department: Monitoring & Research Unit, Strategy & Planning    
+Organisation: Christchurch City Council  
 
 Achievements:  
 

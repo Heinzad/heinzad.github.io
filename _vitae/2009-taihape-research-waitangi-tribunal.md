@@ -1,21 +1,23 @@
 ---
-title: "Taihape Research Scoping - Research Report"
-excerpt: "Geospatial Database Development - Researching the effects of Public Works legislation on Maori land loss in the Taihape area. Waitangi Tribunal Research Unit, 2009."
+title: "Geospatial Database Development"
+excerpt: "Taihape Research Scoping Report: Effects of Public Works legislation on Maori land loss in the Taihape area — Research Analyst, Waitangi Tribunal Research Unit, MOJ, 2009."
 author: "Adam Heinz"
 date: 2026-03-30T20:09:02-00:00
 ordinal: 272
 ---
-*Researching the effects of Public Works legislation on Maori land loss in the Taihape area.*  
+*Researching the effects of Public Works legislation on Maori land loss in the Taihape: Rangitīkei ki Rangipō District inquiry (WAI 2180) *  
 
+Title: Research Analyst & Inquiry Facilitator  
+Department: Waitangi Tribunal Unit  
+Organisation: Ministry of Justice  
+  
+Technology:  
+- ArcGIS 
+- MS Access  
 
-Role: Research Analyst & Inquiry Facilitator  
-Taihape: Rangitīkei ki Rangipō District inquiry (WAI2180)  
-Waitangi Tribunal Unit, Ministry of Justice.  
+Achievement:    
 
-
-Research Report:    
-
-Heinz, Adam, [‘Waiouru Defence Lands: Research Scoping Report’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_549187/Wai%202180%2C%20A001.pdf), research report commissioned by the Waitangi Tribunal, 2009, 113pp (Wai 2180 A1).  
+- Heinz, Adam, [‘Waiouru Defence Lands: Research Scoping Report’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_549187/Wai%202180%2C%20A001.pdf), research report commissioned by the Waitangi Tribunal, 2009, 113pp (Wai 2180 A1).  
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/Awarua_AdamHeinz.jpg" alt="Historical GIS" class="full">
 
@@ -34,15 +36,10 @@ Responsibilities:
 - Meet research deadlines.  
 - Present and defend research findings.
   
-  
-Technology:  
-- ArcGIS 
-- MS Access.  
-  
-
 Outcomes:  
 
 - Research paper  
 - Historical GIS published in mapbook by the Crown Rental Forestry Trust, and utilised by historical researchers.  
 
 © Adam Heinz 
+2009 

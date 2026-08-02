@@ -1,15 +1,15 @@
 ---
-title: "Te Urewera District Inquiry - Statement of Issues"
-excerpt: "Research & Analysis - Identifying issues for inquiry in Te Urewera. Waitangi Tribunal Research Unit, 2004."
+title: "Research & Analysis"
+excerpt: "Identifying issues for inquiry in Te Urewera — Inquiry Facilitator, Waitangi Tribunal Research Unit, MOJ, 2004."
 author: "Adam Heinz"
 date: 2026-03-30T20:04:01-00:00
 ordinal: 220
 ---
-*Analysing issues for inquiry in Te Urewera.*  
+*Analysing issues for inquiry in Te Urewera District Inquiry (WAI 894).*  
 
-Role: Research Analyst & Inquiry Facilitator.  
-Te Urewera District Inquiry (Wai 894)  
-Waitangi Tribunal Unit, Ministry of Justice.  
+Title: Research Analyst & Inquiry Facilitator  
+Department: Waitangi Tribunal Unit  
+Organiation: Ministry of Justice  
 
 Outcome:    
 

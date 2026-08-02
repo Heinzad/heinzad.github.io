@@ -1,13 +1,13 @@
 ---
 title: "Data Federation"
-excerpt: "City Monitor data hub and dashboard for council and citizens — Data Engineer, CCC Smart Cities, 2016-2017."
+excerpt: "City Monitor data hub and dashboard for council and citizens — Data Engineer, Smart Cities, CCC, 2016-2017."
 author: "Adam Heinz"
 date: 2026-03-30T20:16:00-00:00
 ordinal: 360
 ---
 *Engineering a data hub and live dashboard for an entire city.*  
   
-Role: Data Engineer  
+Title: Data Engineer  
 Department: Smart Cities  
 Organisation: Christchurch City Council  
    
@@ -30,7 +30,7 @@ Take air quality for example:
 Existing air quality monitoring stations achieved high accuracy at high cost, to alert authorities of breaches of air quality regulations.  
 If citizens could view air pollution in the central city, live, might they choose to come into the city during times of low air pollution?  
 Might they change their transport choices from cars to bikes if they understood the impact of their actions?  
-CCC Smart Cities[^1] funded low-cost sensors placed in the Re:Start mall that transmitted realtime information.  
+CCC Smart Cities funded low-cost sensors placed in the Re:Start mall that transmitted realtime information.  
 If the sensor data could be callibrated to the monitoring station data, then citizens could make their own judgements from live data that was accurate enough for the purpose.  
 I joined the Smart Cities team to help unlock data. 
 
@@ -62,11 +62,10 @@ Features included: —
 
 - **Sentiment analysis:** Utilising social media (Facebook Graph API) to discern citizen sentiment outside of formal consultation processes.  
 
+CCC Smart Cities was part of a consortium with the Wellington City Council. This followed an earlier effort by LINZ.  
 Many of the lessons learned were operationalised as open datasets now made publicly available by CCC.  
 
 ---
-
-[^1]: CCC Smart Cities was part of a consortium with the Wellington City Council. This followed an earlier effort by LINZ.
 
 Responsibilities:  
 

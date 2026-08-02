@@ -1,17 +1,22 @@
 ---
-title: "Tauranga Maori Land Alienation - Research Report"
-excerpt: "Database Development - Researching the effects of Public Works legislation on the Maori land remaining in the Tauranga area after war and confiscation. Waitangi Tribunal Research Unit, 2006."
+title: "Research Database Development"
+excerpt: "Quantifying the effects of Public Works legislation on the Maori land remaining in the Tauranga area after war and confiscation — Research Analyst, Waitangi Tribunal Research Unit, MOJ, 2006."
 author: "Adam Heinz"
 date: 2026-03-30T20:06:01-00:00
 ordinal: 242
 ---
-*Researching the effects of Public Works legislation on the Maori land remaining in the Tauranga area after war and confiscation.* 
+*Researching the effects of Public Works legislation Maori land for the Tauranga Moana District Inquiry Stage 2 (WAI 215)* 
 
-Role: Research Analyst & Inquiry Facilitator.  
-Tauranga Moana District Inquiry Stage 2 (Wai 215).  
-Waitangi Tribunal Unit, Ministry of Justice.  
+Title: Research Analyst & Inquiry Facilitator  
+Department: Waitangi Tribunal Unit  
+Organisation: Ministry of Justice  
 
-Research Report:  
+Technology:  
+
+- Excel 
+- MS Access    
+   
+Achievement:  
 
 - Belgrave, Michael; Young, Grant; Heinz, Adam; Belgrave, David, [‘Tauranga Maori Land Alienation: A Quantitative Overview, 1886-2006’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_93401142/Wai%20215%2C%20T016%20(a).pdf), research report commissioned by the Waitangi Tribunal, 2006, 131pp (Wai 215 T16a).  
 
@@ -33,12 +38,6 @@ Responsibilities:
 - Meet research deadlines.  
 - Present and defend research findings.
 
-
-Technology:  
-
-- Excel 
-- MS Access    
-   
 
 Outcomes:  
 

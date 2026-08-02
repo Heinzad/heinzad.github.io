@@ -1,15 +1,15 @@
 ---
-title: "Tauranga Distict Inquiry - Facilitation"
-excerpt: "Research Facilitation - Completing a commission of inquiry in Tauranga and surrounding areas. Waitangi Tribunal Research Unit, 2005-2010."
+title: "Commission of Inquiry"
+excerpt: "Facilitating a commission of inquiry in Tauranga and surrounding areas — Inquiry Facilitator, Waitangi Tribunal Research Unit, MOJ, 2005-2010."
 author: "Adam Heinz"
 date: 2026-03-30T20:05:01-00:00
 ordinal: 241
 ---
-*Completing a commission of inquiry in Tauranga and surrounding areas.*
+*Completing the Tauranga Moana District Inquiry Stage 2 (WAI 215)*
 
-Role: Research Analyst & Inquiry Facilitator.  
-Tauranga Moana District Inquiry Stage 2  
-Waitangi Tribunal Unit, Ministry of Justice.  
+Title: Research Analyst & Inquiry Facilitator    
+Department: Waitangi Tribunal Unit  
+Organisation: Ministry of Justice  
 
 Waitangi Tribunal Report:  
 
