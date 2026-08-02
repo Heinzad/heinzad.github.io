@@ -1,6 +1,6 @@
 ---
-title: "Cycling Citizens"
-excerpt: "Update cycleways in OSM"
+title: "Data Citizens"
+excerpt: "How to keep cycleways maps up-to-date in OSM"
 author: "Adam Heinz"
 date: 2026-03-30T20:16:01-00:00
 ordinal: 360
