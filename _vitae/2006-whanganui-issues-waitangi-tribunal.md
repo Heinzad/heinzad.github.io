@@ -1,16 +1,15 @@
 ---
-title: "Whanganui District Inquiry - Statement of Issues"
-excerpt: "Research & Analysis - Identifying issues for inquiry in Whanganui. Waitangi Tribunal Research Unit, 2006."
+title: "Research & Analysis"
+excerpt: "Statement of Issues for the Whanganui District Inquiry — Inquiry Facilitator, Waitangi Tribunal Research Unit, MOJ, 2006."
 author: "Adam Heinz"
 date: 2026-03-30T20:06:03-00:00
 ordinal: 250
 ---
-*Analysing issues for inquiry in Whanganui.*  
+*Analysing issues for inquiry in the Whanganui District Inquiry (WAI 903).*  
 
-Role: Research Analyst & Inquiry Facilitator.  
-Whanganui District Inquiry (Wai 903)
-Waitangi Tribunal Unit, Ministry of Justice.   
-  
+Title: Research Analyst & Inquiry Facilitator.  
+Department: Waitangi Tribunal Unit  
+Organisation: Ministry of Justice  
 
 Outcome: 
 

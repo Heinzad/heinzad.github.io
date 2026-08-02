@@ -7,7 +7,7 @@ ordinal: 710
 ---
 *Building a data lakehouse*  
 
-Role: Data Engineer  
+Title: Business Intelligence Specialist  
 Department: ICT Information Communications and Technology  
 Organisation: Meridian Energy  
 

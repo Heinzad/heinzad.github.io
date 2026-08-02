@@ -1,13 +1,15 @@
 ---
 title: "Data Quality - Remediation"
-excerpt: "Data Engineering - Detecting data quality challenges back to the migration from mainframes to relational databases. IAG Data & Analytics, 2021-2022."
+excerpt: "Data Engineering - Detecting data quality challenges back to the migration from mainframes to relational databases — Software Engineer, Data & Analytics, IAG, 2021-2022."
 author: "Adam Heinz"
 date: 2026-03-30T20:21:00-00:00
 ordinal: 600
 ---
 *Detecting data quality challenges back to the migration from mainframes to relational databases.*   
 
-Role: Data Engineer, IAG.  
+Title: Software Engineer  
+Department: Data & Analytics  
+Organisation: IAG  
 
 Technology:  
 
@@ -18,7 +20,6 @@ Achievements:
 - Over 40,000 customers refunded to the satisfaction of the High Court.
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/MPD_AdamHeinz.png" alt="Multi-Policy Discount" class="full">
-*Photo by Josh Tere on Unsplash*
       
 ---
 
@@ -32,6 +33,7 @@ Responsibilities:
 - Data supply for form letters
 
 ---
+*Photo by Josh Tere on Unsplash*
 
 © Adam Heinz 
 2021

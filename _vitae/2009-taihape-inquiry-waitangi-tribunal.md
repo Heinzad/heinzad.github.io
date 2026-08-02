@@ -1,17 +1,23 @@
 ---
-title: "Taihape District Inquiry - Facilitation"
-excerpt: "Research Facilitation - Starting up a commission of inquiry in Taihape and surrounding areas. Waitangi Tribunal Research Unit, 2009-2012."
+title: "Commission of Inquiry"
+excerpt: "Taihape District Inquiry: Starting up a commission of inquiry in Taihape and surrounding areas — Inquiry Facilitator, Waitangi Tribunal Research Unit, MOJ, 2009-2012."
 author: "Adam Heinz"
 date: 2026-03-30T20:09:01-00:00
 ordinal: 271
 ---
-*Starting up a commission of inquiry in Taihape and surrounding areas.*
+*Starting up a commission of inquiry in the Taihape: Rangitīkei ki Rangipō District inquiry (WAI 2180).*
 
+Title: Research Analyst & Inquiry Facilitator.  
+Department: Waitangi Tribunal Unit 
+Organisation: Ministry of Justice  
 
-Role: Research Analyst & Inquiry Facilitator.  
-Taihape: Rangitīkei ki Rangipō District inquiry (WAI 2180)  
-Waitangi Tribunal Unit, Ministry of Justice.  
+Achievements:   
 
+- [‘Taihape Inquiry: Casebook Research Programme’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_40265085/Wai%202180,%206.2.20.pdf), Discussion Paper, Nov 2011 (Wai 2180 6.2.20). 
+- [‘Taihape Inquiry: Research Discussion Paper and Supplementary Bibliography’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_49146868/Wai%202180,%206.2.21.pdf), Oct 2010 (Wai 2180 6.2.21). 
+- [‘The Taihape Inquiry District: Inquiry Process, Boundaries, Issues, Options’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_548513/Wai%202180,%206.2.7.pdf), May 2010 (Wai 2180 6.2.7). 
+
+  
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/WAI2180TaihapeInquiryMap.png" alt="Geospatial" class="full">
 --- 
 
@@ -26,11 +32,5 @@ project briefs and commissions, liaising with external contractors.
 - Developed and maintained inquiry web page and document store. 
   
 
-Policy Papers:   
-
-- [‘Taihape Inquiry: Casebook Research Programme’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_40265085/Wai%202180,%206.2.20.pdf), Discussion Paper, Nov 2011 (Wai 2180 6.2.20). 
-- [‘Taihape Inquiry: Research Discussion Paper and Supplementary Bibliography’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_49146868/Wai%202180,%206.2.21.pdf), Oct 2010 (Wai 2180 6.2.21). 
-- [‘The Taihape Inquiry District: Inquiry Process, Boundaries, Issues, Options’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_548513/Wai%202180,%206.2.7.pdf), May 2010 (Wai 2180 6.2.7). 
-
-
 © Adam Heinz 
+2009 

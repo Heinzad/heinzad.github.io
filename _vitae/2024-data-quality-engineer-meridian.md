@@ -8,7 +8,7 @@ image: /assets/images/PurviewDataGov_AdamHeinz.png
 ---
 *Implementing a data product catalog, data lineage and data quality tests in Microsoft Purview.*   
 
-Role: Data Quality Engineer  
+Title: Data Quality Engineer  
 Department: ICT Information Communications and Technology  
 Organisation: Meridian Energy  
 
