@@ -2,6 +2,8 @@
 main:
   - title: "Life"
     url:  /vitae/
+  - title: "Long"
+    url:  /voxpop/
   - title: "Learning"
     url: /categories/
   #- title: "Quick-Start Guide"
