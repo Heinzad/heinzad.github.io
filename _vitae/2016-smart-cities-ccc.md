@@ -1,6 +1,6 @@
 ---
 title: "Data Federation"
-excerpt: "Big data: sensing everything everywhere — Data Engineer, Smart Cities, CCC, 2016-2017."
+excerpt: "Empowering citizens with data in a smart city — Data Engineer, Smart Cities, CCC, 2016-2017."
 author: "Adam Heinz"
 date: 2026-03-30T20:16:00-00:00
 ordinal: 360
