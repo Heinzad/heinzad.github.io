@@ -60,7 +60,7 @@ feature_row:
 
   - image_path: /assets/images/ChChDistrictPlan.png
     title: "Address Matching"
-    excerpt: "Notifying 500,000 property owners. Meeting court requirements."
+    excerpt: "Notifying 500,000 property owners and occupiers. Meeting court requirements."
     url: /vitae/2015-district-plan-notification-ccc/
     btn_label: "Read More"
     btn_class: "btn--primary"
