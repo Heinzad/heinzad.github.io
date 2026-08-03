@@ -46,7 +46,7 @@ feature_row:
 
   - image_path: /assets/images/ChChSmartCities_AdamHeinz.jpg
     title: "Data Federation"
-    excerpt: "Big data sensing everything everywhere in a city."
+    excerpt: "Big data: sensing everything everywhere in a Smart City."
     url: /vitae/2016-smart-cities-ccc/
     btn_label: "Read More"
     btn_class: "btn--primary"
