@@ -28,7 +28,7 @@ Achievements:
 
 A 15 percent error rate is not sufficient when the Environment Court requires every affected party to be notified in a rapidly changing city. 
 
-The situation was that the Council used a street address dataset that had been verified to 85 percent accuracy by NZ Post to receive their bulk mail discounts. After the earthquakes, though, a change in policy be NZ Post meant they no longer took 3 attempts to locate an address. If an address was not accurate, the mail was now returned to sender. 
+The situation was that the Council used a street address dataset that had been verified to 85 percent accuracy by NZ Post to receive their bulk mail discounts. After the earthquakes, though, a change in policy by NZ Post meant that posties couls no longer take 3 attempts to locate an address. If an address was not accurate, the mail was now returned to sender. 
 
 I was assigned the challenge of achieving the 100 percent accuracy required.  
 
