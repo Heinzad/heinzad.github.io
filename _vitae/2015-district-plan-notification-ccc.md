@@ -1,27 +1,34 @@
 ---
 title: "Address Matching"
-excerpt: "Replacement District Plan: Notify affected property owners of proposed changes to the Christchurch district plan — Research Analyst, Strategy & Planning, CCC, 2015."
+excerpt: "Replacement District Plan: Notify affected property owners and occupiers of proposed changes to the Christchurch district plan — Research Analyst, Strategy & Planning, CCC, 2015."
 author: "Adam Heinz"
 date: 2026-03-30T20:15:00-00:00
 ordinal: 350
 ---
-*Geospatial Data Engineering to notify affected property owners of proposed changes to the Christchurch district plan.*  
+*Geospatial Data Engineering to notify affected property owners and occupiers of proposed changes to the Christchurch district plan.*  
 
 Title: Research Analyst  
 Department: Monitoring & Research Unit, Strategy & Planning    
 Organisation: Christchurch City Council  
 
+Technology:  
+
+- Geomedia, Google Earth
+- Microsoft SQL Server Spatial (MS SQL).
+
 Achievements:  
 
-- Addressed mailouts to 500,000 affected property owners. 
+- Addressed mailouts to 500,000 affected property owners and occupiers. 
 - “Address Matters” Presentation at Intergraph Users Conference (Christchurch, 2016).
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ChChDistrictPlan.png" alt="Notification" class="full">
 
 ---
-**What do 8000 returned letters look like?** Three rooms stuffed floor to ceiling with envelopes, crammed with 20 temporary workers. They are needed to fix the problem fast before it becomes an issue in the Environment Court.  
+**What do 8000 returned letters look like?** Three rooms stuffed floor to ceiling with envelopes, and 2-3 temporary workers. They are needed to fix the problem fast before it becomes an issue in the Environment Court.  
 
-The situation was that the Council used a street address dataset that had been verified to 85 percent accuracy for NZ Post bulk mail discounts. A 15 percent error rate is not sufficient when the Environment Court requires every affected party to be notified in a city of 500,000 properties. 
+A 15 percent error rate is not sufficient when the Environment Court requires every affected party to be notified in a rapidly changing city. 
+
+The situation was that the Council used a street address dataset that had been verified to 85 percent accuracy by NZ Post to receive their bulk mail discounts. After the earthquakes, though, a change in policy be NZ Post meant they no longer took 3 attempts to locate an address. If an address was not accurate, the mail was now returned to sender. 
 
 I was assigned the challenge of achieving the 100 percent accuracy required.  
 
@@ -34,15 +41,11 @@ Responsibilities:
 - Perform Spatial Analysis to identify properties affected by natural hazards or changes to land use zoning. 
 - Link CCC property information to NZ Post postal delivery addresses (GeoPAF). 
 - Provide spreadsheet outputs for mail merge letter content and attachments. 
-
-Technology:  
-
-- Geomedia, Google Earth
-- Microsoft SQL Server Spatial (MS SQL).  
-
+ 
 Outcomes:  
 
-- 500,000 affected property owners identified and contacted.  
+- 500,000 affected property owners and occupiers identified and contacted.  
+
 
 © Adam Heinz 
 2015
