@@ -1,11 +1,11 @@
 ---
 title: "Data Federation"
-excerpt: "City data hub and dashboard for council and citizens — Data Engineer, Smart Cities, CCC, 2016-2017."
+excerpt: "Big data: sensing everything everywhere — Data Engineer, Smart Cities, CCC, 2016-2017."
 author: "Adam Heinz"
 date: 2026-03-30T20:16:00-00:00
 ordinal: 360
 ---
-*Engineering a data hub and live dashboard for an entire city.*  
+*Engineering a federated data hub and live dashboard for an entire city.*  
   
 Title: Data Engineer  
 Department: Smart Cities  
