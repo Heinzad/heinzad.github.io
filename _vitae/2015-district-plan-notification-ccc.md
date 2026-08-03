@@ -8,7 +8,7 @@ ordinal: 350
 *Geospatial Data Engineering to notify affected property owners and occupiers of proposed changes to the Christchurch district plan.*  
 
 Title: Research Analyst  
-Department: Monitoring & Research Unit, Strategy & Planning    
+Department: Strategy & Planning    
 Organisation: Christchurch City Council  
 
 Technology:  
