@@ -1,6 +1,6 @@
 ---
-title: "Tauranga Māori Land Alienation"
-excerpt: "A Quantitative Overview 1886-2006"
+title: "Māori Land Loss in Tauranga Moana"
+excerpt: "Quantifying the Māori Land Taken for Public Works in the Twentieth Century."
 author: "Adam Heinz"
 date: 2006-11-01T20:06:01-00:00
 ordinal: 003
