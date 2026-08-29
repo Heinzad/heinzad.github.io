@@ -74,7 +74,7 @@ The majority of the lands that would later be taken for Waiouru defence purposes
 2 - Oruamatua Kaimanawa 
 -----------------------  
 
-This paper focused on Oruamatua Kaimanawa in greater detail as it had not been the subject of any particular research at that date.   
+Oruamatua Kaimanawa also became part of the demand for sheep runs stretching all the way to the Kaimanawa and Kaweka Ranges.    
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/oruamatua-kaimanawa-ML1421.png" alt="Oruamatua Kaimanawa ML1421" class="full"> 
 *ML 1421: Survey Plan of Oruamatua Kaimanua superimposed over modern topographical locations near the Gentle Annie (Taihape-Napier) Road.*  
@@ -89,8 +89,6 @@ This paper focused on Oruamatua Kaimanawa in greater detail as it had not been t
 1895 - Native Land Court Title Reinvestigation 
 1897 - First Partition  
 
-
-Oruamatua Kaimanawa became part of the demand for sheep runs stretching as far east as Owhaoko.
 
 The right to receive and distribute rents was disputed in Oruamatua Kaimanawa too. The award of title to Renata Kawepo and others in the absence of other owners was disputed and achieved some notoriety. The Oruamatua Kaimanawa hearing was later subjected to a select committee investigation. New titles were finally ordered after a reinvestigation in 1894. 
 
