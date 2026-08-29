@@ -17,7 +17,7 @@ The earliest missionary contact with inland Pātea was by Richard Taylor, travel
 
 These tussock lands were sought for sheep runs stretching from (what is now) Karioi forest to the Kaimanawa and Kaweka ranges. The runholdings were delineated by deep river channels slicing down through the pumice lands and so there was little or no need for fencing.  
 
-Obtaining legal title to the land was necessary to complete runholding arrangements. Even leasehold was sufficient to obtain development financing from a bank.  
+Obtaining legal title to the land was necessary to complete runholding arrangements. Only a leasehold was needed to get development financing from a bank.  
 
 Disputed ownership and control over the runholdings very nearly reignited war in the area in the 1880s.
 
@@ -29,17 +29,16 @@ Outline:
 
 
 
-Murimotu and Rangipō Waiu 
--------------------------- 
+1 - Murimotu and Rangipō Waiu 
+----------------------------- 
 
 These lands in the late 19th century were vexed by competition for leaseholding by government and private agents, and competing Māori claims to be entitled to distribute and receive the rents.    
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/rangipo-waiu-ML462.png" alt="Rangipo Waiu ML462" class="full">
-
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/rangipo-waiu-ML462.png" alt="Rangipo Waiu ML462" class="full"> 
 *ML 462: Survey Plan of Rangipō Waiu superimposed over modern topographical locations near the Desert Road.*  
-
-
+  
+  
 **Summary Timeline:**  
 1867 - Murimotu Private runholding    
 1872 - Maori runholding on Rangipō‐Waiu  
@@ -72,15 +71,15 @@ Most of those southern areas bordering Motukawa were gradually alienated in the 
 Almost all the lands that would later be taken for Waiouru defence purposes in the Murimotu and Rangipō Waiu areas were awarded to the Crown in December 1900. The exceptions were Rangipō Waiu 1B and Rangipō Waiu 2B, which still remained in Māori ownership at the time of the defence takings in the 1930s and 1940s.  
 
 
-### Oruamatua Kaimanawa  
+2 - Oruamatua Kaimanawa 
+-----------------------  
 
 This paper focused on Oruamatua Kaimanawa in greater detail as it had not been the subject of any particular research at that date.   
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/oruamatua-kaimanawa-ML1421.png" alt="Oruamatua Kaimanawa ML1421" class="full">
-
-*ML 1421: Survey Plan of Oruamatua Kaimanua superimposed over modern topographical locations near the Gentle Annie (Taihape-Napier) Road.* 
-
-
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/oruamatua-kaimanawa-ML1421.png" alt="Oruamatua Kaimanawa ML1421" class="full"> 
+*ML 1421: Survey Plan of Oruamatua Kaimanua superimposed over modern topographical locations near the Gentle Annie (Taihape-Napier) Road.*  
+  
+  
 **Summary Timeline:**   
 1845 - Missionary contacts with inland Patea  
 1867 - Private runholding  
@@ -99,7 +98,7 @@ The land had been leased since 1867. Sub‐division or partition of Oruamatua Ka
 
 By the 1930s the freehold had been obtained to the lower half of Oruamatua Kaimanawa. It is not clear for how long leasing arrangements persisted over the northern half of the Oruamatua Kaimanawa lands.  
 
-The remaining Māori lands in the north of Oruamatua Kaimanawa formed the majority of the lands in this block that were acquired for defence purposes in the 1960s and 1970s, although some private freehold and leasehold lands were acquired too.
+The remaining Māori lands in the north of Oruamatua Kaimanawa formed the majority of the lands in this block that were acquired for defence purposes in the 1960s and 1970s, although some private freehold and leasehold lands were also acquired as well.
 
 
 Further Reading   
