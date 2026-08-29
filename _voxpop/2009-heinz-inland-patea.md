@@ -40,15 +40,15 @@ These lands in the late 19th century were vexed by competition for leaseholding 
   
   
 **Summary Timeline:**  
-1867 - Murimotu Private runholding    
+1867 - Private runholding on Murimotu     
 1872 - Maori runholding on Rangipō‐Waiu  
 1872 - Wellington Provincial Council negotiations for Murimotu  
 1873 - Native Land Court Murimotu title investigation  
 1874 - Agreement to abandon private for government efforts 
 1875 - Proclamation prohibits private acquisition of Murimotu and Rangipō‐Waiu  
-1875 - Blocked survey of Rangipō‐Waiu 
+1875 - Blocked survey of Rangipō‐Waiu  
 1877 - Lease agreement  
-1877 - Blocked survey of Rangipō‐Waiu 
+1877 - Blocked survey of Rangipō‐Waiu  
 1880 - Gunfighter pā constructed after blocked survey of Rangipō‐Waiu  
 1881 - Native Land Court Rangipō‐Waiu title investigation  
 1881 - Native Land Court Rangipō‐Waiu rehearing abandoned  
@@ -86,7 +86,7 @@ Oruamatua Kaimanawa also became part of the demand for sheep runs stretching all
 1875 - Native Land Court Title Investigation    
 1886 - Select Committee report  
 1886 - Owhaoko and Kaimanawa‐Oruamatua Reinvestigation of Title Act  
-1895 - Native Land Court Title Reinvestigation 
+1895 - Native Land Court Title Reinvestigation  
 1897 - First Partition  
 
 
@@ -96,7 +96,7 @@ The land had been leased since 1867. Sub‐division or partition of Oruamatua Ka
 
 By the 1930s the freehold had been obtained to the lower half of Oruamatua Kaimanawa. It is not clear for how long leasing arrangements persisted over the northern half of the Oruamatua Kaimanawa lands.  
 
-The remaining Māori lands in the north of Oruamatua Kaimanawa formed the majority of the lands in this block that were acquired for defence purposes in the 1960s and 1970s, although some private freehold and leasehold lands were also acquired as well.
+The remaining Māori lands in the north of Oruamatua Kaimanawa formed the majority of the lands in this block that were acquired for defence purposes in the 1960s and 1970s. Some private freehold and leasehold lands were also acquired as well.
 
 
 Further Reading   
