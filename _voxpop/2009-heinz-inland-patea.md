@@ -37,8 +37,10 @@ These lands in the late 19th century were vexed by competition for leaseholding 
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/rangipo-waiu-ML462.png" alt="Rangipo Waiu ML462" class="full">
 
+**ML 462: Survey Plan of Rangipō Waiu superimposed over modern topographical locations.**  
 
-*timeline summary:*  
+
+*Timeline:*  
 1867 - Murimotu Private runholding    
 1872 - Maori runholding on Rangipō‐Waiu  
 1872 - Wellington Provincial Council negotiations for Murimotu  
@@ -76,6 +78,7 @@ This paper focused on Oruamatua Kaimanawa in greater detail as it had not been t
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/oruamatua-kaimanawa-ML1421.png" alt="Oruamatua Kaimanawa ML1421" class="full">
 
+**ML 1421: Survey Plan of Oruamatua Kaimanua superimposed over modern topographical locations.** 
 
 *Timeline summary:*   
 1845 - Missionary contacts with inland Patea  
