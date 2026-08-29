@@ -19,7 +19,7 @@ Technology:
 Achievements:  
 
 - Addressed mailouts to 500,000 affected property owners and occupiers. 
-- “Address Matters” Presentation at Intergraph Users Conference (Christchurch, 2016).
+- [Address Matters]({{ site.url }}{{ site.baseurl }}/assets/docs/address-matters-iuc-presentation.pdf") Presentation at Intergraph Users Conference (Christchurch, 2016).
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/ChChDistrictPlan.png" alt="Notification" class="full">
 
