@@ -11,11 +11,11 @@ Heinz, Adam, [‘Waiouru Defence Lands: Research Scoping Report’](https://form
 
 ---
 
-This paper briefly summarised the existing research developed for the National Park and Whanganui inquiries that touched upon the Rangipō Waiu and Murimotu lands later acquired or surrounded by the Waiouru defence area. It focused on Oruamatua Kaimanawa in greater detail as that had not been the subject of any particular research at that date. 
+This paper briefly summarised the existing research developed for the National Park and Whanganui inquiries that touched upon the Rangipō Waiu and Murimotu lands later acquired or surrounded by the Waiouru defence area. It then focused on Oruamatua Kaimanawa in greater detail as that had not been the subject of any particular research at that date. 
 
 The earliest missionary contact with inland Pātea was by Richard Taylor, travelling from the Whanganui mission station to the Moawhago River in February 1845 – at almost exactly the same time as William Colenso’s first, unsuccessful expedition, travelling from Heretaunga to the upper Rangitikei River.  
 
-These tussock lands were sought for sheep runs stretching in a broad swathe from (what is now) Karioi forest to the Kaimanawa and Kaweka ranges. These large sheep runs were delineated by the deep river channels slicing down through pumice lands and so there was little or no need for fencing.  
+These tussock lands were sought for sheep runs stretching from (what is now) Karioi forest to the Kaimanawa and Kaweka ranges. The runholdings were delineated by deep river channels slicing down through the pumice lands and so there was little or no need for fencing.  
 
 Obtaining legal title to the land was necessary to complete runholding arrangements. Even leasehold was sufficient to obtain development financing from a bank.  
 
@@ -37,10 +37,10 @@ These lands in the late 19th century were vexed by competition for leaseholding 
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/rangipo-waiu-ML462.png" alt="Rangipo Waiu ML462" class="full">
 
-**ML 462: Survey Plan of Rangipō Waiu superimposed over modern topographical locations.**  
+*ML 462: Survey Plan of Rangipō Waiu superimposed over modern topographical locations near the Desert Road.*  
 
 
-*Timeline:*  
+**Summary Timeline:**  
 1867 - Murimotu Private runholding    
 1872 - Maori runholding on Rangipō‐Waiu  
 1872 - Wellington Provincial Council negotiations for Murimotu  
@@ -78,9 +78,10 @@ This paper focused on Oruamatua Kaimanawa in greater detail as it had not been t
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/oruamatua-kaimanawa-ML1421.png" alt="Oruamatua Kaimanawa ML1421" class="full">
 
-**ML 1421: Survey Plan of Oruamatua Kaimanua superimposed over modern topographical locations.** 
+*ML 1421: Survey Plan of Oruamatua Kaimanua superimposed over modern topographical locations near the Gentle Annie (Taihape-Napier) Road.* 
 
-*Timeline summary:*   
+
+**Summary Timeline:**   
 1845 - Missionary contacts with inland Patea  
 1867 - Private runholding  
 1875 - Native Land Court Title Investigation    
