@@ -1,6 +1,6 @@
 ---
-title: "Inland Patea"
-excerpt: "Historical Geography"
+title: "Māori Land Loss in Inland Patea"
+excerpt: "The power of sheep in the tussock lands of the North Island."
 author: "Adam Heinz"
 date: 2009-11-01T20:09:11-01:02
 ordinal: 005
@@ -10,12 +10,6 @@ ordinal: 005
 Heinz, Adam, [‘Waiouru Defence Lands: Research Scoping Report’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_549187/Wai%202180%2C%20A001.pdf), research report commissioned by the Waitangi Tribunal, 2009, 113pp (Wai 2180 A1).  
 
 ---
-
-Outline: 
-
-1. Murimotu and Rangipō Waiu 
-2. Oruamatua Kaimanawa
-
 
 This paper briefly summarised the existing research developed for the National Park and Whanganui inquiries that touched upon the Rangipō Waiu and Murimotu lands later acquired or surrounded by the Waiouru defence area. It focused on Oruamatua Kaimanawa in greater detail as that had not been the subject of any particular research at that date. 
 
@@ -28,30 +22,39 @@ Obtaining legal title to the land was necessary to complete runholding arrangeme
 Disputed ownership and control over the runholdings very nearly reignited war in the area in the 1880s.
 
 
+Outline: 
+
+1. Murimotu and Rangipō Waiu 
+2. Oruamatua Kaimanawa
+
+
+
 Murimotu and Rangipō Waiu 
 -------------------------- 
 
 These lands in the late 19th century were vexed by competition for leaseholding by government and private agents, and competing Māori claims to be entitled to distribute and receive the rents.    
 
-    timeline summary: 
-    1867 - Murimotu Private runholding    
-    1872 - Maori runholding on Rangipō‐Waiu  
-    1872 - Wellington Provincial Council negotiations for Murimotu  
-    1873 - Native Land Court Murimotu title investigation  
-    1874 - Agreement to abandon private for government efforts 
-    1875 - Proclamation prohibits private acquisition of Murimotu and Rangipō‐Waiu  
-    1875 - Blocked survey of Rangipō‐Waiu 
-    1877 - Lease agreement  
-    1877 - Blocked survey of Rangipō‐Waiu 
-    1880 - Gunfighter pā constructed after blocked survey of Rangipō‐Waiu  
-    1881 - Native Land Court Rangipō‐Waiu title investigation  
-    1881 - Native Land Court Rangipō‐Waiu rehearing abandoned  
-    1882 - Rangipō‐Murimotu Agreement Validation Act  
-    1882 - Native Land Court Murimotu title award  
-    1884 - Lease agreement  
-    1900 - Partition of Crown interests in Murimotu and Rangipō‐Waiu   
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/rangipo-waiu-ML462.png" alt="Rangipo Waiu ML462" class="full">
+
+
+*timeline summary:*  
+1867 - Murimotu Private runholding    
+1872 - Maori runholding on Rangipō‐Waiu  
+1872 - Wellington Provincial Council negotiations for Murimotu  
+1873 - Native Land Court Murimotu title investigation  
+1874 - Agreement to abandon private for government efforts 
+1875 - Proclamation prohibits private acquisition of Murimotu and Rangipō‐Waiu  
+1875 - Blocked survey of Rangipō‐Waiu 
+1877 - Lease agreement  
+1877 - Blocked survey of Rangipō‐Waiu 
+1880 - Gunfighter pā constructed after blocked survey of Rangipō‐Waiu  
+1881 - Native Land Court Rangipō‐Waiu title investigation  
+1881 - Native Land Court Rangipō‐Waiu rehearing abandoned  
+1882 - Rangipō‐Murimotu Agreement Validation Act  
+1882 - Native Land Court Murimotu title award  
+1884 - Lease agreement  
+1900 - Partition of Crown interests in Murimotu and Rangipō‐Waiu   
 
 
 Private leasing negotiations began in Murimotu in the 1860s. Competing bids arose and Government and Provincial Council agents also became embroiled in the mix. The eventual solution reached required an act of Parliament to finalise it: the Rangipō‐Murimotu Agreement Validation Act 1882.
@@ -71,16 +74,18 @@ Almost all the lands that would later be taken for Waiouru defence purposes in t
 
 This paper focused on Oruamatua Kaimanawa in greater detail as it had not been the subject of any particular research at that date.   
 
-    Timeline summary:   
-    1845 - Missionary contacts with inland Patea  
-    1867 - Private runholding  
-    1875 - Native Land Court Title Investigation    
-    1886 - Select Committee report  
-    1886 - Owhaoko and Kaimanawa‐Oruamatua Reinvestigation of Title Act  
-    1895 - Native Land Court Title Reinvestigation 
-    1897 - First Partition  
-
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/oruamatua-kaimanawa-ML1421.png" alt="Oruamatua Kaimanawa ML1421" class="full">
+
+
+*Timeline summary:*   
+1845 - Missionary contacts with inland Patea  
+1867 - Private runholding  
+1875 - Native Land Court Title Investigation    
+1886 - Select Committee report  
+1886 - Owhaoko and Kaimanawa‐Oruamatua Reinvestigation of Title Act  
+1895 - Native Land Court Title Reinvestigation 
+1897 - First Partition  
+
 
 Oruamatua Kaimanawa became part of the demand for sheep runs stretching as far east as Owhaoko.
 
