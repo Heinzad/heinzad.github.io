@@ -62,19 +62,19 @@ Private leasing negotiations began in Murimotu in the 1860s. Competing bids aros
 
 Titles were eventually created by the Native Land Court, and the lands were divided along hapū lines. 
 
-By 1901, the Crown had its freehold interests partitioned out of Murimotu and Rangipō Waiu. The Crown awards in Murimotu and Rangipō Waiu were reorganized into four large runs and leased and sold to runholders wherever possible (Run 2, Karioi, became a state forest). Sheepfarming was probably a marginal proposition at best, and Run 1, Run 3, and most of Run 4 would later form the vast bulk of the land later acquired for defence purposes around Waiouru.  
+By 1901, the Crown had its freehold interests partitioned out of Murimotu and Rangipō Waiu. The Crown awards in Murimotu and Rangipō Waiu were reorganized into four large runs that were leased and sold to runholders wherever possible (Run 2, Karioi, became a state forest). Sheepfarming was probably a marginal proposition at best: Run 1 and Run 3, and most of Run 4, would later form the vast bulk of the land later acquired for defence purposes around Waiouru.  
 
-After the Crown’s interests were partitioned out in Rangipō Waiu. Some non‐sellers’ interests were located in the small area remaining in the north‐western portion; other non‐sellers’ interests were located in the remaining portions in the north‐east and the south. It is not clear how many non‐sellers remained in the southern portion of Rangipō Waiu B.  
+Some Māori land remained in Rangipō Waiu. Some non‐sellers’ interests were located in the small area remaining in the north‐western portion; other non‐sellers’ interests were located in the remaining portions in the north‐east and the south. It is not clear how many non‐sellers remained in the southern portion of Rangipō Waiu B.  
 
-Most of those southern areas bordering Motukawa were gradually alienated in the early decades of the 20th century. However, the north‐western and north‐eastern portions (Rangipō Waiu 1B and 2B, respectively) cannot have been viable farming propositions and remained in Māori ownership until acquired for defence purposes in 1939.  
+Most of the Māori land by the southern border with Motukawa was gradually alienated in the early decades of the 20th century. However, the north‐western and north‐eastern portions (Rangipō Waiu 1B and 2B, respectively) remained in Māori ownership until acquired for defence purposes in 1939.  
 
-Almost all the lands that would later be taken for Waiouru defence purposes in the Murimotu and Rangipō Waiu areas were awarded to the Crown in December 1900. The exceptions were Rangipō Waiu 1B and Rangipō Waiu 2B, which still remained in Māori ownership at the time of the defence takings in the 1930s and 1940s.  
+The majority of the lands that would later be taken for Waiouru defence purposes in the Murimotu and Rangipō Waiu areas were awarded to the Crown in December 1900. The exceptions were Rangipō Waiu 1B and Rangipō Waiu 2B, which still remained in Māori ownership at the time of the defence takings in the 1930s and 1940s.  
 
 
 2 - Oruamatua Kaimanawa 
 -----------------------  
 
-This paper focused on Oruamatua Kaimanawa in greater detail as it had not been the subject of any particular research at that date.   
+Oruamatua Kaimanawa also became part of the demand for sheep runs stretching all the way to the Kaimanawa and Kaweka Ranges.    
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/oruamatua-kaimanawa-ML1421.png" alt="Oruamatua Kaimanawa ML1421" class="full"> 
 *ML 1421: Survey Plan of Oruamatua Kaimanua superimposed over modern topographical locations near the Gentle Annie (Taihape-Napier) Road.*  
@@ -89,8 +89,6 @@ This paper focused on Oruamatua Kaimanawa in greater detail as it had not been t
 1895 - Native Land Court Title Reinvestigation 
 1897 - First Partition  
 
-
-Oruamatua Kaimanawa became part of the demand for sheep runs stretching as far east as Owhaoko.
 
 The right to receive and distribute rents was disputed in Oruamatua Kaimanawa too. The award of title to Renata Kawepo and others in the absence of other owners was disputed and achieved some notoriety. The Oruamatua Kaimanawa hearing was later subjected to a select committee investigation. New titles were finally ordered after a reinvestigation in 1894. 
 
