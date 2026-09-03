@@ -7,11 +7,10 @@ ordinal: 005
 ---
 *Research on the Murimotu, Rangipō Waiu and Oruamatua Kaimanawa blocks* 
 
-Heinz, Adam, ‘Waiouru Defence Lands: Research Scoping Report’, research report commissioned by the Waitangi Tribunal, 2009, 113pp (Wai 2180 A1).  
+Heinz, Adam. ‘Waiouru Defence Lands: Research Scoping Report’, research report commissioned by the Waitangi Tribunal, 2009, 113pp (Wai 2180 A1).  
 
----
-
-This paper briefly summarised the existing research developed for the National Park and Whanganui inquiries that touched upon the Rangipō Waiu and Murimotu lands later acquired or surrounded by the Waiouru defence area. It then focused on Oruamatua Kaimanawa in greater detail as that had not been the subject of any particular research at that date. 
+- This paper briefly summarised the existing research developed for the National Park and Whanganui inquiries that touched upon the Rangipō Waiu and Murimotu lands later acquired or surrounded by the Waiouru defence area. 
+- This paper focused on Oruamatua Kaimanawa in greater detail as that had not been the subject of any particular research at that date. 
 
 ---  
 
@@ -43,22 +42,22 @@ These lands in the late 19th century were vexed by competition for leaseholding 
   
   
 **Summary Timeline:**  
-1867. Private runholding on Murimotu     
-1872. Maori runholding on Rangipō‐Waiu  
-1872. Wellington Provincial Council negotiations for Murimotu  
-1873. Native Land Court Murimotu title investigation  
-1874. Agreement to abandon private for government efforts 
-1875. Proclamation prohibits private acquisition of Murimotu and Rangipō‐Waiu  
-1875. Blocked survey of Rangipō‐Waiu  
-1877. Lease agreement  
-1877. Blocked survey of Rangipō‐Waiu  
-1880. Gunfighter pā constructed after blocked survey of Rangipō‐Waiu  
-1881. Native Land Court Rangipō‐Waiu title investigation  
-1881. Native Land Court Rangipō‐Waiu rehearing abandoned  
-1882. Rangipō‐Murimotu Agreement Validation Act  
-1882. Native Land Court Murimotu title award  
-1884. Lease agreement  
-1900. Partition of Crown interests in Murimotu and Rangipō‐Waiu   
+1867: Private runholding on Murimotu     
+1872: Maori runholding on Rangipō‐Waiu  
+1872: Wellington Provincial Council negotiations for Murimotu  
+1873: Native Land Court Murimotu title investigation  
+1874: Agreement to abandon private for government efforts  
+1875: Proclamation prohibits private acquisition of Murimotu and Rangipō‐Waiu  
+1875: Blocked survey of Rangipō‐Waiu  
+1877: Lease agreement  
+1877: Blocked survey of Rangipō‐Waiu  
+1880: Gunfighter pā constructed after blocked survey of Rangipō‐Waiu  
+1881: Native Land Court Rangipō‐Waiu title investigation  
+1881: Native Land Court Rangipō‐Waiu rehearing abandoned  
+1882: Rangipō‐Murimotu Agreement Validation Act  
+1882: Native Land Court Murimotu title award  
+1884: Lease agreement  
+1900: Partition of Crown interests in Murimotu and Rangipō‐Waiu   
 
 
 Private leasing negotiations began in Murimotu in the 1860s. Competing bids arose and Government and Provincial Council agents also became embroiled in the mix. The eventual solution reached required an act of Parliament to finalise it: the Rangipō‐Murimotu Agreement Validation Act 1882.
@@ -89,13 +88,13 @@ Oruamatua Kaimanawa also became part of the demand for sheep runs stretching all
   
   
 **Summary Timeline:**   
-1845. Missionary contacts with inland Patea  
-1867. Private runholding  
-1875. Native Land Court Title Investigation    
-1886. Select Committee report  
-1886. Owhaoko and Kaimanawa‐Oruamatua Reinvestigation of Title Act  
-1895. Native Land Court Title Reinvestigation  
-1897. First Partition  
+1845: Missionary contacts with inland Patea  
+1867: Private runholding  
+1875: Native Land Court Title Investigation    
+1886: Select Committee report  
+1886: Owhaoko and Kaimanawa‐Oruamatua Reinvestigation of Title Act  
+1895: Native Land Court Title Reinvestigation  
+1897: First Partition  
 
 
 The right to receive and distribute rents was disputed in Oruamatua Kaimanawa too. The award of title to Renata Kawepo and others in the absence of other owners was disputed and achieved some notoriety. The Oruamatua Kaimanawa hearing was later subjected to a select committee investigation. New titles were finally ordered after a reinvestigation in 1894. 
@@ -113,10 +112,6 @@ The remaining Māori lands in the north of Oruamatua Kaimanawa formed the majori
 
 Further Reading   
 --------------- 
-
-Heinz, Adam, [‘Waiouru Defence Lands: Research Scoping Report’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_549187/Wai%202180%2C%20A001.pdf), research report commissioned by the Waitangi Tribunal, 2009, 113pp (Wai 2180 A1).  
-
---- 
 
 Ballara, A. (1991). Origins of Ngāti Kahungunu. PhD Thesis, Victoria University of Wellington.   
 
@@ -171,7 +166,7 @@ Wright, M (1984). A History of the Eastern Kaweka Ranges. New Zealand Forest Ser
 - Owhaoko and Kaimanawa‐Oruamatua Reinvestigation of Title Act 1886.   
 - Native Lands Claims and Boundaries Adjustment and Titles Empowering Act 1894.  
   
-### Waitangi Tribunal records of inquiry:
+### Research reports on Waitangi Tribunal records of inquiry:
 
 - Ballara, A. (2003). Tribal Landscape Overview, c 1800‐1900: Taupō, Rotorua, Kaingaroa, National Park. (WAI 903 A40).  
 - Bayley, N. (2006). Murimotu & Rangipō‐Waiu 1860‐2000. Revised Version. (WAI 903 A56a; WAI 1130 A4a).  
@@ -179,7 +174,11 @@ Wright, M (1984). A History of the Eastern Kaweka Ranges. New Zealand Forest Ser
 - Cleaver, P. (2004). The Taking of Maori Land for Public Works in the Whanganui Inquiry District: 1850-2000. (WAI 903 A57). 
 - Cleaver, P. (2012). Taking of Maori Land for Public Works in the Taihape Inquiry District. (WAI 2180 A9). 
 
---- 
+
+---  
+
+Heinz, A. (2009). [‘Waiouru Defence Lands: Research Scoping Report’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_549187/Wai%202180%2C%20A001.pdf). (Wai 2180 A1).
+ 
 
 
 
