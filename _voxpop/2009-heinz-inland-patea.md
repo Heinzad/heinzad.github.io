@@ -13,6 +13,8 @@ Heinz, Adam, ‘Waiouru Defence Lands: Research Scoping Report’, research repo
 
 This paper briefly summarised the existing research developed for the National Park and Whanganui inquiries that touched upon the Rangipō Waiu and Murimotu lands later acquired or surrounded by the Waiouru defence area. It then focused on Oruamatua Kaimanawa in greater detail as that had not been the subject of any particular research at that date. 
 
+---  
+
 The earliest missionary contact with inland Pātea was by Richard Taylor, travelling from the Whanganui mission station to the Moawhago River in February 1845 – at almost exactly the same time as William Colenso’s first, unsuccessful expedition, travelling from Heretaunga to the upper Rangitikei River.  
 
 These tussock lands were sought for sheep runs stretching from (what is now) Karioi forest to the Kaimanawa and Kaweka ranges. The runholdings were delineated by deep river channels slicing down through the pumice lands and so there was little or no need for fencing.  
@@ -37,7 +39,7 @@ These lands in the late 19th century were vexed by competition for leaseholding 
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/rangipo-waiu-ML462.png" alt="Rangipo Waiu ML462" class="full">
 
-*Rangipō Waiu (ML 462): Survey Plan superimposed over modern topographical locations near the Desert Road.*  
+*Rangipō Waiu (ML 462): Survey Plan superimposed over modern topographical locations near Waiouru.*  
   
   
 **Summary Timeline:**  
@@ -71,9 +73,8 @@ Most of the Māori land by the southern border with Motukawa was gradually alien
 
 <img src="{{ site.url }}{{ site.baseurl }}/assets/images/rangipo-waiu-disposition.png" alt="Rangipo Waiu by 2010" class="full">
 
-*Rangipō Waiu by 2010: Disposition of current and former Māori land.*  
+*Rangipō Waiu by 2010: Disposition of current and former Māori land near Waiouru.*  
   
-
 The majority of the lands that would later be taken for Waiouru defence purposes in the Murimotu and Rangipō Waiu areas were awarded to the Crown in December 1900. The exceptions were Rangipō Waiu 1B and Rangipō Waiu 2B, which still remained in Māori ownership at the time of the defence takings in the 1930s and 1940s.  
 
 
@@ -82,9 +83,9 @@ The majority of the lands that would later be taken for Waiouru defence purposes
 
 Oruamatua Kaimanawa also became part of the demand for sheep runs stretching all the way to the Kaimanawa and Kaweka Ranges.    
 
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/oruamatua-kaimanawa-ML1421.png" alt="Oruamatua Kaimanawa ML1421" class="full">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/oruamatua-kaimanawa-ML1421.png" alt="Oruamatua Kaimanawa ML1421" class="full">  
 
-*Oruamatua Kaimanua (ML 1421): Survey Plan superimposed over modern topographical locations near the Gentle Annie (Taihape-Napier) Road.*    
+*Oruamatua Kaimanua (ML 1421): Survey Plan superimposed over modern topographical locations near Waiouru.*    
   
   
 **Summary Timeline:**   
@@ -102,17 +103,20 @@ The right to receive and distribute rents was disputed in Oruamatua Kaimanawa to
 The land had been leased since 1867. Sub‐division or partition of Oruamatua Kaimanawa was partly concerned with the proper apportionment of rental income. The divisions were made according the various apportions of interests and were almost certainly made at the time on the assumption that all the land was of equal value. The land soon proved not to be of equal value for farming, however. A distinct pattern of land retention and alienation emerged. 
 
 By the 1930s the freehold had been obtained to the lower half of Oruamatua Kaimanawa. It is not clear for how long leasing arrangements persisted over the northern half of the Oruamatua Kaimanawa lands.  
-
-<img src="{{ site.url }}{{ site.baseurl }}/assets/images/oruamatua-kaimanawa-disposition.png" alt="Oruamatua Kaimanawa by 2010" class="full">
-
-*Oruamatua Kaimanua by 2010: Disposition of current and former Māori land.*  
   
+<img src="{{ site.url }}{{ site.baseurl }}/assets/images/oruamatua-kaimanawa-disposition.png" alt="Oruamatua Kaimanawa by 2010" class="full">  
 
+*Oruamatua Kaimanawa by 2010: Disposition of current and former Māori land near Waiouru.*   
+  
 The remaining Māori lands in the north of Oruamatua Kaimanawa formed the majority of the lands in this block that were acquired for defence purposes in the 1960s and 1970s. Some private freehold and leasehold lands were also acquired as well.
 
 
 Further Reading   
 --------------- 
+
+Heinz, Adam, [‘Waiouru Defence Lands: Research Scoping Report’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_549187/Wai%202180%2C%20A001.pdf), research report commissioned by the Waitangi Tribunal, 2009, 113pp (Wai 2180 A1).  
+
+--- 
 
 Ballara, A. (1991). Origins of Ngāti Kahungunu. PhD Thesis, Victoria University of Wellington.   
 
@@ -169,14 +173,14 @@ Wright, M (1984). A History of the Eastern Kaweka Ranges. New Zealand Forest Ser
   
 ### Waitangi Tribunal records of inquiry:
 
-- Ballara, A. (2003). Tribal Landscape Overview, c 1800‐1900: Taupō, Rotorua, Kaingaroa, National Park. (Wai 903 A40).  
-- Bayley, N. (2006). Murimotu & Rangipō‐Waiu 1860‐2000. Revised Version. (Wai 903 A56a; Wai 1130
-A4a).  
-- Berghan, P. (2003). Block Research Narratives of the Whanganui District, 1865‐2000. (Wai 903 A37) 
+- Ballara, A. (2003). Tribal Landscape Overview, c 1800‐1900: Taupō, Rotorua, Kaingaroa, National Park. (WAI 903 A40).  
+- Bayley, N. (2006). Murimotu & Rangipō‐Waiu 1860‐2000. Revised Version. (WAI 903 A56a; WAI 1130 A4a).  
+- Berghan, P. (2003). Block Research Narratives of the Whanganui District, 1865‐2000. (WAI 903 A37).  
+- Cleaver, P. (2004). The Taking of Maori Land for Public Works in the Whanganui Inquiry District: 1850-2000. (WAI 903 A57). 
+- Cleaver, P. (2012). Taking of Maori Land for Public Works in the Taihape Inquiry District. (WAI 2180 A9). 
 
 --- 
 
-Heinz, Adam, [‘Waiouru Defence Lands: Research Scoping Report’](https://forms.justice.govt.nz/search/Documents/WT/wt_DOC_549187/Wai%202180%2C%20A001.pdf), research report commissioned by the Waitangi Tribunal, 2009, 113pp (Wai 2180 A1).  
 
 
 © Adam Heinz 
