@@ -24,9 +24,18 @@ I did not need to ask the AI any questions or receive any answers. Its mere pres
 Of all the potential uses of AI, its role as a muse is a sadly neglected topic.  
 
 
+Prompts 
+------- 
 
-Further Reading 
---------------- 
+I acknowledge the use of Duck.ai ( https://duck.ai/chat ) to check the source of this anecdote using the following prompts:   
+
+1. Is there any original source to Schiller using rotten apples to ferment creativity?  
+2. Check in a source about Goethe’s life.  
+3. Provide a reference to the Life of Goethe in APA style.  
+  
+
+References 
+----------  
 
 Lewes, G. (1864). The Life of Goethe, (Second Edition), Smith, Elder & Co, London.  
 
