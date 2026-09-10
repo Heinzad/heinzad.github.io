@@ -1,11 +1,11 @@
 ---
-title: "Smart Cities"
+title: "Citizen Sentiment"
 excerpt: "Culture and Machine Learning"
 author: "Adam Heinz"
-date: 2026-08-31T20:16:03-00:00
-ordinal: 362
+date: 2026-03-30T20:16:03-00:00
+ordinal: 168
 ---
-*Citizen Sentiment Analysis*  
+*Smart Cities*  
 
 Can technology help ensure that all citizens’ opinions are considered, when the majority of citizens never participate in formal consultations? That question was explored by Smart Cities Christchurch in early 2017 using sentiment analysis.  
 
@@ -25,7 +25,11 @@ Cultural bias quickly became apparent in applying sentiment analysis to the Face
 
 One aspect was purely linguistic. The British may be famous for using the “double negative” to express a positive sentiment, but New Zealanders may use a “triple negative” to express dissatisfaction with council in an online forum.  
 
-Another aspect was that every single online response was immediately rated as having a “negative” sentiment by the pretrained model, even though the general discussion seemed positive overall to this New Zealander. Seeing the outcome of the analysis, it was easy to imagine that the model had been trained on blond, blue-eyed Californians with a naturally sunny disposition, who had never played rugby in their life. The machine learning model had to be retrained with manual scoring over a period of two weeks before the sentiment analysis was commensurate with New Zealand ways of speaking.  
+Another aspect was that every single online response was immediately rated as having a “negative” sentiment by the pretrained model, even though the general discussion seemed positive overall to this New Zealander.  
+
+Seeing the outcome of the analysis, it was easy to imagine that the model had been trained on blond, blue-eyed Californians with a naturally sunny disposition, who had never played rugby in their life.  
+
+The machine learning model had to be retrained with manual scoring over a period of two weeks before the sentiment analysis was commensurate with New Zealand ways of speaking.  
 
 The results were displayed publicly at the second Christchurch Smart Cities Expo in March 2017.  
 
