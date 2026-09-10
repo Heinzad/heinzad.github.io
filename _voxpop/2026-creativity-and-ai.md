@@ -5,7 +5,7 @@ author: "Adam Heinz"
 date: 2026-08-01T20:26:08-01:00
 ordinal: 362
 ---
-*The Rubber Ducky*
+*The Rubber Duck AI*
 
 Many programmers talk to a rubber duck or a teddy bear. Its a well-known method for unblocking the thinking process by speaking out loud. It is not necessary for the rubber duck to speak back. It is a muse. 
 
