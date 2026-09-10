@@ -13,7 +13,7 @@ Before there were rubber ducks, there were rotten apples.
 
 In a story so good it ought to be true, the poet and playwright Friedrich Shiller is said to have either used the smell of rotten apples in his desk, or a picture of rotten apples on the wall, to inspire artistic creativity while writing the play of Wilhelm Tell (Lewes, 1864, cited by Duck.ai).  
 
-Whether or not this prompted an olfactory response, a *memento mori*, or  provoked indignation at corruption, the rotten apples were an inanimate muse.  
+Whether or not this prompted an olfactory response, a *memento mori*, or provoked indignation at corruption, the rotten apples were an inanimate muse.  
 
 Like a rotten apple in a desk, AI can also be a muse.  
 
