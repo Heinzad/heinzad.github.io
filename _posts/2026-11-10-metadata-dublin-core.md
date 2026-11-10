@@ -14,8 +14,7 @@ Dublin Core is a useful place to start if you have no subject-specific metadata 
 It can be written in plain text in the form `label (content)` or `label includes (range)`. 
 
 
-Key Terms 
------------- 
+### Key Terms 
 
 A selected list of metadata terms that are particularly useful for describing structured data: 
 
@@ -44,6 +43,10 @@ A selected list of metadata terms that are particularly useful for describing st
 | Rights | Includes (intellectual property rights) |
 | Identifier | Name used in the Uniform Resource Identifier | 
 | URI | Uniquely Identifies composed from namespace and identifier |
+
+### Further Reading 
+
+- Dublin Core (2020). [DCMI Metadata Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)
 
 
 QED 
